@@ -21,6 +21,8 @@ author: Alex Gibbs
 
 navbar-links:
   About Me: "aboutme"
+  Wales Cancer Research Centre: "wales-cancer-research-centre"
+  CReSt: "CReSt"
   Resources:
     - Cancer research resources: "name-of-markdown-file1"
     - What to do with a gene list: "name-of-markdown-file2"
@@ -127,8 +129,8 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F2F2F2"
-navbar-text-col: "#002B3E"
+navbar-col: "#133747"
+navbar-text-col: "#FFFFFF"
 navbar-border-col: "#DDDDDD"
 page-col: "#FFFFFF"
 text-col: "#002B3E"
