@@ -142,7 +142,7 @@ footer-hover-col: "#BB1C3C"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-navbar-img: "/assets/img/bgimage.png"
+#navbar-img: "/assets/img/bgimage.png"
 #footer-img: "/assets/img/bgimage.png"
 #page-img: "/assets/img/bgimage.png"
 
@@ -162,7 +162,7 @@ navbar-img: "/assets/img/bgimage.png"
 #################################
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-#gtag: "G-XXXXXXXXXX"
+gtag: "G-XX22ZCK67C"
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
@@ -251,7 +251,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "UK/London"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
