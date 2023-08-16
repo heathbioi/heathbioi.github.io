@@ -1,16 +1,18 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+#subtitle: 
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hello everyone, I'm Alex! I always hate doing these things, so I'll keep it short and just throw random facts as and when I think of them:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- I was born and bred in Wales
+- I have a Bachelors and Master of Research degree in Biomedical Sciences
+- I'm currently writing up my PhD thesis!
+- I'm a dog dad to Marlo (Cockerpoo)
+- I'm a massive coffee lover!! I would consider myself a home barista
+- I play rugby for Beddau 2nds. We recently had a photo shoot, hence the cool profile photo!
+- I'm a big gamer
+- My favourite band is Biffy Clyro!
+- Big Marvel fan and a general nerd
+- I enjoy skateboarding when I can
