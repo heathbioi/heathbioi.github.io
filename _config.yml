@@ -10,24 +10,31 @@
 ############################
 
 # Name of website
-title: Alex Gibbs - CReSt Bioinformatician
+title: Bioinformatics Club @ Heath Park Campus
 
 # Your name to show in the footer
-author: Alex Gibbs
+#author: Alex Gibbs
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Wales Cancer Research Centre: "wales-cancer-research-centre-markdown-file"
-  CReSt: "CReSt-markdown-file"
-  Resources:
-    - Cancer research resources: "name-of-markdown-file1"
-    - What to do with a gene list: "name-of-markdown-file2"
-    - General bioinformatics resources: "name-of-markdown-file3"
-    - Learning materials/courses: "name-of-markdown-file4"
+  About Us: "aboutus-markdown-file"
+  Patricia Rodrigues: 
+  - Patricia's First Page: "patricias-markdown-file"
+  - Patricia's Second Page: "patricias-markdown-file2"
+  - Patricia's Third Page: "patricias-markdown-file3"
+  Alex Gibbs:
+    - Cancer research resources: "alex-markdown-file1"
+    - What to do with a gene list: "alex-of-markdown-file2"
+    - General bioinformatics resources: "alex-of-markdown-file3"
+    - Learning materials/courses: "alex-of-markdown-file4"
+  Robert Andrews: 
+  - Rob's First Page: "robs-markdown-file"
+  - Rob's Second Page: "robs-markdown-file2"
+  - Rob's Third Page: "robs-markdown-file3"
+  
   
 
 ################
@@ -36,10 +43,10 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/profile-photo.jpg"
+#avatar: "/assets/img/profile-photo.jpg"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+#round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -53,17 +60,17 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
-social-network-links:
-  email: "GibbsA@Cardiff.ac.uk"
+#social-network-links:
+#  email: "GibbsA@Cardiff.ac.uk"
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
 #  facebook: deanattali
-  github: Gibbatron
-  twitter: Gibbzyy
+#  github: Gibbatron
+#  twitter: Gibbzyy
 #  patreon: DeanAttali
 #  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-  linkedin: alex-gibbs-81899048
+#  linkedin: alex-gibbs-81899048
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -92,11 +99,11 @@ social-network-links:
 ###########################
 
 # Select which social network share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: false
-  linkedin: true
-  vk: false
+#share-links-active:
+ # twitter: true
+ # facebook: false
+#  linkedin: true
+#  vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
@@ -166,7 +173,7 @@ footer-hover-col: "#BB1C3C"
 #################################
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-gtag: "G-XX22ZCK67C"
+#gtag: "G-XX22ZCK67C" #this is alex's google analytics tag. do we want to make a new one?
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
