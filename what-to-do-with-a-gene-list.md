@@ -1,4 +1,5 @@
 ---
+layout: page
 title: What to do with a gene list
 ---
 
