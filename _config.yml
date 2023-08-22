@@ -21,11 +21,13 @@ author: Alex Gibbs
 
 navbar-links:
   About Me: "aboutme"
-  Wales Cancer Research Centre: "wales-cancer-research-centre"
-  CReSt: "CReSt"
+  Wales Cancer Research Centre: "wales-cancer-research-centre-markdown-file"
+  CReSt: "CReSt-markdown-file"
   Resources:
     - Cancer research resources: "name-of-markdown-file1"
     - What to do with a gene list: "name-of-markdown-file2"
+    - General bioinformatics resources: "name-of-markdown-file3"
+    - Learning materials/courses: "name-of-markdown-file4"
   
 
 ################
