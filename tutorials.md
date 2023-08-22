@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PRdSR
-subtitle: Turorials
+subtitle: Tutorials
 ---
 
 # Data-management
