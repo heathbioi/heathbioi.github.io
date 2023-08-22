@@ -27,7 +27,7 @@ navbar-links:
   - Patricia's Third Page: "patricias-markdown-file3"
   Alex Gibbs:
     - Cancer research resources: "alex-markdown-file1"
-    - What to do with a gene list: "alex-of-markdown-file2"
+    - What to do with a gene list: "what-to-do-with-a-gene-list.md"
     - General bioinformatics resources: "alex-of-markdown-file3"
     - Learning materials/courses: "alex-of-markdown-file4"
   Robert Andrews: 
