@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PRdSR
-subtitle: posts
+subtitle: Turorials
 ---
 
 # Data-management
