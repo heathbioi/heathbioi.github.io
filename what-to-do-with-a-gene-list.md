@@ -11,7 +11,6 @@ Clicking on the name of the tool will direct you to a mini-tutorial that I wrote
 
 If you have any questions, problems, or suggestions - please contact me @ GibbsA@cardiff.ac.uk!
 
-
 - **WebGestalt** - WEB-based Gene SeT AnaLysis Toolkit. Functional enrichment analysis web tool
 https://www.webgestalt.org/#
 
@@ -27,7 +26,7 @@ http://www.genmapp.org/go_elite/
 - **BiNGO** - biological network gene ontology tool. Java-based tool to determine which GO categories are statistically overrepresented in a set of genes.
 https://www.psb.ugent.be/cbd/papers/BiNGO/Home.html
 
-- **Gorilla** -  gene ontology enrichment analysis and visualisation tool. Identifies and visualises enriched GO terms in ranked lists of genes.
+- [**Gorilla**](gorilla.md) -  gene ontology enrichment analysis and visualisation tool. Identifies and visualises enriched GO terms in ranked lists of genes.
 https://cbl-gorilla.cs.technion.ac.il/
 
 - **ReViGO** - reduce and visualise gene ontology. This tool takes long lists of GO terms and summarizes them by removing redundant GO terms. good for tools that produce GO results, like GOrilla.
