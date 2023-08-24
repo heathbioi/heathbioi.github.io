@@ -11,6 +11,8 @@ Clicking on the name of the tool will direct you to a mini-tutorial that I wrote
 
 If you have any questions, problems, or suggestions - please contact me @ GibbsA@cardiff.ac.uk!
 
+I would first suggest that you take the time to [prep your gene list](prep-your-gene-list.md) so that it saves you time.
+
 - **WebGestalt** - WEB-based Gene SeT AnaLysis Toolkit. Functional enrichment analysis web tool
 https://www.webgestalt.org/#
 
