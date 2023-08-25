@@ -28,7 +28,7 @@ I would first suggest that you take the time to [prep your gene list](prep-your-
 
 - [**ReViGO**](revigo.md) - reduce and visualise gene ontology. This tool takes long lists of GO terms and summarizes them by removing redundant GO terms. good for tools that produce GO results, like GOrilla. [link](http://revigo.irb.hr/).
 
-- **Gonet** - constructs interactive graphs containing enriched GO terms and genes.  [link](https://tools.dice-database.org/GOnet/).
+- [**Gonet**](gonet.md) - constructs interactive graphs containing enriched GO terms and genes.  [link](https://tools.dice-database.org/GOnet/).
 
 - **EnrichR** - enrichment analysis web tool. [link](https://maayanlab.cloud/Enrichr/).
 
@@ -40,7 +40,7 @@ I would first suggest that you take the time to [prep your gene list](prep-your-
 
 - **Pathway Commons** - access and discover data integrated from public pathway and interactions databases. Can paste your gene list into the search bar and click the search button. [link](http://www.pathwaycommons.org/).
 
-- **Reactome** - open-source, open-access, manually curated and peer-reviewed pathway database. Can perform enrichment analysis on your gene list by clicking on analysis tools from the homepage [link](https://reactome.org/PathwayBrowser/#TOOL=AT).
+- [**Reactome**](reactome.md) - open-source, open-access, manually curated and peer-reviewed pathway database. Can perform enrichment analysis on your gene list by clicking on analysis tools from the homepage [link](https://reactome.org/PathwayBrowser/#TOOL=AT).
 
 - [**g:Profiler**](g-profiler.md) - maps genes to known functional information resources and detects statistically significant enriched terms. [link](https://biit.cs.ut.ee/gprofiler/gost).
 
