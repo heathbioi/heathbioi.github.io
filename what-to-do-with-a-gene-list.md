@@ -26,7 +26,7 @@ I would first suggest that you take the time to [prep your gene list](prep-your-
 
 - [**Gorilla**](gorilla.md) -  gene ontology enrichment analysis and visualisation tool. Identifies and visualises enriched GO terms in ranked lists of genes. [link](https://cbl-gorilla.cs.technion.ac.il/).
 
-- **ReViGO** - reduce and visualise gene ontology. This tool takes long lists of GO terms and summarizes them by removing redundant GO terms. good for tools that produce GO results, like GOrilla. [link](http://revigo.irb.hr/).
+- [**ReViGO**](revigo.md) - reduce and visualise gene ontology. This tool takes long lists of GO terms and summarizes them by removing redundant GO terms. good for tools that produce GO results, like GOrilla. [link](http://revigo.irb.hr/).
 
 - **Gonet** - constructs interactive graphs containing enriched GO terms and genes.  [link](https://tools.dice-database.org/GOnet/).
 
