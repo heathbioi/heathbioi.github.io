@@ -25,10 +25,11 @@ This file can be dragged and dropped or uploaded.
 
 This tab allows users to copy and paste their gene list from Microsoft Excel. Pasting your list in here should be whitespace-separated. i.e. each gene should be on a new line. For example:
 
-GeneA
-GeneB
-GeneC
-...
+|GeneA|
+|:----|
+|**GeneB**|
+|**GeneC**|
+|**...**|
 
 **Options**
 
@@ -45,21 +46,23 @@ If this is the case, and you dont want to perform the analysis twice, then a mul
 To run a multiquery, the user must first create the multiquery file. To do this, create a new Microsoft Excel spreadsheet and paste the first list into the first column. 
 The first cell (A1) will be the title of your gene list and must start with '>'. For example,
 
- Gene List 1
-	GeneA
-	GeneB
-	GeneC
+ |>Gene List 1|
+ |:-----------|
+|GeneA|
+|GeneB|
+|GeneC|
 
 The second gene list must be inserted underneath the first list, again with a title beginning with '>'. For example,
 	
- Gene List 1
-	GeneA
-	GeneB
-	GeneC
-	Gene List 2
-	GeneD
-	GeneE
-	GeneF
+|>Gene List 1|
+|:-----------|
+|GeneA|
+|GeneB|
+|GeneC|
+|**>Gene List 2**|
+|GeneD|
+|GeneE|
+|GeneF|
 
 Further gene lists are added in this manner. Now save this as a tab-delimited text (.txt) file and either copy and paste, or import it into g:profiler and select the Run as multiquery tick-box.
 
