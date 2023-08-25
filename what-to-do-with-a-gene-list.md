@@ -55,7 +55,7 @@ http://www.pathwaycommons.org/
 - **Reactome** - open-source, open-access, manually curated and peer-reviewed pathway database. Can perform enrichment analysis on your gene list by clicking on analysis tools from the homepage
 https://reactome.org/PathwayBrowser/#TOOL=AT
 
-- **g:Profiler** - maps genes to known functional information resources and detects statistically significant enriched terms.
+- [**g:Profiler**](g-profiler.md) - maps genes to known functional information resources and detects statistically significant enriched terms.
 https://biit.cs.ut.ee/gprofiler/gost
 
 - **pathDIP** - annotated database of signalling cascades in human and non-human organisms, comprising core pathways from major curated pathways databases, and pathways predicted based on orthology, and by using physical protein interactions.
