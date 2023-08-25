@@ -27,6 +27,7 @@ Users will first need to paste their gene list into the Paste a list box, or upl
 In some cases, users may have more than one gene list to run. If this is the case, and you dont want to perform the analysis more than once, then a multiquery can be performed. 
 To run a multiquery, the user must first create the multiquery file. To do this, create a new Microsoft Excel spreadsheet and paste each list into a new column. The first
 row of each column must be the name of the list. For example:
+
 |Gene List 1 |Gene List 2 |Gene List 3|
 |:-----------|:-----------|:----------|
 |GeneA|GeneB|GeneC|
