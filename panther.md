@@ -1,6 +1,6 @@
 ---
 type: page
-title: g:Profiler
+title: PANTHER
 Author: Alex Gibbs
 ---
 
