@@ -4,7 +4,7 @@ title: g:Profiler
 Author: Alex Gibbs
 ---
 
-Protein ANalysis THrough Evolutionary Relationships (PANTHER - http://pantherdb.org/) is a publicly available online tool that allows the annotation and classification of gene lists. 
+Protein ANalysis THrough Evolutionary Relationships ([PANTHER](http://pantherdb.org/)) is a publicly available online tool that allows the annotation and classification of gene lists. 
 The website is slightly less user-friendly in terms of navigation, but certainly aids in the understanding of your gene list. 
 Users can perform **functional classification, statistical over-representation, or statistical enrichment analyses** on their gene lists.
 
