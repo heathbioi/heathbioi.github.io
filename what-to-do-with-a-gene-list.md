@@ -43,7 +43,7 @@ https://maayanlab.cloud/Enrichr/
 - **DAVID** - database for annotation, visualisation and integrated discovery. Functional annotation of your gene list.
 https://david.ncifcrf.gov/
 
-- **PANTHER** - proetin analysis through evolutionary relationships. Classifys proteins and their genes in order to facilitate high-throughput analysis.
+- [**PANTHER**](panther.md) - proetin analysis through evolutionary relationships. Classifys proteins and their genes in order to facilitate high-throughput analysis.
 https://pantherdb.org/
 
 - **PARADIGM** - pathway representation and analysis by direct reference on graphical models. Downloadable software.
