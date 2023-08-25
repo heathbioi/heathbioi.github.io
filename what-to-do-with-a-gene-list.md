@@ -1,6 +1,7 @@
 ---
 layout: page
 title: What to do with a gene list
+author: Alex Gibbs
 ---
 Have you performed a sequencing experiment which generated a list of differentially expressed genes and are now left wondering 'what can I do or find out about my list of genes?'. Then look no further! 
 
@@ -40,7 +41,7 @@ https://tools.dice-database.org/GOnet/
 - **EnrichR** - enrichment analysis web tool.
 https://maayanlab.cloud/Enrichr/
 
-- **DAVID** - database for annotation, visualisation and integrated discovery. Functional annotation of your gene list.
+- [**DAVID**](david.md) - database for annotation, visualisation and integrated discovery. Functional annotation of your gene list.
 https://david.ncifcrf.gov/
 
 - [**PANTHER**](panther.md) - proetin analysis through evolutionary relationships. Classifys proteins and their genes in order to facilitate high-throughput analysis.
