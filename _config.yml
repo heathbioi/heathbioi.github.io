@@ -26,6 +26,7 @@ navbar-links:
   #- Patricia's Second Page: "patricias-markdown-file2"
  # - Patricia's Third Page: "patricias-markdown-file3"
   Alex Gibbs:
+    - About Me: "about-me"
     - Cancer research resources: "cancer-research-resources"
     - What to do with a gene list: "what-to-do-with-a-gene-list"
     - General bioinformatics resources: "general-bioinformatics-resources"
