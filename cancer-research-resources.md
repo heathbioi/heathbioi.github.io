@@ -18,8 +18,9 @@ If this is something you would like to do, i.e. download, process, and analyse r
 
 ***
 
-### [*Gene Expression Omnibus (GEO)*](https://www.ncbi.nlm.nih.gov/geo/)
+### [*Gene Expression Omnibus (GEO)*](https://www.ncbi.nlm.nih.gov/geo/) 
 
+![Gene Expression Omnibus!](/assets/img/geo.png)
 
 Public repository that archives and distributes high-throughput gene expression and other functional genomics data sets. 
 It is maintained by the National Center for Biotechnology Information (NCBI) at the National Library of Medicine (NLM).
@@ -28,17 +29,23 @@ It is maintained by the National Center for Biotechnology Information (NCBI) at 
 
 ### [*Array Express*](https://www.ebi.ac.uk/biostudies/arrayexpress)
 
+![Array Express!](/assets/img/arrayexpress.png)
+
 The functional genomics data collection stores data from high-throughput functional genomics experiments, and provides data for reuse to the research community.
 
 ***
 
 ### [*European Nucleotide Archive (ENA)*](https://www.ebi.ac.uk/ena/browser/home)
 
+![European Nucleotide Archive (ENA)!](/assets/img/ena.png)
+
 The European Nucleotide Archive provides a comprehensive record of the world’s nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation.
 
 ***
   
 ### [*Sequence Read Archive (SRA)*](https://www.ncbi.nlm.nih.gov/sra)
+
+![Sequence Read Archive (SRA)!](/assets/img/sra.png)
 
 Sequence Read Archive data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data.
 SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis. 
@@ -47,11 +54,15 @@ SRA stores raw sequencing data and alignment information to enhance reproducibil
 
 ### [*Zenodo*](https://zenodo.org/)
 
+![Zenodo!](/assets/img/zenodo.png)
+
 Open research repository. Search for cancer and you get list of uploads associated with papers. Every file that the paper used for the publication is uploaded, such as loom files for RNA velocity analysis etc etc.
 
 ***
 
 ### [*OmicsDI*](https://www.omicsdi.org/)
+
+![OmicsDI!](/assets/img/omicsdi.png)
 
 Database of sequencing datasets. Home page has lots of quick stats and search bar. Allows user to find databases related to their search and access that data.
 
@@ -59,11 +70,16 @@ Database of sequencing datasets. Home page has lots of quick stats and search ba
 
 ### [*Genomics Data Commons (GDC) Data Portal*](https://portal.gdc.cancer.gov/repository)
 
+![Genomics Data Commons (GDC) Data Portal!](/assets/img/gdc.png)
+
 Search for your favourite gene or cancer to get relevant statistics. There are a number of great tools on this site! Data is also downloadable for further analysis.
 
 ***
 
 ### [*Google Dataset Search Tool*](https://datasetsearch.research.google.com/)
+
+![Google Dataset Search Tool!](/assets/img/google.png)
+
 
 Search for public datasets. 
 
@@ -71,11 +87,16 @@ Search for public datasets.
 
 ### [*PanglaoDB*](panglaodb.se/search.html) 
 
+![PanglaoDB!](/assets/img/panglaodb.png)
+
 A database for scRNAseq data downloads, but also you can search a gene across datasets.
 
 ***
 
 ### [*Curated Atlas Query R*](https://stemangiola.github.io/CuratedAtlasQueryR/)
+
+![Curated Atlas Query R!](/assets/img/curated-atlas-query-r.png)
+
 A query interface that allow the programmatic exploration and retrieval of the harmonised, curated and reannotated CELLxGENE single-cell human cell atlas.
 **Must be run within R.**
 
@@ -83,11 +104,15 @@ A query interface that allow the programmatic exploration and retrieval of the h
 
 ### [*3CA - Curated Cancer Cell Atlas*](https://www.weizmann.ac.il/sites/3CA/)
 
+![3CA - Curated Cancer Cell Atlas!](/assets/img/3ca.png)
+
 Collected, annotated and analyzed cancer scRNA-seq datasets. [Paper](https://pubmed.ncbi.nlm.nih.gov/37258682/).
 
 ***
 
 ### [*IMMUcan Database*](https://immucanscdb.vital-it.ch/)
+
+![IMMUcan Database!](/assets/img/immucan.png)
 
 A fully integrated scRNA-seq database exclusively dedicated to human cancer and accessible to nonspecialists. IMMUcan scDB encompasses 144 datasets on 56 different cancer types, annotated in 50 fields containing precise clinical, technological, and biological information.
 
@@ -95,17 +120,23 @@ A fully integrated scRNA-seq database exclusively dedicated to human cancer and 
 
 ### [*JingleBells*](https://jinglebells.bgu.ac.il/aboutus/)
 
+![JingleBells!](/assets/img/jingle-bells.png)
+
 A repository of standardized single cell RNA-Seq datasets for analysis and visualization at the single cell level.
 
 ***
 
 ### [*scPortalen Database*](https://single-cell.riken.jp/SCPortalen_Database/Home/)
 
+![scPortalen Database!](/assets/img/scportalen.png)
+
 This database features integration of single cell metadata, cell images and sequence information. Rhe platform is divided into two parts, the single cell dataset generated by the research team, and the single cell dataset published in peer-reviewed papers.
 
 ***
 
 ### [*Cancer Single-cell Expression Map*](https://ngdc.cncb.ac.cn/cancerscem/)
+
+![Cancer Single-cell Expression Map!](/assets/img/cancer-single-cell-expression-map.png)
 
 Public database dedicating to collecting, analysing, and visualising single-cell RNAseq data of human cancers.
 
