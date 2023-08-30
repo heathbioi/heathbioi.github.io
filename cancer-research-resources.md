@@ -7,6 +7,7 @@ author: Alex Gibbs
 This page is intended to provide cancer researchers with a variety of resources to aid in their research. 
 This page will contain the following: Cancer sample databases, Cancer analysis tools, and Cancer Atlases.
 
+***
 
 # Cancer Sample Databases
 
@@ -110,12 +111,16 @@ Public database dedicating to collecting, analysing, and visualising single-cell
 
 ***
 
+***
+
 # Cancer Analysis Tools
 
 Here you will find links to various tools that allow the user to explore and analyse cancer data. These tools are mostly online, meaning users only need an internet browser and a stable internet connection. 
 However, some are available as downloadable apps or can be run through R or Python. If this something you would like to do but are not sure how, please contact me! (**GibbsA@cardiff.ac.uk**)
 
 *** 
+
+***
 
 ### [*Xena*](https://xenabrowser.net/)
 
@@ -316,9 +321,13 @@ Public database dedicating to collecting, analysing, and visualising single-cell
 
 ***
 
+***
+
 # Cancer Atlases
 
 Here you will find links to various cancer atlases.
+
+***
 
 ***
 
@@ -368,7 +377,11 @@ Collected, annotated and analyzed cancer scRNA-seq datasets. [Paper](https://pub
 
 ***
 
+***
+
 # Cancer Specific Tools
+
+***
 
 ***
 
