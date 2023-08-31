@@ -155,11 +155,15 @@ However, some are available as downloadable apps or can be run through R or Pyth
 
 ### [*Xena*](https://xenabrowser.net/)
 
+![Xena!](/assets/img/xena.png)
+
 This tool allows users to explore functional genomic data sets for correlations between genomnic and/or phenotypic variables. Users can choose a study to explore up to two variables. There is also a *Transcripts* tab which allows the user to visualise the various transcripts of a gene.
 
 ***
 
 ### [*NCRAS - National Cancer Registration and Analysis Service*](http://www.ncin.org.uk/cancer_information_tools/)
+
+![NCRAS!](/assets/img/ncras.png)
 
 The National Cancer Registration and Analysis Service (NCRAS) collects, quality assures and analyses data on all people living in England who are diagnosed with cancer. It is part of the National Disease Registration Service (NDRS) in NHS Digital (NHSD). There are a plethora of tools on here to exploit this data.
 
@@ -167,11 +171,15 @@ The National Cancer Registration and Analysis Service (NCRAS) collects, quality 
 
 ### [*Cancer Research UK - Cancer Statistics for the UK*](https://www.cancerresearchuk.org/health-professional/cancer-statistics-for-the-uk)
 
+![CRUK!](/assets/img/cruk.png)
+
 CRUK have a nice, more basic tool on this website to get quick and simple cancer stats.
 
 ***
 
 ### [*Cancer Research UK - Early Diagnosis Hub*](https://crukcancerintelligence.shinyapps.io/EarlyDiagnosis/)
+
+![CRUK - early diagnosis hub!](/assets/img/cruk-early-diagnosis-hub.png)
 
 CRUK also have an early diagnosis hub tool that allows exploration of the latest cancer early diagnosis data across the UK.
 
@@ -396,15 +404,10 @@ Run by the EBI. Can search genes, cell types, organs and diseases across 21 spec
 
 ***
 
-### [*Curated Cancer Cell Atlas (3CA)*](https://www.weizmann.ac.il/sites/3CA/!)
+### [*Curated Cancer Cell Atlas (3CA)*](https://www.weizmann.ac.il/sites/3CA/)
 
 Collected, annotated, and analysed cancer scRNAseq datasets.
 
-***
-
-### [*3CA - Curated Cancer Cell Atlas*](https://www.weizmann.ac.il/sites/3CA/)
-
-Collected, annotated and analyzed cancer scRNA-seq datasets. [Paper](https://pubmed.ncbi.nlm.nih.gov/37258682/).
 
 ***
 
