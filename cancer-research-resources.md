@@ -193,6 +193,8 @@ Link TCGA survival data to mRNA, miRNA, or lncRNA expression levels.
 
 ### [*CIViC - clinical interpretation of variants in cancer database*](https://civicdb.org/welcome)
 
+![CIViC - clinical interpretation of variants in cancer database!](/assets/img/civic.png)
+
 Primarily a tool for doctors to get the best treatment options for patients with certain mutations. You can search for specific muations/gene variants and the database gives you a load of information on it. Can also look for specific cancers, specific therapies. Really neat database.
 
 ***
@@ -205,11 +207,15 @@ Multi-way analysis of RNAseq, miRNAseq and methylome data from the TCGA project.
 
 ### [*Cellenics*](https://www.biomage.net/cellenics)
 
+![Cellenics!](/assets/img/cellenics.png)
+
 Open source scRNAseq analysis software online tool to analyse public scRNAseq datasets. Its a cloud based tool and everything is done online. Need to sign up for free. Very neat tool. Click on the link and then the Cellenics tab.
 
 ***
 
 ### [*Fast Genomics*](https://beta.fastgenomics.org/home)
+
+![Fast Genomics!](/assets/img/fast-genomics.png)
 
 Another cloud based analysis tool, similar to Cellenics.
 
@@ -217,11 +223,15 @@ Another cloud based analysis tool, similar to Cellenics.
 
 ### [*Single Cell Portal*](https://singlecell.broadinstitute.org/single_cell)
 
+![Single Cell Portal!](/assets/img/single-cell-portal.png)
+
 Allows data exploration of curated datasets. scRNAseq and spatial datasets available!
 
 ***
 
 ### [*UCSC Cell Browser*](https://cells.ucsc.edu/)
+
+![UCSC Cell Browser!](/assets/img/ucsc-cell-browser.png)
 
 Interactive viewer for scRNAseq expression.
 
@@ -229,11 +239,15 @@ Interactive viewer for scRNAseq expression.
 
 ### [*OmicsDI*](https://www.omicsdi.org/)
 
+![OmicsDI!](/assets/img/omicsdi.png)
+
 Database of sequencing datasets. Home page has lots of quick stats and search bar. Allows user to find databases related to their search and access that data.
 
 ***
 
 ### [*Dependency Map (DepMap) portal*](https://depmap.org/portal/)
+
+![Dependency Map (DepMap) portal!](/assets/img/depmap-portal.png)
 
 Open access to key cancer dependencies analytical and visualisation tools.
 
@@ -241,17 +255,23 @@ Open access to key cancer dependencies analytical and visualisation tools.
 
 ### [*ISOexpresso*](http://wiki.tgilab.org/ISOexpresso/)
 
+![ISOexpresso!](/assets/img/isoexpresso.png)
+
 Isoform expression resource for isoform expression analysis in cancer.
 
 ***
 
 ### [*TCGA Spliceseq*](https://bioinformatics.mdanderson.org/TCGASpliceSeq/index.jsp)
 
+![TCGA Spliceseq!](/assets/img/tcga-spliceseq.png)
+
 Cancer splicing visualised.
 
 ***
 
 ### [*Genomics Data Commons (GDC) Data Portal*](https://portal.gdc.cancer.gov/)
+
+![Genomics Data Commons (GDC) Data Portal!](/assets/img/gdc.png)
 
 Search for your favourite gene or cancer to get relevant statistics. There are a number of great tools on this site! Data is also downloadable for further analysis.
 
@@ -271,11 +291,15 @@ A list of 375 protein-protein interaction resources were compiled through extens
 
 ### [*Cancer cell maps*](https://ccmi.org/cell-maps)
 
+![Cancer cell maps!](/assets/img/cancer-cell-maps.png)
+
 Selected set of human cancer focused pathways.
 
 ***
 
 ### [*Tumour-suppressor Gene Database (TSGene)*](https://bioinfo.uth.edu/TSGene/)
+
+![Tumour-suppressor Gene Database (TSGene)!](/assets/img/tsgene.png)
 
 Comprehensive resource for pan-analysis of human tumour suppressor genes (TSGs).
 
@@ -283,11 +307,15 @@ Comprehensive resource for pan-analysis of human tumour suppressor genes (TSGs).
 
 ### [*COSMIC*](https://cancer.sanger.ac.uk/cosmic)
 
+![COSMIC!](/assets/img/cosmic.png)
+
 Catalogue of somatic mutations in cancer.
 
 ***
 
 ### [*Cancer Hotspots*](https://www.cancerhotspots.org/#/home)
+
+![Cancer Hotspots!](/assets/img/cancer-hotspots.png)
 
 Resource for statistically significant recurrent mutations in cancer.
 
@@ -307,6 +335,8 @@ Comprehensive annotation resource for cell metabolism genes in cancer.
 
 ### [*DisGeNET*](https://www.disgenet.org/)
 
+![DisGeNET!](/assets/img/disgenet.png)
+
 Discovery platform containing one of the largest publicly available collections of genes and variants associated to human diseases
 
 ***
@@ -319,11 +349,15 @@ Patterns of mutations in cancer. Database provides an open and user-friendly way
 
 ### [*GREIN*](http://www.ilincs.org/apps/grein/)
 
+![GREIN!](/assets/img/grein.png)
+
 GEO RNAseq Experiments Interactive Navigator. Interactive web platform that provides user-friendly options to explore and analyse GEO RNAseq data.
 
 ***
 
 ### [*DISCO - deeply integrated human single-cell omics data*](https://www.immunesinglecell.org/)
+
+![DISCO!](/assets/img/disco.png)
 
 Massive database. Three tools available on there too for scRNAseq data. CELLiD: cell type annotation, CellMapper:data transfer, and scEnrichment: GSEA.
 
@@ -331,11 +365,15 @@ Massive database. Three tools available on there too for scRNAseq data. CELLiD: 
 
 ### [*cellTypist*](https://buff.ly/44YEu47) 
 
+![cellTypist!](/assets/img/cell-typist.png)
+
 It is a cell annotation tool but also have a database for the markers.
 
 ***
 
 ### [*Cellxgene*](https://cellxgene.cziscience.com/)
+
+![Cellxgene!](/assets/img/cellxgene.png)
 
 Download and/or visually explore reference-quality data to understand the functionality of human tissues at the cellular level with Chan Zuckerberg CELL by GENE Discover (CZ CELLxGENE Discover).
 Users can search for data collections, browse data sets, explore single cell gene expression, and obtain information about specific cell types. Really neat tool!
@@ -344,17 +382,23 @@ Users can search for data collections, browse data sets, explore single cell gen
 
 ### [*IMMUcan Database*](https://immucanscdb.vital-it.ch/)
 
+![IMMUcan Database!](/assets/img/immucan.png)
+
 A fully integrated scRNA-seq database exclusively dedicated to human cancer and accessible to nonspecialists. IMMUcan scDB encompasses 144 datasets on 56 different cancer types, annotated in 50 fields containing precise clinical, technological, and biological information.
 
 ***
 
 ### [*scPortalen Database*](https://single-cell.riken.jp/SCPortalen_Database/Home/)
 
+![scPortalen Database!](/assets/img/scportalen.png)
+
 This database features integration of single cell metadata, cell images and sequence information. Rhe platform is divided into two parts, the single cell dataset generated by the research team, and the single cell dataset published in peer-reviewed papers.
 
 ***
 
 ### [*Cancer Single-cell Expression Map*](https://ngdc.cncb.ac.cn/cancerscem/)
+
+![Cancer Single-cell Expression Map!](/assets/img/cancer-single-cell-expression-map.png)
 
 Public database dedicating to collecting, analysing, and visualising single-cell RNAseq data of human cancers.
 
@@ -372,20 +416,30 @@ Here you will find links to various cancer atlases.
 
 ### [*St Judes*](https://www.stjude.cloud/)
 
+![St Judes!](/assets/img/st-judes.png)
+
 St Judes has a collection of tools:
 
 [St Judes Genomics platform](https://platform.stjude.cloud/)
 Has data browser - one of the wworlds most comprehensive repositories of pediatric cancer genomics data. Has analysis workflows to analyse the genomics data.
 
+![St Judes Genomics platform!](/assets/img/genomics-platform.png)
+
 [PECAN](https://pecan.stjude.cloud/) - curated pediatric cancer genomics data including variants, mutational signatures, and gene expression data in addition to histological slide images from ~9000 hematological, CAN, and non-CNS solid tumour patient samples.
 
+![PECAN!](/assets/img/pecan.png)
+
 [Xenograft model systems tool](https://models.stjude.cloud/) - Explore patient derived xenograft data and cell lines generated at st Jude to enhance basic research and speed translation to the clinic.
+
+![Xenograft model systems tool!](/assets/img/model-systems.png)
 
 Theres also a visualisation community that allows the creation and sharing of figures!
 
 ***
 
 ### [*Human Cell Atlas (HCA)*](https://www.humancellatlas.org/) 
+
+![Human Cell Atlas (HCA)!](/assets/img/human-cell-atlas.png)
 
 A database of cellular reference maps with position, function and characteristics of every cell type in the human body.
 [Heres the link to the data site](https://data.humancellatlas.org/ data site).
@@ -394,11 +448,15 @@ A database of cellular reference maps with position, function and characteristic
 
 ### [*Cambridge Cell Atlas*](https://www.cambridgecellatlas.org/)
 
+![Cambridge Cell Atlas!](/assets/img/cambridge-cell-atlas.png)
+
 Portal of the human cell atlas. Analyses, visualises and provides tools for exploration of singlke cell RNAseq data generated by HCA. Nice tool.
 
 ***
 
 ### [*Single Cell Expression Atlas*](https://www.ebi.ac.uk/gxa/sc/home)
+
+![Single Cell Expression Atlas!](/assets/img/single-cell-expression-atlas.png)
 
 Run by the EBI. Can search genes, cell types, organs and diseases across 21 species, 355 studies and 10,505,726 cells. 
 
@@ -406,8 +464,9 @@ Run by the EBI. Can search genes, cell types, organs and diseases across 21 spec
 
 ### [*Curated Cancer Cell Atlas (3CA)*](https://www.weizmann.ac.il/sites/3CA/)
 
-Collected, annotated, and analysed cancer scRNAseq datasets.
+![Curated Cancer Cell Atlas (3CA)!](/assets/img/3ca.png)
 
+Collected, annotated, and analysed cancer scRNAseq datasets.
 
 ***
 
@@ -419,13 +478,17 @@ Collected, annotated, and analysed cancer scRNAseq datasets.
 
 ***
 
-### [*Leukaemia Gene Database*](https://www.bioinformatics.org/legend/legend.htm)
+### [*Leukaemia Gene Database (LeGenD)*](https://www.bioinformatics.org/legend/legend.htm)
+
+![Leukaemia Gene Database (LeGenD!](/assets/img/legend.png)
 
 Database of leukaemia genes (LeGenD) developed to help biological and medical sciences community to easily access all information on the genes that are involved in leukaemia.
 
 ***
 
-### [*Pancreatic Cancer Gene Database*](https://www.bioinformatics.org/pcgdb/)
+### [*Pancreatic Cancer Gene Database (PCGDB)*](https://www.bioinformatics.org/pcgdb/)
+
+![Pancreatic Cancer Gene Database (PCGDB)!](/assets/img/pcgdb.png)
 
 Provides information on the genes that are involved in pancreatic cancer and this data is targeted to help the biological and medical sciences community for easier access of the latest information on genes causing pancreatic cancer.
 
