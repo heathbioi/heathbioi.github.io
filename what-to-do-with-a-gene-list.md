@@ -12,58 +12,177 @@ Clicking on the name of the tool will direct you to a mini-tutorial that I wrote
 
 If you have any questions, problems, or suggestions - please contact me @ GibbsA@cardiff.ac.uk!
 
+***
+
+# Prepare Your Gene List
+
 I would first suggest that you take the time to [prep your gene list](prep-your-gene-list.md) so that it saves you time.
 
-- **WebGestalt** - WEB-based Gene SeT AnaLysis Toolkit. Functional enrichment analysis web tool. [link](https://www.webgestalt.org/#).
+***
 
-- **ShinyGO** -  a graphical tool for gene enrichment analysis. Neat tool. [link](http://bioinformatics.sdstate.edu/go/).
+# Gene List Analysis Tools
 
-- **GSEA** - Gene Set Enrichment Analysis. This is a downloadable tool that performs GSEA on your gene list. GSEA is a computational method that determines whether a priori defined set of genes shows statistically significant, concordant differences between two biological states. [link](https://www.gsea-msigdb.org/gsea/index.jsp).
+***
 
-- **GO-Elite** - application designed to identify non-redundant set of ontology terms, gene sets and pathways to describe a particular set of genes or metabolites. Downloadable software. [link](http://www.genmapp.org/go_elite/).
+### [WebGestalt](https://www.webgestalt.org/#) 
 
-- **BiNGO** - biological network gene ontology tool. Java-based tool to determine which GO categories are statistically overrepresented in a set of genes. [link](https://www.psb.ugent.be/cbd/papers/BiNGO/Home.html).
+WEB-based Gene SeT AnaLysis Toolkit. Functional enrichment analysis web tool.
 
-- [**Gorilla**](gorilla.md) -  gene ontology enrichment analysis and visualisation tool. Identifies and visualises enriched GO terms in ranked lists of genes. [link](https://cbl-gorilla.cs.technion.ac.il/).
+***
 
-- [**ReViGO**](revigo.md) - reduce and visualise gene ontology. This tool takes long lists of GO terms and summarizes them by removing redundant GO terms. good for tools that produce GO results, like GOrilla. [link](http://revigo.irb.hr/).
+### [ShinyGO](http://bioinformatics.sdstate.edu/go/) 
 
-- [**Gonet**](gonet.md) - constructs interactive graphs containing enriched GO terms and genes.  [link](https://tools.dice-database.org/GOnet/).
+A graphical tool for gene enrichment analysis. Neat tool. 
 
-- **EnrichR** - enrichment analysis web tool. [link](https://maayanlab.cloud/Enrichr/).
+***
 
-- [**DAVID**](david.md) - database for annotation, visualisation and integrated discovery. Functional annotation of your gene list. [link](https://david.ncifcrf.gov/).
+### [Gene Set Enrichment Analysis (GSEA)](https://www.gsea-msigdb.org/gsea/index.jsp) 
 
-- [**PANTHER**](panther.md) - proetin analysis through evolutionary relationships. Classifys proteins and their genes in order to facilitate high-throughput analysis. [link](https://pantherdb.org/).
+This is a downloadable tool that performs GSEA on your gene list. GSEA is a computational method that determines whether a priori defined set of genes shows statistically significant, concordant differences between two biological states. 
 
-- **PARADIGM** - pathway representation and analysis by direct reference on graphical models. Downloadable software. [link](https://sbenz.github.io/Paradigm/).
+***
 
-- **Pathway Commons** - access and discover data integrated from public pathway and interactions databases. Can paste your gene list into the search bar and click the search button. [link](http://www.pathwaycommons.org/).
+### [GO-Elite](http://www.genmapp.org/go_elite/)
 
-- [**Reactome**](reactome.md) - open-source, open-access, manually curated and peer-reviewed pathway database. Can perform enrichment analysis on your gene list by clicking on analysis tools from the homepage [link](https://reactome.org/PathwayBrowser/#TOOL=AT).
+Application designed to identify non-redundant set of ontology terms, gene sets and pathways to describe a particular set of genes or metabolites. Downloadable software.
 
-- [**g:Profiler**](g-profiler.md) - maps genes to known functional information resources and detects statistically significant enriched terms. [link](https://biit.cs.ut.ee/gprofiler/gost).
+***
 
-- **pathDIP** - annotated database of signalling cascades in human and non-human organisms, comprising core pathways from major curated pathways databases, and pathways predicted based on orthology, and by using physical protein interactions. [link](http://ophid.utoronto.ca/pathDIP/).
+### [BiNGO - Biological Network Gene Ontology Tool](https://www.psb.ugent.be/cbd/papers/BiNGO/Home.html)
 
-- **GeneTrail** - advanced high throughput enrichment analysis. Gene expression data can be uploaded and enrichment analysis can be performed. [link](https://genetrail.bioinf.uni-sb.de/start.html).
+Java-based tool to determine which GO categories are statistically overrepresented in a set of genes. 
 
-- **PathVisio** - pathway analysis and drawing software which allows drawing, editing, and analysing biological pathways. [link](https://pathvisio.org/).
+***
 
-- **Cytoscape** - network data integration, analysis, and visualisation in a box. Also has NDEx iQuery box on the homepage which you can copy and paste your list into. ClueGO is a plug-in that visualises the non-redundant biological terms for large clusters of genes in a functionally grouped network. [Cytoscape link](https://cytoscape.org/) and [ClueGo link](https://apps.cytoscape.org/apps/cluego).
+### [Gorilla](https://cbl-gorilla.cs.technion.ac.il/)
 
-- **Integrated interactions database (IID)** - tissue specific PPI networks across species. [link](http://iid.ophid.utoronto.ca/).
+Gene ontology enrichment analysis and visualisation tool. Identifies and visualises enriched GO terms in ranked lists of genes. I have also made a quick [tutorial](gorilla.md).
 
-- **STRING-DB** - PPI networks functional enrichment analysis [link](https://string-db.org/).
+***
 
-- **GeneMANIA** - predict function of your gene list [link](https://genemania.org/).
+### [ReViGO - Reduce and Visualise Gene Ontology](http://revigo.irb.hr/)
 
-- **FOR WINDOWS USERS: FunRich**- downloadable software for functional enrichment analysis [link](http://funrich.org/index.html).
+This tool takes long lists of GO terms and summarizes them by removing redundant GO terms. good for tools that produce GO results, like GOrilla. I have also made a quick [tutorial](revigo.md).
 
-- **iDEP.96** - integrated Differential Expression and Pathway analysis) integrated web application for differential expression and pathway analysis of RNAseq data. [link](http://bioinformatics.sdstate.edu/idep/).
+***
 
-- **Kinase Enrichment Analysis 2** - predict kinase activity from your list of input set of phosphosites [link](https://www.maayanlab.net/KEA2/).
+### [Gonet](https://tools.dice-database.org/GOnet/)
 
-- **chEA3** - chIP-X enrichment analysis version 3. performs transcription factor enrichment analysis on your list of DEGs. [link](https://maayanlab.cloud/chea3/).
+Constructs interactive graphs containing enriched GO terms and genes. I also made a quick [tutorial](gonet.md). 
 
-- **MetaboAnalyst** - user-friendly, streamlines metabolomics data analysis tool. Performs enrichment, pathway, and network analyses. [link](https://new.metaboanalyst.ca/home.xhtml).
+***
+
+### [EnrichR](https://maayanlab.cloud/Enrichr/)
+
+Enrichment analysis web tool. I have also made a quick video tutorial for this tool:
+<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=008340c5-afd1-49b9-965e-b05a00fccfe0&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
+***
+
+### [DAVID - Database for Annotation, Visualisation and Integrated Discovery](https://david.ncifcrf.gov/)
+
+Functional annotation of your gene list. I also made a quick [tutorial](david.md).
+
+***
+
+### [PANTHER - Protein Analysis Through Evolutionary Relationships](https://pantherdb.org/)
+
+Classifys proteins and their genes in order to facilitate high-throughput analysis. I also made a quick [tutorial](panther.md).
+
+***
+
+### [PARADIGM - Pathway Representation and Analysis by Direct Reference on Graphical Models](https://sbenz.github.io/Paradigm/) 
+
+Downloadable software.
+
+***
+
+### [Pathway Commons](http://www.pathwaycommons.org/)
+
+Access and discover data integrated from public pathway and interactions databases. Can paste your gene list into the search bar and click the search button. 
+
+***
+
+### [Reactome](https://reactome.org/PathwayBrowser/#TOOL=AT) 
+
+Open-source, open-access, manually curated and peer-reviewed pathway database. Can perform enrichment analysis on your gene list by clicking on analysis tools from the homepage. I also made a quick [tutorial](reactome.md).
+
+***
+
+### [g:Profiler](https://biit.cs.ut.ee/gprofiler/gost) 
+
+Maps genes to known functional information resources and detects statistically significant enriched terms. I also made a quick [tutorial](g-profiler.md).
+
+***
+
+### [pathDIP](http://ophid.utoronto.ca/pathDIP/)
+
+Annotated database of signalling cascades in human and non-human organisms, comprising core pathways from major curated pathways databases, and pathways predicted based on orthology, and by using physical protein interactions. 
+
+***
+
+### [GeneTrail](https://genetrail.bioinf.uni-sb.de/start.html) 
+
+Advanced high throughput enrichment analysis. Gene expression data can be uploaded and enrichment analysis can be performed.
+
+***
+
+### [PathVisio](https://pathvisio.org/)
+
+Pathway analysis and drawing software which allows drawing, editing, and analysing biological pathways. 
+
+***
+
+### [Cytoscape](https://cytoscape.org/)
+
+Network data integration, analysis, and visualisation in a box. Also has NDEx iQuery box on the homepage which you can copy and paste your list into. [ClueGO](https://apps.cytoscape.org/apps/cluego) is a plug-in that visualises the non-redundant biological terms for large clusters of genes in a functionally grouped network. 
+
+***
+
+### [Integrated interactions database (IID)](http://iid.ophid.utoronto.ca/)
+
+Tissue specific PPI networks across species. 
+
+***
+
+### [STRING-DB](https://string-db.org/)
+
+PPI networks functional enrichment analysis.
+
+***
+
+### [GeneMANIA](https://genemania.org/)
+
+Predict function of your gene list. 
+
+***
+
+### FOR WINDOWS USERS: [FunRich](http://funrich.org/index.html) 
+
+Downloadable software for functional enrichment analysis. 
+
+***
+
+### [iDEP.96](http://bioinformatics.sdstate.edu/idep/)
+
+Integrated Differential Expression and Pathway analysis) integrated web application for differential expression and pathway analysis of RNAseq data. 
+
+***
+
+### [Kinase Enrichment Analysis 2](https://www.maayanlab.net/KEA2/) 
+
+Predict kinase activity from your list of input set of phosphosites.
+
+***
+
+### [chEA3](https://maayanlab.cloud/chea3/)
+
+ChIP-X enrichment analysis version 3. performs transcription factor enrichment analysis on your list of DEGs. 
+
+***
+
+### [MetaboAnalyst](https://new.metaboanalyst.ca/home.xhtml)
+
+User-friendly, streamlines metabolomics data analysis tool. Performs enrichment, pathway, and network analyses. 
+
+***
