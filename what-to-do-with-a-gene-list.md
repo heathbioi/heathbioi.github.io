@@ -99,7 +99,7 @@ Enrichment analysis web tool. I have also made a quick video tutorial for this t
 
 ### [DAVID - Database for Annotation, Visualisation and Integrated Discovery](https://david.ncifcrf.gov/)
 
-![DAVID!](/assets/img/enrichr.png)
+![DAVID!](/assets/img/david.png)
 
 Functional annotation of your gene list. I also made a quick [tutorial](david.md).
 
@@ -129,7 +129,7 @@ Access and discover data integrated from public pathway and interactions databas
 
 ### [Reactome](https://reactome.org/PathwayBrowser/#TOOL=AT) 
 
-![Reactome!](/assets/img/rectome.png)
+![Reactome!](/assets/img/reactome.png)
 
 Open-source, open-access, manually curated and peer-reviewed pathway database. Can perform enrichment analysis on your gene list by clicking on analysis tools from the homepage. I also made a quick [tutorial](reactome.md).
 
