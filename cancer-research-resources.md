@@ -24,7 +24,7 @@ If this is something you would like to do, i.e. download, process, and analyse r
 
 Public repository that archives and distributes high-throughput gene expression and other functional genomics data sets. 
 It is maintained by the National Center for Biotechnology Information (NCBI) at the National Library of Medicine (NLM).
-
+Link to the [Overview](https://www.ncbi.nlm.nih.gov/geo/info/overview.html). Link to the [FAQ](https://www.ncbi.nlm.nih.gov/geo/info/faq.html). Link on [how to download data](https://www.ncbi.nlm.nih.gov/geo/info/download.html).
 ***
 
 ### [*Array Express*](https://www.ebi.ac.uk/biostudies/arrayexpress)
@@ -32,6 +32,7 @@ It is maintained by the National Center for Biotechnology Information (NCBI) at 
 ![Array Express!](/assets/img/arrayexpress.png)
 
 The functional genomics data collection stores data from high-throughput functional genomics experiments, and provides data for reuse to the research community.
+Link to the [Help section](https://www.ebi.ac.uk/biostudies/arrayexpress/help).
 
 ***
 
@@ -40,6 +41,7 @@ The functional genomics data collection stores data from high-throughput functio
 ![European Nucleotide Archive (ENA)!](/assets/img/ena.png)
 
 The European Nucleotide Archive provides a comprehensive record of the world’s nucleotide sequencing information, covering raw sequencing data, sequence assembly information and functional annotation.
+Link to the [support guides page](https://www.ebi.ac.uk/ena/browser/guides).
 
 ***
   
@@ -49,6 +51,7 @@ The European Nucleotide Archive provides a comprehensive record of the world’s
 
 Sequence Read Archive data, available through multiple cloud providers and NCBI servers, is the largest publicly available repository of high throughput sequencing data.
 SRA stores raw sequencing data and alignment information to enhance reproducibility and facilitate new discoveries through data analysis. 
+[how to search and download](https://www.ncbi.nlm.nih.gov/sra/docs/sradownload/) link.
 
 ***
 
@@ -57,6 +60,7 @@ SRA stores raw sequencing data and alignment information to enhance reproducibil
 ![Zenodo!](/assets/img/zenodo.png)
 
 Open research repository. Search for cancer and you get list of uploads associated with papers. Every file that the paper used for the publication is uploaded, such as loom files for RNA velocity analysis etc etc.
+Link to the [Guides](https://help.zenodo.org/docs/).
 
 ***
 
@@ -65,6 +69,7 @@ Open research repository. Search for cancer and you get list of uploads associat
 ![OmicsDI!](/assets/img/omicsdi.png)
 
 Database of sequencing datasets. Home page has lots of quick stats and search bar. Allows user to find databases related to their search and access that data.
+Link to [Help section](http://blog.omicsdi.org/).
 
 ***
 
@@ -73,6 +78,7 @@ Database of sequencing datasets. Home page has lots of quick stats and search ba
 ![Genomics Data Commons (GDC) Data Portal!](/assets/img/gdc.png)
 
 Search for your favourite gene or cancer to get relevant statistics. There are a number of great tools on this site! Data is also downloadable for further analysis.
+Link to the [Documentation](https://docs.gdc.cancer.gov/).
 
 ***
 
@@ -80,16 +86,19 @@ Search for your favourite gene or cancer to get relevant statistics. There are a
 
 ![Google Dataset Search Tool!](/assets/img/google.png)
 
-
 Search for public datasets. 
+
+Link to the [User Support Page](https://datasetsearch.research.google.com/help)
 
 ***
 
-### [*PanglaoDB*](panglaodb.se/search.html) 
+### [*PanglaoDB*](https://panglaodb.se/search.html) 
 
 ![PanglaoDB!](/assets/img/panglaodb.png)
 
 A database for scRNAseq data downloads, but also you can search a gene across datasets.
+
+Link to [FAQ/support page](https://panglaodb.se/faq.html)
 
 ***
 
@@ -140,6 +149,8 @@ This database features integration of single cell metadata, cell images and sequ
 
 Public database dedicating to collecting, analysing, and visualising single-cell RNAseq data of human cancers.
 
+[Database Usage](https://ngdc.cncb.ac.cn/cancerscem/documents#docu_us) link.
+
 ***
 
 ***
@@ -158,6 +169,7 @@ However, some are available as downloadable apps or can be run through R or Pyth
 ![Xena!](/assets/img/xena.png)
 
 This tool allows users to explore functional genomic data sets for correlations between genomnic and/or phenotypic variables. Users can choose a study to explore up to two variables. There is also a *Transcripts* tab which allows the user to visualise the various transcripts of a gene.
+Link to the [Help page](https://ucsc-xena.gitbook.io/project/).
 
 ***
 
@@ -166,6 +178,7 @@ This tool allows users to explore functional genomic data sets for correlations 
 ![NCRAS!](/assets/img/ncras.png)
 
 The National Cancer Registration and Analysis Service (NCRAS) collects, quality assures and analyses data on all people living in England who are diagnosed with cancer. It is part of the National Disease Registration Service (NDRS) in NHS Digital (NHSD). There are a plethora of tools on here to exploit this data.
+
 
 ***
 
@@ -188,6 +201,7 @@ CRUK also have an early diagnosis hub tool that allows exploration of the latest
 ### [*OncoLnc*](http://www.oncolnc.org/)
 
 Link TCGA survival data to mRNA, miRNA, or lncRNA expression levels.
+Link to [tutorial video](https://www.youtube.com/watch?v=5h5NU15pKoI).
 
 ***
 
@@ -196,7 +210,7 @@ Link TCGA survival data to mRNA, miRNA, or lncRNA expression levels.
 ![CIViC - clinical interpretation of variants in cancer database!](/assets/img/civic.png)
 
 Primarily a tool for doctors to get the best treatment options for patients with certain mutations. You can search for specific muations/gene variants and the database gives you a load of information on it. Can also look for specific cancers, specific therapies. Really neat database.
-
+Link on [how to use CIVIC](https://civic.readthedocs.io/en/latest/using.html).
 ***
 
 ### [*CrossHub*](https://sourceforge.net/projects/crosshub/) 
@@ -205,11 +219,12 @@ Multi-way analysis of RNAseq, miRNAseq and methylome data from the TCGA project.
 
 ***
 
-### [*Cellenics*](https://www.biomage.net/cellenics)
+### [*Cellenics*](https://www.biomage.net/)
 
 ![Cellenics!](/assets/img/cellenics.png)
 
 Open source scRNAseq analysis software online tool to analyse public scRNAseq datasets. Its a cloud based tool and everything is done online. Need to sign up for free. Very neat tool. Click on the link and then the Cellenics tab.
+Link to the [User Guide](https://www.biomage.net/user-guide).
 
 ***
 
@@ -218,6 +233,7 @@ Open source scRNAseq analysis software online tool to analyse public scRNAseq da
 ![Fast Genomics!](/assets/img/fast-genomics.png)
 
 Another cloud based analysis tool, similar to Cellenics.
+Link to [Documentation page](https://beta.fastgenomics.org/docs/).
 
 ***
 
@@ -226,6 +242,7 @@ Another cloud based analysis tool, similar to Cellenics.
 ![Single Cell Portal!](/assets/img/single-cell-portal.png)
 
 Allows data exploration of curated datasets. scRNAseq and spatial datasets available!
+Link to [Help Page](https://singlecell.zendesk.com/hc/en-us).
 
 ***
 
@@ -234,6 +251,7 @@ Allows data exploration of curated datasets. scRNAseq and spatial datasets avail
 ![UCSC Cell Browser!](/assets/img/ucsc-cell-browser.png)
 
 Interactive viewer for scRNAseq expression.
+How to use the [website](https://cellbrowser.readthedocs.io/en/master/interface.html).
 
 ***
 
@@ -242,6 +260,7 @@ Interactive viewer for scRNAseq expression.
 ![OmicsDI!](/assets/img/omicsdi.png)
 
 Database of sequencing datasets. Home page has lots of quick stats and search bar. Allows user to find databases related to their search and access that data.
+[Tutorial page](http://blog.omicsdi.org/categories/tutorials/).
 
 ***
 
@@ -250,6 +269,7 @@ Database of sequencing datasets. Home page has lots of quick stats and search ba
 ![Dependency Map (DepMap) portal!](/assets/img/depmap-portal.png)
 
 Open access to key cancer dependencies analytical and visualisation tools.
+[Documentation page](https://depmap.org/portal/documentation/).
 
 ***
 
@@ -266,6 +286,7 @@ Isoform expression resource for isoform expression analysis in cancer.
 ![TCGA Spliceseq!](/assets/img/tcga-spliceseq.png)
 
 Cancer splicing visualised.
+[FAQ page](https://bioinformatics.mdanderson.org/TCGASpliceSeq/faq.jsp).
 
 ***
 
@@ -274,12 +295,14 @@ Cancer splicing visualised.
 ![Genomics Data Commons (GDC) Data Portal!](/assets/img/gdc.png)
 
 Search for your favourite gene or cancer to get relevant statistics. There are a number of great tools on this site! Data is also downloadable for further analysis.
+Link to the [Documentation](https://docs.gdc.cancer.gov/).
 
 ***
 
 ### [*DriverDBv4*](http://140.128.69.158/)
 
 Database for human cancer driver gene research
+Link to [Help Page](http://driverdb.bioinfomics.org/help/).
 
 ***
 
@@ -302,6 +325,7 @@ Selected set of human cancer focused pathways.
 ![Tumour-suppressor Gene Database (TSGene)!](/assets/img/tsgene.png)
 
 Comprehensive resource for pan-analysis of human tumour suppressor genes (TSGs).
+Link to [Help Page](https://bioinfo.uth.edu/TSGene/tutorial.cgi?csrt=1241548866957659715).
 
 ***
 
@@ -310,7 +334,7 @@ Comprehensive resource for pan-analysis of human tumour suppressor genes (TSGs).
 ![COSMIC!](/assets/img/cosmic.png)
 
 Catalogue of somatic mutations in cancer.
-
+Link to [Help Page](https://cancer.sanger.ac.uk/cosmic/help).
 ***
 
 ### [*Cancer Hotspots*](https://www.cancerhotspots.org/#/home)
@@ -330,6 +354,7 @@ Literature-mined database of drivers, oncogenes and tumour suppressors in cancer
 ### [*Cancer cell metabolism gene DB*](https://bioinfo.uth.edu/ccmGDB/)
 
 Comprehensive annotation resource for cell metabolism genes in cancer.
+Link to [Help Page](https://bioinfo.uth.edu/ccmGDB/help.html?csrt=1241548866957659715).
 
 ***
 
@@ -338,12 +363,14 @@ Comprehensive annotation resource for cell metabolism genes in cancer.
 ![DisGeNET!](/assets/img/disgenet.png)
 
 Discovery platform containing one of the largest publicly available collections of genes and variants associated to human diseases
+Link to [Help Page](https://www.disgenet.org/help).
 
 ***
 
 ### [*Cancer 3D*](http://cancer3d.org/search)
 
 Patterns of mutations in cancer. Database provides an open and user-friendly way to analyse cancer missense mutations in the context of structures of proteins they are found in and in relation to patients gener and age.
+Link to [Tutorial](http://cancer3d.org/tutorial).
 
 ***
 
@@ -360,6 +387,7 @@ GEO RNAseq Experiments Interactive Navigator. Interactive web platform that prov
 ![DISCO!](/assets/img/disco.png)
 
 Massive database. Three tools available on there too for scRNAseq data. CELLiD: cell type annotation, CellMapper:data transfer, and scEnrichment: GSEA.
+Link to [Vignette/Tutorial](https://immunesinglecell.org/vignette/docs/DISCO/overview).
 
 ***
 
@@ -368,6 +396,7 @@ Massive database. Three tools available on there too for scRNAseq data. CELLiD: 
 ![cellTypist!](/assets/img/cell-typist.png)
 
 It is a cell annotation tool but also have a database for the markers.
+Link to [Tutorials](https://www.celltypist.org/tutorials).
 
 ***
 
@@ -377,6 +406,7 @@ It is a cell annotation tool but also have a database for the markers.
 
 Download and/or visually explore reference-quality data to understand the functionality of human tissues at the cellular level with Chan Zuckerberg CELL by GENE Discover (CZ CELLxGENE Discover).
 Users can search for data collections, browse data sets, explore single cell gene expression, and obtain information about specific cell types. Really neat tool!
+[Help & Documentations Page](https://cellxgene.cziscience.com/docs/01__CellxGene).
 
 ***
 
@@ -401,6 +431,7 @@ This database features integration of single cell metadata, cell images and sequ
 ![Cancer Single-cell Expression Map!](/assets/img/cancer-single-cell-expression-map.png)
 
 Public database dedicating to collecting, analysing, and visualising single-cell RNAseq data of human cancers.
+Link to [Help Page](https://ngdc.cncb.ac.cn/cancerscem/help).
 
 ***
 
@@ -419,6 +450,7 @@ Here you will find links to various cancer atlases.
 ![St Judes!](/assets/img/st-judes.png)
 
 St Judes has a collection of tools:
+Link to the [Help Guides](https://university.stjude.cloud/docs/).
 
 [St Judes Genomics platform](https://platform.stjude.cloud/)
 Has data browser - one of the wworlds most comprehensive repositories of pediatric cancer genomics data. Has analysis workflows to analyse the genomics data.
@@ -443,6 +475,7 @@ Theres also a visualisation community that allows the creation and sharing of fi
 
 A database of cellular reference maps with position, function and characteristics of every cell type in the human body.
 [Heres the link to the data site](https://data.humancellatlas.org/ data site).
+[Link to the HCA guide](https://data.humancellatlas.org/guides).
 
 ***
 
@@ -459,6 +492,7 @@ Portal of the human cell atlas. Analyses, visualises and provides tools for expl
 ![Single Cell Expression Atlas!](/assets/img/single-cell-expression-atlas.png)
 
 Run by the EBI. Can search genes, cell types, organs and diseases across 21 species, 355 studies and 10,505,726 cells. 
+Link to the [Help Page](https://www.ebi.ac.uk/gxa/sc/help.html).
 
 ***
 
@@ -483,6 +517,7 @@ Collected, annotated, and analysed cancer scRNAseq datasets.
 ![Leukaemia Gene Database (LeGenD!](/assets/img/legend.png)
 
 Database of leukaemia genes (LeGenD) developed to help biological and medical sciences community to easily access all information on the genes that are involved in leukaemia.
+Link to [Help Page](http://www.bioinformatics.org/legend/help.htm).
 
 ***
 
@@ -491,5 +526,6 @@ Database of leukaemia genes (LeGenD) developed to help biological and medical sc
 ![Pancreatic Cancer Gene Database (PCGDB)!](/assets/img/pcgdb.png)
 
 Provides information on the genes that are involved in pancreatic cancer and this data is targeted to help the biological and medical sciences community for easier access of the latest information on genes causing pancreatic cancer.
+Link to [Help Page](https://www.bioinformatics.org/pcgdb/fact%20page.htm).
 
 ***
