@@ -25,6 +25,7 @@ If this is something you would like to do, i.e. download, process, and analyse r
 Public repository that archives and distributes high-throughput gene expression and other functional genomics data sets. 
 It is maintained by the National Center for Biotechnology Information (NCBI) at the National Library of Medicine (NLM).
 Link to the [Overview](https://www.ncbi.nlm.nih.gov/geo/info/overview.html). Link to the [FAQ](https://www.ncbi.nlm.nih.gov/geo/info/faq.html). Link on [how to download data](https://www.ncbi.nlm.nih.gov/geo/info/download.html).
+
 ***
 
 ### [*Array Express*](https://www.ebi.ac.uk/biostudies/arrayexpress)
@@ -211,6 +212,7 @@ Link to [tutorial video](https://www.youtube.com/watch?v=5h5NU15pKoI).
 
 Primarily a tool for doctors to get the best treatment options for patients with certain mutations. You can search for specific muations/gene variants and the database gives you a load of information on it. Can also look for specific cancers, specific therapies. Really neat database.
 Link on [how to use CIVIC](https://civic.readthedocs.io/en/latest/using.html).
+
 ***
 
 ### [*CrossHub*](https://sourceforge.net/projects/crosshub/) 
@@ -335,6 +337,7 @@ Link to [Help Page](https://bioinfo.uth.edu/TSGene/tutorial.cgi?csrt=12415488669
 
 Catalogue of somatic mutations in cancer.
 Link to [Help Page](https://cancer.sanger.ac.uk/cosmic/help).
+
 ***
 
 ### [*Cancer Hotspots*](https://www.cancerhotspots.org/#/home)
