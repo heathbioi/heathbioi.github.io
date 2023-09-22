@@ -67,7 +67,7 @@ Java-based tool to determine which GO categories are statistically overrepresent
 ![Gorilla!](/assets/img/gorilla.png)
 
 Gene ontology enrichment analysis and visualisation tool. Identifies and visualises enriched GO terms in ranked lists of genes. I have also made a quick [tutorial](gorilla.md).
-I have also made a quick [video tutorial](https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a74d5ae4-d4d3-4f55-a045-b0540081405f/) for this tool:
+I have also made a quick [video tutorial](https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a74d5ae4-d4d3-4f55-a045-b0540081405f) for this tool:
 
 ***
 
