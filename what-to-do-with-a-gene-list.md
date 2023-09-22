@@ -67,8 +67,7 @@ Java-based tool to determine which GO categories are statistically overrepresent
 ![Gorilla!](/assets/img/gorilla.png)
 
 Gene ontology enrichment analysis and visualisation tool. Identifies and visualises enriched GO terms in ranked lists of genes. I have also made a quick [tutorial](gorilla.md).
-I have also made a quick video tutorial for this tool:
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=a74d5ae4-d4d3-4f55-a045-b0540081405f&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+I have also made a quick [video tutorial](https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=a74d5ae4-d4d3-4f55-a045-b0540081405f/) for this tool:
 
 ***
 
@@ -92,8 +91,7 @@ Constructs interactive graphs containing enriched GO terms and genes. I also mad
 
 ![EnrichR!](/assets/img/enrichr.png)
 
-Enrichment analysis web tool. I have also made a quick video tutorial for this tool:
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=008340c5-afd1-49b9-965e-b05a00fccfe0&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+Enrichment analysis web tool. I have also made a quick [video tutorial](https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=008340c5-afd1-49b9-965e-b05a00fccfe0) for this tool:
 
 ***
 
@@ -140,8 +138,8 @@ Open-source, open-access, manually curated and peer-reviewed pathway database. C
 ![g:profiler!](/assets/img/gprofiler.png)
 
 Maps genes to known functional information resources and detects statistically significant enriched terms. I also made a quick [tutorial](g-profiler.md).
-I hace also made a quick video tutorial for this tool:
-<iframe src="https://cardiff.cloud.panopto.eu/Panopto/Pages/Embed.aspx?id=540e51c1-71cc-4817-97cf-b05a00de7832&autoplay=false&offerviewer=true&showtitle=true&showbrand=true&captions=false&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+I hace also made a quick [video tutorial](https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=540e51c1-71cc-4817-97cf-b05a00de7832) for this tool:
+
 ***
 
 ### [pathDIP](http://ophid.utoronto.ca/pathDIP/)
