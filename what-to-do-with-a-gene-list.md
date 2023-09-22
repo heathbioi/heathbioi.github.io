@@ -137,8 +137,7 @@ Open-source, open-access, manually curated and peer-reviewed pathway database. C
 
 ![g:profiler!](/assets/img/gprofiler.png)
 
-Maps genes to known functional information resources and detects statistically significant enriched terms. I also made a quick [tutorial](g-profiler.md).
-I hace also made a quick [video tutorial](https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=540e51c1-71cc-4817-97cf-b05a00de7832) for this tool:
+Maps genes to known functional information resources and detects statistically significant enriched terms. I also made a quick [tutorial](g-profiler.md) and [video tutorial](https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=540e51c1-71cc-4817-97cf-b05a00de7832) for this tool:
 
 ***
 
