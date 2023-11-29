@@ -92,6 +92,15 @@ Constructs interactive graphs containing enriched GO terms and genes. I also mad
 ![EnrichR!](/assets/img/enrichr.png)
 
 Enrichment analysis web tool. I have also made a quick [video tutorial](https://cardiff.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=008340c5-afd1-49b9-965e-b05a00fccfe0) for this tool:
+Link to the [About page](https://rummagene.com/about).
+
+***
+
+### [Rummagene](https://rummagene.com)
+
+![Rummagene!](assets/img/rummagene.png)
+
+Rummage through 658,108 gene sets extracted from supporting tables of 124,773 articles to find the most similar gene sets that match your query.
 
 ***
 
