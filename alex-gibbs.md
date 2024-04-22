@@ -11,8 +11,6 @@ Take a look at my [what to do with your gene list](what-to-do-with-a-gene-list.m
 
 Looking to find and/or explore cancer data but don't really know where to start? Take a look at my [cancer research resources](cancer-research-resources.md) page!
 
-Are you wanting to learn about certain bioinformatic techniques/processes or how to code? Check out my [learning materials and courses page](learning-materials-courses.md)!.
-
 Here's a list of things that I can help you with. Please note that this is not an exhaustive list, if you would like help with anything not listed here, please contact me **(GibbsA@cardiff.ac.uk)**:
 
 - Download and analyse public data.
