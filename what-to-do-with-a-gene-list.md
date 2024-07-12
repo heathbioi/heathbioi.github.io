@@ -241,3 +241,11 @@ ChIP-X enrichment analysis version 3. performs transcription factor enrichment a
 User-friendly, streamlines metabolomics data analysis tool. Performs enrichment, pathway, and network analyses. 
 
 ***
+
+### [GREAT - Genomic Regions Enrichment of Annotations Tool](http://great.stanford.edu/public/html/)
+
+![GREAT!](/assets/img/great.png)
+
+Many coding genes are well annotated with their biological functions. Non-coding regions typically lack such annotation. GREAT assigns biological meaning to a set of non-coding genomic regions by analyzing the annotations of the nearby genes. Thus, it is particularly useful in studying cis functions of sets of non-coding genomic regions. Also available as an [R package](https://bioconductor.org/packages/release/bioc/html/rGREAT.html).
+
+***
