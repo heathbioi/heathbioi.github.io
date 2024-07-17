@@ -10,14 +10,20 @@ This page is intended to provide researchers with learning materials and links t
 
 
 Code Academy [link])https://try.codecademy.com/for-beginners)
-Real Python [link](https://realpython.com/)
-W3 Schools [link](https://www.w3schools.com/)
-Data Camp [link](https://www.datacamp.com/)
-Leet Code [link](https://leetcode.com/)
-Kaggle [link](https://www.kaggle.com/)
-Our Coding Club [link](https://ourcodingclub.github.io/tutorials.html)
-An introduction to statistical learning with applications in Python [link](https://t.co/ajYi3OSdUl)     ISLP_website.pdf
 
+Real Python [link](https://realpython.com/)
+
+W3 Schools [link](https://www.w3schools.com/)
+
+Data Camp [link](https://www.datacamp.com/)
+
+Leet Code [link](https://leetcode.com/)
+
+Kaggle [link](https://www.kaggle.com/)
+
+Our Coding Club [link](https://ourcodingclub.github.io/tutorials.html)
+
+An introduction to statistical learning with applications in Python [link](https://t.co/ajYi3OSdUl)
 
 ARCCA Training Material [link](https://arcca.github.io/)
 
@@ -43,8 +49,13 @@ FREE certification course from Google:
 
 8. Introduction to Baseline: Data, ML, AI [link](https://cloudskillsboost.google/quests/34) 
 
+A Primer for Computational Biology (free book) - [link](https://open.oregonstate.education/computationalbiology/)
 
+Computational Genomics with R (book) - [link](https://compgenomr.github.io/book/)
 
+The Biologists Guide to Computing - [link](https://book.biologistsguide2computing.com/en/stable/)
+
+Bioinformatics Data Skills (book - free 10 day trial) - [link](https://www.oreilly.com/library/view/bioinformatics-data-skills/9781449367480/)
 
 
 
