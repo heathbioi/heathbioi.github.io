@@ -66,3 +66,64 @@ Link to the [knowing the charts page](http://blueprint-data.bsc.es/#!/charts-hel
 
 ***
 
+### [*EpiFactors*](https://epifactors.autosome.org/)
+
+EpiFactors is a database for epigenetic factors, corresponding genes and products.
+
+Link to the [help and information page](https://epifactors.autosome.org/description).
+
+***
+
+### [*CistromeDB*](http://cistrome.org/db/#/)
+
+![Cistrome!](/assets/img/cistrome.png)
+
+[CistromeDB Toolkit](http://dbtoolkit.cistrome.org/) - Check what factors regulate your gene of interest, what factors bind in your interval or have a significant binding overlap with your peak set.
+
+[Cistrome-GO](http://go.cistrome.org/) - Predict the function of transcription factor perturbed expression from Transcription Factor ChIP-seq data.
+
+Link to the [about page](http://cistrome.org/db/#/about).
+Link to the [documentation page](http://cistrome.org/db/#/documents).
+
+***
+
+### [*ReMap2022*]((https://remap2022.univ-amu.fr/)
+
+ReMap is a large scale integrative analysis of DNA-binding experiments for Homo sapiens, Mus musculus, Drosophila melanogaster and Arabidopsis thaliana transcriptional regulators. the catalogues are the results of the manual curation of ChIP-seq, ChIP-exo, DAP-seq from public sources (GEO, ENCODE, ENA).
+
+A tour of the site can be found at the top right-hand side of the web page.
+
+***
+
+### [*ChIP-Atlas*](https://chip-atlas.org/)
+
+![ChIP-Atlas!](/assets/img/chip-atlas.png)
+
+A data-mining suite for exploring epigenomic landscapes by fully integrating 419,000 ChIP-seq, ATAC-seq and Bisulfate-seq experiments.
+
+[Cistrome-GO](http://go.cistrome.org/) - Predict the function of transcription factor perturbed expression from Transcription Factor ChIP-seq data.
+
+Link to the [documentation page](https://github.com/inutano/chip-atlas/wiki).
+
+***
+
+### [*FANTOM5: Functional Annotation of the Mammalian Genome*](https://fantom.gsc.riken.jp/5/)
+
+![FANTOM5!](/assets/img/fantom5.png)
+
+The FANTOM5 project is a worldwide collaborative project aiming at identifying all functional elements in mammalian genomes.
+
+Link to the [FAQ page](https://fantom.gsc.riken.jp/faq/).
+
+***
+
+
+### [*FORGEdb*](https://forgedb.cancer.gov/)
+
+![FORGEdb!](/assets/img/forgedb.png)
+
+FORGEdb is a tool for studying regulatory genomic variants, the "dark matter" of the genome. FORGEdb annotates these little-known variants with eQTLs, chromatin looping, epigenetic  marks, TF binding sites, and more!
+
+Link to the [about page](https://forgedb.cancer.gov/about/).
+
+***
