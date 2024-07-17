@@ -127,3 +127,61 @@ FORGEdb is a tool for studying regulatory genomic variants, the "dark matter" of
 Link to the [about page](https://forgedb.cancer.gov/about/).
 
 ***
+
+### [*CuratedAtlasQueryR*](https://stemangiola.github.io/CuratedAtlasQueryR/index.html)
+
+![CuratedAtlasQueryR!](/assets/img/curatedatlasqueryr.png)
+
+CuratedAtlasQueryR is a query interface in R that allows the programmatic exploration and retrieval of the harmonised, curated and reannotated CELLxGENE single-cell human cell atlas. Data can be retrieved at cell, sample, or dataset levels based on filtering criteria.
+
+***
+
+### [*ezSinglecell*](https://immunesinglecell.org/ezsc/)
+
+ezSinglecell is an interactive and easy-to-use application for analysing various single-cell and spatial omics data trypes without requiring prior programming knowledge. It combines the best-performing public methods for in-depth data analysis and interactive data visualisation. It consists of five modules, each designed to be a comprehensive workflow for one data type or task. It also allows crosstalk between different modules within a defined interface.
+
+Link to the [help page](https://immunesinglecell.org/ezsc/) which contains manuals for each module.
+
+***
+
+### [*Cellar*](https://cellar.cmu.hubmapconsortium.org/app/cellar)
+
+![Cellar!](/assets/img/cellar.png)
+
+Cellar is an interactive tool for analysing single-cell omics data. The tool supports, but is not limited to, scRNA-seq, scATAC-seq, CODEX, SNARE-seq, sciRNA-seq, and visium. It supports pre-processing, dimensionality reduction, clustering, DE gene testing, enrichment analysis, culster and gene visualisation modules, projection to spatial tiles, label transfer, and semi-supervised clustering among others.
+
+Link to the [documentation page](https://euxhenh.com/cellar/).
+There are also [video tutorials](https://www.youtube.com/playlist?list=PL5sLSLkTYpWgfBQ0M8ObfBIqDMAzx0-D2) available.
+
+***
+
+
+### [*ASAP: Automated Single-cell Analysis Portal*](https://asap.epfl.ch/)
+
+![ASAP!](/assets/img/asap.png)
+
+ASAP is a web-based collaborative portal that allows the analysis of single-cell transcritpomic data.
+
+Link to the [tutorial page](https://asap.epfl.ch/home/tutorial).
+
+***
+
+### [*iSEE*](https://bioconductor.org/packages/release/bioc/vignettes/iSEE/inst/doc/basic.html)
+
+![iSEE!](/assets/img/isee.png)
+
+iSEE is a bioconductor package that provides an interactive Shiny-based graphical user interface for exploring data stored in *SummarizedExperiment* objects.
+
+Link to the [installation page](https://bioconductor.org/packages/3.19/bioc/html/iSEE.html) that contains HTML pages and R Scripts.
+
+***
+
+### [*VISION*](https://github.com/YosefLab/VISION)
+
+![VISION!](/assets/img/vision.png)
+
+VISION is an R package that aids in the interpretation of single-cell RNA-seq data by selecting for gene signatures which describe coordinated variation between cells. Whilst the software only requires an expression matric and a signature library (available in online databases), it is also desitnged to integrate into existing scRNA-seq analysis pipelines by taking advantage of precomputed dimensionality reductions, trajectory inferences or clustering results. The results of this analysios are makde available through a dynamic web-app which can be shared with collaborators without requiring them to install any additional softwares.
+
+Link to the [getting started vignette](https://yoseflab.github.io/VISION/articles/VISION-vignette.html).
+
+***
