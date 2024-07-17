@@ -87,7 +87,7 @@ Link to the [documentation page](http://cistrome.org/db/#/documents).
 
 ***
 
-### [*ReMap2022*]((https://remap2022.univ-amu.fr/)
+### [*ReMap2022*](https://remap2022.univ-amu.fr/)
 
 ReMap is a large scale integrative analysis of DNA-binding experiments for Homo sapiens, Mus musculus, Drosophila melanogaster and Arabidopsis thaliana transcriptional regulators. the catalogues are the results of the manual curation of ChIP-seq, ChIP-exo, DAP-seq from public sources (GEO, ENCODE, ENA).
 
