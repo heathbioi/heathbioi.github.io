@@ -230,15 +230,6 @@ Link to the [User Guide](https://www.biomage.net/user-guide).
 
 ***
 
-### [*Fast Genomics*](https://beta.fastgenomics.org/home)
-
-![Fast Genomics!](/assets/img/fast-genomics.png)
-
-Another cloud based analysis tool, similar to Cellenics.
-Link to [Documentation page](https://beta.fastgenomics.org/docs/).
-
-***
-
 ### [*Single Cell Portal*](https://singlecell.broadinstitute.org/single_cell)
 
 ![Single Cell Portal!](/assets/img/single-cell-portal.png)
