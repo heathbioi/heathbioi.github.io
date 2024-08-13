@@ -185,3 +185,19 @@ VISION is an R package that aids in the interpretation of single-cell RNA-seq da
 Link to the [getting started vignette](https://yoseflab.github.io/VISION/articles/VISION-vignette.html).
 
 ***
+
+### [*SComatic*](https://github.com/cortes-ciriano-lab/SComatic)
+
+SComatic is a tool that provides functionalities to detect somatic single-nucleotide mutations in high-throughput single-cell genomics and transcriptomics data sets, such as single-cell RNA-seq and single-cell ATAC-seq.
+
+***
+
+### [*scRNA-tools*](https://www.scrna-tools.org/)
+
+![scRNA-tools!](/assets/img/scrna-tools.png)
+
+The scRNA-tools database is a catalogue of tools for analysing single-cell RNA sequencing data. Really nice website that can be your one-stop shop to find the right tool for the analysis you are looking to perform!
+
+Link to the [FAQ page](https://www.scrna-tools.org/faqs).
+
+***
