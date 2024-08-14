@@ -202,10 +202,48 @@ Link to the [FAQ page](https://www.scrna-tools.org/faqs).
 
 ***
 
-### [*Kaplan-Meier Plotter*](https://kmplot.com/analysis/index.php?p=background)
+### [*Kaplan-Meier Plotter*](https://kmplot.com)
 
 ![Kaplan-Meier Plotter!](/assets/img/km-plotter.png)
 
 The Kaplan Meier plotter is capable of assessing the correlation between the expression of all genes (mRNA, miRNA, protein, & DNA) and survival in 35k+ samples from 21 tumor types. Applied statistical tools include Cox proportional hazards regression and the computation of the False Discovery Rate. With 20,000 analyses per day, the KM-plotter is a worldwide reference for the discovery and validation of survival biomarkers.
+
+***
+
+### [*InnateDB*](https://www.innatedb.com/index.jsp)
+
+![InnateDB!](/assets/img/innatedb.png)
+
+InnateDB is publicly available database of the genes, proteins, experimentally-verified interactions and signaling pathways involved in the innate immune response of humans, mice and bovines to microbial infection. The database captures an improved coverage of the innate immunity interactome by integrating known interactions and pathways from major public databases together with manually-curated data into a centralised resource. To date, 18,780 interactions have been manually curated by the InnateDB curation team. The database can be mined as a knowledgebase or used with our integrated bioinformatics and visualization tools for the systems level analysis of the innate immune response. 
+
+A website tutorial can be found at the top right of the home page.
+
+***
+
+### [*ROC Plotter*](https://rocplot.com)
+
+![ROC Plotter!](/assets/img/roc-plotter.png)
+
+The ROC plotter is capable of linking gene expression and therapy response using transcriptome-level data of breast, ovarian, and colorectal cancer patients and glioblastomas. The custom plotter generates a ROC plot for user-uploaded data.
+
+***
+
+### [*muTarget*](https://mutarget.com)
+
+![muTarget!](/assets/img/mutarget.png)
+
+muTarget is a cancer biomarker / target discovery tool with two major functions
+
+1) With a "Genotype" run one can identify gene(s) showing altered expression in samples harbouring a mutated input gene. This option is useful in case one searches new drug targets in a cohort of patients with a given mutation.
+
+2) With a "Target" run one can identify mutations resulting in expression change in the input gene. This option is useful in case one has a drug target gene, and patient cohorts with enriched expression is the question.
+
+***
+
+### [*TNMplot: differential gene expression analysis in Tumour, Normal, and Metastatic tissues*](https://tnmplot.com)
+
+![TNMplot!](/assets/img/tnm-plot.png)
+
+Realy nice tool! Performs a whole range of pan-cancer analyses and provides multiple different outputs such as dot plots, bar charts, correlation plots, box plots and more!
 
 ***
