@@ -201,3 +201,11 @@ The scRNA-tools database is a catalogue of tools for analysing single-cell RNA s
 Link to the [FAQ page](https://www.scrna-tools.org/faqs).
 
 ***
+
+### [*Kaplan-Meier Plotter*](https://kmplot.com/analysis/index.php?p=background)
+
+![Kaplan-Meier Plotter!](/assets/img/km-plotter.png)
+
+The Kaplan Meier plotter is capable of assessing the correlation between the expression of all genes (mRNA, miRNA, protein, & DNA) and survival in 35k+ samples from 21 tumor types. Applied statistical tools include Cox proportional hazards regression and the computation of the False Discovery Rate. With 20,000 analyses per day, the KM-plotter is a worldwide reference for the discovery and validation of survival biomarkers.
+
+***
