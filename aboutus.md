@@ -10,9 +10,3 @@ our group currently consists of:
 - Robert Andrews
 - Alex Gibbs
 - Patricia Rodrigues
-
-
-
-this needs to be updated
-
-
