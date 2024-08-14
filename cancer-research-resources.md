@@ -438,6 +438,56 @@ Link to [documentation Page](http://tisch.comp-genomics.org/documentation/).
 
 ***
 
+### [*Kaplan-Meier Plotter*](https://kmplot.com/analysis/index.php?p=background)
+
+![Kaplan-Meier Plotter!](/assets/img/km-plotter.png)
+
+The Kaplan Meier plotter is capable of assessing the correlation between the expression of all genes (mRNA, miRNA, protein, & DNA) and survival in 35k+ samples from 21 tumor types. Applied statistical tools include Cox proportional hazards regression and the computation of the False Discovery Rate. With 20,000 analyses per day, the KM-plotter is a worldwide reference for the discovery and validation of survival biomarkers.
+
+***
+
+### [*ROC Plotter*](https://rocplot.com)
+
+![ROC Plotter!](/assets/img/roc-plotter.png)
+
+The ROC plotter is capable of linking gene expression and therapy response using transcriptome-level data of breast, ovarian, and colorectal cancer patients and glioblastomas. The custom plotter generates a ROC plot for user-uploaded data.
+
+***
+
+### [*muTarget*](https://mutarget.com)
+
+![muTarget!](/assets/img/mutarget.png)
+
+muTarget is a cancer biomarker / target discovery tool with two major functions
+
+1) With a "Genotype" run one can identify gene(s) showing altered expression in samples harbouring a mutated input gene. This option is useful in case one searches new drug targets in a cohort of patients with a given mutation.
+
+2) With a "Target" run one can identify mutations resulting in expression change in the input gene. This option is useful in case one has a drug target gene, and patient cohorts with enriched expression is the question.
+
+***
+
+### [*Cancer Hallmarks*](https://cancerhallmarks.com)
+
+![Cancer Hallmarks!](/assets/img/cancer-hallmarks.png)
+
+What are the Hallmarks of Cancer?
+
+The "Hallmarks of Cancer" concept provides a framework for understanding fundamental organizing principles common to various cancers. Understanding hallmarks can benefit cancer prevention, diagnosis, and treatment development by summarizing functional and metabolic commonalities underlying malignant transformation and progression.
+
+What can CancerHallmarks do?
+
+We established a consensus list of cancer hallmark genes by merging 6,763 genes from available mapping resources. CancerHallmarks.com enhances the utility of the hallmark concept as an effective organizational tool by funneling genes to biological functions.
+
+***
+
+### [*TNMplot: differential gene expression analysis in Tumour, Normal, and Metastatic tissues*](https://tnmplot.com)
+
+![TNMplot!](/assets/img/tnm-plot.png)
+
+Realy nice tool! Performs a whole range of pan-cancer analyses and provides multiple different outputs such as dot plots, bar charts, correlation plots, box plots and more!
+
+***
+
 ***
 
 # Cancer Atlases
