@@ -1,19 +1,39 @@
 ---
-title: "RNA-seq Data Processing & Analysing Course"
+title: "RNAseq Data Processing & Analysing Course"
 author: "Alex Gibbs"
-toc: true
-theme: journal
 ---
 
-# Introduction
+# Course Structure
 
-Welcome to the **Course Name or Tutorial Title**! In this course, you will learn about **Key Topic/Skill**.
 
-This tutorial is designed to be interactive and hands-on. You’ll find examples, exercises, and links to additional resources.
+## Day 1
+### AM Session - 2-3 hours followed by a troubleshooting session
 
-## Course Objectives
+- Basic Unix
+- Introduction to HAWK
+- Basic Unix continued
+- Fetching data with nf-core/fetchngs pipeline
 
-By the end of this course, you should be able to:
+## Day 2
+### AM Session - 1-2 hours followed by a troubleshooting session
+
+- Process RNAseq data with nf-core/rnaseq pipeline
+
+## Day 3
+### AM Session - 1-2 hours followed by a troubleshooting session
+
+- Analyse processed RNAseq data with nf-core/differentialabundance pipeline
+
+## Day 4
+### AM Session - 2-3 hours followed by a troubleshooting session
+
+- Explore outputs and perform further analyses
+
+
+
+
+
+
 
 ```
 this should be a chunk of code
