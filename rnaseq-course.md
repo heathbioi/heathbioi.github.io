@@ -2,9 +2,9 @@
 title: "RNAseq Data Processing & Analysing Course"
 author: "Alex Gibbs"
 ---
-
+---
 # Course Structure
-
+---
 
 ## Day 1
 ### AM Session - 2-3 hours followed by a troubleshooting session
