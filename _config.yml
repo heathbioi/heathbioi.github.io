@@ -31,6 +31,7 @@ navbar-links:
     - What to do with a gene list: "what-to-do-with-a-gene-list"
     - General bioinformatics resources: "general-bioinformatics-resources"
     - Learning materials/courses: "learning-materials-courses"
+    - RNA-seq Data Processing & Analysis Course: "rnaseq-course"
   Robert Andrews: 
  # - Rob's First Page: "robs-markdown-file"
  # - Rob's Second Page: "robs-markdown-file2"
