@@ -1,6 +1,8 @@
 ---
 title: "RNA-seq Data Processing & Analysing Course"
 author: "Alex Gibbs"
+toc: true
+theme: journal
 ---
 
 # Introduction
