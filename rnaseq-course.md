@@ -1,13 +1,6 @@
 ---
 title: "RNA-seq Data Processing & Analysing Course"
 author: "Alex Gibbs"
-date: "`r Sys.Date()`"
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
-    theme: cerulean
-    highlight: tango
 ---
 
 # Introduction
