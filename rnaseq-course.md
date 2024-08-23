@@ -13,6 +13,11 @@ This tutorial is designed to be interactive and hands-on. You’ll find examples
 
 By the end of this course, you should be able to:
 
+```{r}
+this should be a chunk of code
+
+```
+
 - **Objective 1**: Understand and explain the basics of **Topic/Skill**.
 - **Objective 2**: Perform **Task/Analysis** using **Tool/Method**.
 - **Objective 3**: Apply **Concept/Skill** in real-world scenarios.
