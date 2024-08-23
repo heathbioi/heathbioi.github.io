@@ -7,6 +7,7 @@ author: "Alex Gibbs"
 ---
 
 ## Day 1
+---
 ### AM Session - 2-3 hours followed by a troubleshooting session
 
 - Basic Unix
@@ -15,20 +16,23 @@ author: "Alex Gibbs"
 - Fetching data with nf-core/fetchngs pipeline
 
 ## Day 2
+---
 ### AM Session - 1-2 hours followed by a troubleshooting session
 
 - Process RNAseq data with nf-core/rnaseq pipeline
 
 ## Day 3
+---
 ### AM Session - 1-2 hours followed by a troubleshooting session
 
 - Analyse processed RNAseq data with nf-core/differentialabundance pipeline
 
 ## Day 4
+---
 ### AM Session - 2-3 hours followed by a troubleshooting session
 
 - Explore outputs and perform further analyses
-
+---
 
 
 
