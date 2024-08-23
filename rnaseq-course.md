@@ -15,9 +15,8 @@ This tutorial is designed to be interactive and hands-on. You’ll find examples
 
 By the end of this course, you should be able to:
 
-```{r}
+```
 this should be a chunk of code
-
 ```
 
 - **Objective 1**: Understand and explain the basics of **Topic/Skill**.
