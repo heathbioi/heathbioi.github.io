@@ -39,6 +39,8 @@ author: "Alex Gibbs"
 ### AM Session - 2-3 hours followed by a troubleshooting session
 
 - Explore outputs and perform further analyses
+
+  
 ---
 
 
@@ -116,14 +118,55 @@ You should have one of three questions:
 - The GUI is what allows us to point and click on things, which in turn opens the respective programs etc.
 - These operations can also be performed using the command line through the use of a shell.
 
+![Shell](/assets/img/figure-1.png) This is a shell. We can use this to type commands etc.
+
+---
+
+#### Basic Unix: Setup & Installation
+
+- Before we cover installation of Unix on your PC's, we first need to install the universities VPN.
+- We will need to have the Global Protect VPN installed on our PC's in order to connect to HAWK off campus.
+
+---  
+For **MAC:**
+
+  - Use this [link](https://software.cardiff.ac.uk) and log in to the Software Downloads website with your university log in.
+  - Then click on *Global Protect*, then click the *MAC OS* link, then click on the *GlobalProtect-6.2.4.pkg* download button to initiate the download to your PC.
+  - Once the file has downloaded, navigate to it and double-click on it to initiate installation onto your PC.
+  - Navigate through the installer by clicking *Continue*.
+  - Check boxes for *GlobalProtect* and *GlobalProtect System Extensions* and click *Continue*.
+  - Click *Install*.
+  - Enter your admin password when prompted and click *Install Software*.
+  - Click *Close* once the installation has completed.
+  - When prompted, choose to *Allow* the system extension in Security and Privacy preferences.
+  - Click on the system notification to Allow notifications from GlobalProtect.
 
 
-# RESULTS {.tabset}
-## Code View 
-ls -lah results-directory
+---
+For **Windows:**
+  
+  - Use this [link](https://software.cardiff.ac.uk) and log in to the Software Downloads website with your university log in.
+  - Then click on *Global Protect*, then click the *Windows* link, then click on the 32- or 64-bit client link. To find out what bit your system is, go to Control Panel > System and Security > System. In the System area, the System Type shows if the system is 32 bit or 64 bit.
+  - Now click on the *GlobalProtect64-6.2.4.msi* download button to initiate the download to your PC.
+  - Click *Run* to start installation. Accept any browser security messages if they pop up.
+  - Click *Next* in the setup wizard and accept the default installation folder on your PC.
+  - Click *Next* to install the Agent in the default location in *Program Files*.
+  - Click *Next* to continue with the installation.
+  - You will be notified once installation has completed, click *Close* to finish.
+---
 
-## Table View
-hello my name is Terry
+Connecting to the VPN
+
+- The VPN runs automatically after installation.
+- Enter the portal address as *ras.cf.ac.uk*
+- Enter your university username and password.
+- Click *OK* when prompted to allow GlobalProtect access to your Desktop, Documents, and Downloads folders (three prompts).
+
+---
+
+
+
+
 
 
 
