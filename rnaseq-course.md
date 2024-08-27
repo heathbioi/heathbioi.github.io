@@ -15,7 +15,7 @@ author: "Alex Gibbs"
 
 ## Day 1  
 ---
-### AM Session - 2-3 hours followed by a troubleshooting session
+##### AM Session - 2-3 hours followed by a troubleshooting session
 
 - Basic Unix
 - Introduction to HAWK
@@ -24,19 +24,19 @@ author: "Alex Gibbs"
 
 ## Day 2
 ---
-### AM Session - 1-2 hours followed by a troubleshooting session
+##### AM Session - 1-2 hours followed by a troubleshooting session
 
 - Process RNAseq data with nf-core/rnaseq pipeline
 
 ## Day 3
 ---
-### AM Session - 1-2 hours followed by a troubleshooting session
+##### AM Session - 1-2 hours followed by a troubleshooting session
 
 - Analyse processed RNAseq data with nf-core/differentialabundance pipeline
 
 ## Day 4
 ---
-### AM Session - 2-3 hours followed by a troubleshooting session
+##### AM Session - 2-3 hours followed by a troubleshooting session
 
 - Explore outputs and perform further analyses
 
@@ -153,9 +153,10 @@ For **Windows:**
   - Click *Next* to install the Agent in the default location in *Program Files*.
   - Click *Next* to continue with the installation.
   - You will be notified once installation has completed, click *Close* to finish.
+    
 ---
 
-Connecting to the VPN
+**Connecting to the VPN:**
 
 - The VPN runs automatically after installation.
 - Enter the portal address as *ras.cf.ac.uk*
@@ -163,6 +164,42 @@ Connecting to the VPN
 - Click *OK* when prompted to allow GlobalProtect access to your Desktop, Documents, and Downloads folders (three prompts).
 
 ---
+
+#### Basic Unix: Setup & Installation: Mac
+
+- Mac users have a built-in Unix shell called bash. To open this, open the *Terminal* application/program.
+- To transfer files to- and from the HAWK servers that we will be using, we can either use code in Terminal (advanced use), or use a file transfer program (FTP) called FileZilla.
+
+**FileZilla Installation**
+
+- Search for *FileZilla* on Google, or follow this [link](https://filezilla-project.org/download.php?type=client).
+- Click on the *Download FileZilla Client* button to initiate the download.
+- Once downloaded, double-clicking on the downloaded file will initiate installation.
+- Once installed, open the software.
+
+![FileZilla Log-in](/assets/img/figure-2.png)
+
+**To connect to HAWK:**
+
+- Host: **hawklogin.cf.ac.uk**
+- Username: **c.c123456**  (Your HAWK account username)
+- Password: **XXXXXXX**  (Your HAWK account password)
+- Once connected, you will see that you have two connections.
+- Your PC files and folders are on the left box.
+- Your HAWK files and folders are on the right box.
+- **To transfer files, simply drag and drop from one side to the other.**
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -175,4 +212,5 @@ Connecting to the VPN
 ```
 this should be a chunk of code
 ```
+![Text](/assets/img/figure-.png) This is a shell. We can use this to type commands etc.
 
