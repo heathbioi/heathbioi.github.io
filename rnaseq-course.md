@@ -65,7 +65,7 @@ We will cover:
 
 ---
 
-### Course Introduction
+#### Course Introduction
 
 ---
 
@@ -177,8 +177,6 @@ For **Windows:**
 - Once downloaded, double-clicking on the downloaded file will initiate installation.
 - Once installed, open the software.
 
-![FileZilla Log-in](/assets/img/figure-2.png)
-
 **To connect to HAWK:**
 
 - Host: **hawklogin.cf.ac.uk**
@@ -188,20 +186,72 @@ For **Windows:**
 - Your PC files and folders are on the left box.
 - Your HAWK files and folders are on the right box.
 - **To transfer files, simply drag and drop from one side to the other.**
+- You can also double-click on the respective folders to navigate to wherever you want to be.
 
+![FileZilla Log-in](/assets/img/figure-2.png)
 
+---
 
+#### Basic Unix: Setup & Installation: Windows
 
+- Windows users don't have an integrated Unix shell, so you will need to download and install one. We will use **MobaXterm**.
+- MobaXterm is an integrated shell, which combines command line with FTP all in one window/application.
+- 
+- Mac users have a built-in Unix shell called bash. To open this, open the *Terminal* application/program.
+- To transfer files to- and from the HAWK servers that we will be using, we can either use code in Terminal (advanced use), or use a file transfer program (FTP) called FileZilla.
 
+**MobaXterm Installation**
 
+- Search for *MobaXterm* on Google, or follow this [link](https://mobaxterm.mobatek.net/download.html).
+- Click on the *Download Now* button on the Home Edition version to initiate the download.
+- Once downloaded, click *Run* to initiate installation.
+- Once installed, open the software.
 
+# THIS BIT NEEDS COMPLETING
 
+---
 
+#### Introduction to HAWK
 
+- HAWK is Cardiff and Bangor universities High Performance Compute (HPC) system.
+- Swansea and Aberystwyth universities use SunBird - both systems are the run by Supercomputing Wales (SCW).
+- Both HPC's are the same, but are set-up slightly different - we will be working with HAWK.
+- If we need to run analyses/softwares/code that requires a lot of computing power, we need to use HPC's.
+- The way we interact with HAWK is through the command line via Bash.
+- Think of HAWK as a computer that's located in the cloud. We can connect to it via out Unix shells - Terminal, MobaXterm, and FileZilla.
 
+---
 
+#### Introduction to HAWK: HAWK Filesystem
 
+- Like our own PC's, HAWK has its own files and folder structure.
+- From here, we will now refer to folders as **directories**.
+- The basic structure of HAWK:
 
+![Basic HAWK Structure](/assets/img/figure-3.png)
+
+- We have two main directories: *home* and *scratch*.
+
+- **home directory**
+  - This is where we are located when we log into HAWK.
+  - Has limited long-term storage.
+  - *DO NOT WORK HERE!*
+  - 
+- **scratch directory**
+  - This is where we perform our compute-heavy analyses.
+  - Not for long-term storage! Files are deleted after 60-days.
+  - Do your work, then move your files back to home directory or to another storage location such as the Research Data Store (RDS).
+
+---
+
+#### Basic Unix Continued: Common Commands
+
+- Now that we have covered basic Unix and introduced HAWK, we can now learn how to use the command line.
+
+- Here is a list of commonly used Unix commands that we will be using:
+  
+
+**Insert figure of common commands**
 
 
 
