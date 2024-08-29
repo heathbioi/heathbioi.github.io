@@ -285,16 +285,27 @@ Syntax = Structure of statements in a computing language.
 `ls` = list command
 `-lah` = options for the list command
 `.` = argument for the list command
+
+---
+
 **Command**
 - The `ls` command will list/print the files and directories in your current directory.
+
+---
+
 **Options**
 - The `-lah` options will print a list in long format which will be human readable and show hidden files.
+
+---
+
 **Argument**
 - The argument gives the system the required input, these are usually files or directories
 - The `.` argument means 'here' or where I currently am. We will cover this shortly.
+
 ---
 - Not all commands have options, and most commands have optional options - you don't have to use them!
 ---
+
 #### Basic Unix Continued: Exploring Using Unix
 - Lets cover the three most basic (and used) commands:
   - `pwd` = Where am I?
@@ -305,15 +316,17 @@ Syntax = Structure of statements in a computing language.
 - When we first open a Unix shell, we are taken to the default directory.
 - If you have downloaded a shell (such as iTerm2, MobaXterm, FileZilla), this location can change depending on where you installed the software.
 - To find out where we are currently located, we can use the `pwd` command:
+---
 **Input**
 ```
-**Input**
 pwd
 ```
-
+---
 **Output**
-`/Users/alexgibbs/Desktop`
-
+```
+/Users/alexgibbs/Desktop`
+```
+---
 
 
 
