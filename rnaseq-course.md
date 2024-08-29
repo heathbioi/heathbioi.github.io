@@ -230,7 +230,7 @@ For **Windows:**
 
 ![Basic HAWK Structure](/assets/img/figure-3.png)
 
-- We have two main directories: <span style="color: red;">*home*</span> and <span style="color: green;">*scratch*.
+- We have two main directories: <span style="color: green;">*home*</span> and <span style="color: red;">*scratch*.
 
 - <span style="color: green;">**home directory**
   - This is where we are located when we log into HAWK.
@@ -284,26 +284,20 @@ Syntax = Structure of statements in a computing language.
 - `.` = argument for the list command
 
 **All commands are case sensitive!**
-
----
-
+<br>
 **Command**
 - The `ls` command will list/print the files and directories in your current directory.
-
----
-
+<br>
 **Options**
 - The `-lah` options will print a list in long format which will be human readable and show hidden files.
-
----
-
+<br>
 **Argument**
 - The argument gives the system the required input, these are usually files or directories
 - The `.` argument means 'here' or where I currently am. We will cover this shortly.
 
 ---
 
-- Not all commands have options, and most commands have optional options - you don't have to use them!
+Not all commands have options, and most commands have optional options - you don't have to use them!
 
 ---
 
@@ -319,15 +313,12 @@ Syntax = Structure of statements in a computing language.
 - When we first open a Unix shell, we are taken to the default directory.
 - If you have downloaded a shell (such as iTerm2, MobaXterm, FileZilla), this location can change depending on where you installed the software.
 - To find out where we are currently located, we can use the `pwd` command:
-
----
-
+<br>
 **Input**
 ```
 pwd
 ```
-
----
+<br>
 
 **Output**
 ```
