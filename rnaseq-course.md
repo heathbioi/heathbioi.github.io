@@ -285,16 +285,18 @@ Syntax = Structure of statements in a computing language.
 
 **All commands are case sensitive!**
 
-<br>
-
 ---
 
 **Command**
 - The `ls` command will list/print the files and directories in your current directory.
+
 <br>
+
 **Options**
 - The `-lah` options will print a list in long format which will be human readable and show hidden files.
+
 <br>
+
 **Argument**
 - The argument gives the system the required input, these are usually files or directories
 - The `.` argument means 'here' or where I currently am. We will cover this shortly.
@@ -318,13 +320,10 @@ Not all commands have options, and most commands have optional options - you don
 - If you have downloaded a shell (such as iTerm2, MobaXterm, FileZilla), this location can change depending on where you installed the software.
 - To find out where we are currently located, we can use the `pwd` command:
 
-<br>
-
 **Input**
 ```
 pwd
 ```
-<br>
 
 **Output**
 ```
