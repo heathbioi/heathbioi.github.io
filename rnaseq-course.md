@@ -235,7 +235,7 @@ For **Windows:**
 - **home directory (green)**
   - This is where we are located when we log into HAWK.
   - Has limited long-term storage.
-  - **DO NOT WORK HERE!**
+  - **DO NOT WORK HERE!**  
     
 - **scratch directory (red)**
   - This is where we perform our compute-heavy analyses.
@@ -279,13 +279,11 @@ Syntax = Structure of statements in a computing language.
 
 `ls -lah .` - command, options, arguments
 
+- `ls` = list command
+- `-lah` = options for the list command
+- `.` = argument for the list command
+
 **All commands are case sensitive!**
-
-`ls -lah .` - command, options, arguments
-
-`ls` = list command
-`-lah` = options for the list command
-`.` = argument for the list command
 
 ---
 
