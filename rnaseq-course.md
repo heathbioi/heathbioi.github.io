@@ -235,7 +235,7 @@ For **Windows:**
 - **home directory (green)**
   - This is where we are located when we log into HAWK.
   - Has limited long-term storage.
-  - *DO NOT WORK HERE!*
+  - **DO NOT WORK HERE!**
 - **scratch directory (red)**
   - This is where we perform our compute-heavy analyses.
   - Not for long-term storage! Files are deleted after 60-days.
@@ -250,24 +250,24 @@ For **Windows:**
 - Here is a list of commonly used Unix commands that we will be using:
   
 
-Command|Description|Common Flags|Flag Description
+Command|Description|Common Options|Option Description
 |:----:|:----------|:-----------|:--------------|
-ls|print directory contents|ls -lah|list that is long, shows hidden files, and is human-readable
-mv|rename/move a file|mv -r/*|moves recursively (moves a directory and everything inside)/moves everything
-cp|copy a file|cp -r/*|copies recursively (copies a directory and everything inside)/copies everything
-cd|change directory||
-pwd|where am I?||
-history|what have I typed?||
-rm|delete a file|rm -r/*|removes recursively (removes a directory and everything inside)/removes everything
-mkdir|make a directory||
-touch|make an empty file||
-nano|open and edit a file||
-more/less|reads a file||
-head|read the top of a file||
-tail|read the bottom of a file||
-wc|count the number of lines in a file||
-grep|word search in a file||
-chmod|change permission of a file|chmod +x|makes file executable
+`ls`|print directory contents|`ls -lah`|list that is long, shows hidden files, and is human-readable
+`mv`|rename/move a file|`mv -r/*`|moves recursively (moves a directory and everything inside)/moves everything
+`cp`|copy a file|`cp -r/*`|copies recursively (copies a directory and everything inside)/copies everything
+`cd`|change directory||
+`pwd`|where am I?||
+`history`|what have I typed?||
+`rm`|remove a file|`rm -r/*`|removes recursively (removes a directory and everything inside)/removes everything
+`mkdir`|make a directory||
+`touch`|make an empty file||
+`nano`|open and edit a file||
+`more/less`|reads a file||
+`head`|read the top of a file||
+`tail`|read the bottom of a file||
+`wc`|count the number of lines in a file||
+`grep`|word search in a file||
+`chmod`|change permission of a file|`chmod +x`|makes file executable
 
 ---
 #### Basic Unix Continued: Command line Syntax
@@ -278,14 +278,49 @@ Syntax = Structure of statements in a computing language.
 
 `ls -lah .` - command, options, arguments
 
-> [!NOTE]
-> All commands are case sensitive!
+**All commands are case sensitive!**
 
+`ls -lah .` - command, options, arguments
+
+`ls` = list command
+`-lah` = options for the list command
+`.` = argument for the list command
+**Command**
+- The `ls` command will list/print the files and directories in your current directory.
+**Options**
+- The `-lah` options will print a list in long format which will be human readable and show hidden files.
+**Argument**
+- The argument gives the system the required input, these are usually files or directories
+- The `.` argument means 'here' or where I currently am. We will cover this shortly.
 ---
+- Not all commands have options, and most commands have optional options - you don't have to use them!
+---
+#### Basic Unix Continued: Exploring Using Unix
+- Lets cover the three most basic (and used) commands:
+  - `pwd` = Where am I?
+  - `ls` = List
+  - `cd` = Change directory
+---
+##### pwd Command
+- When we first open a Unix shell, we are taken to the default directory.
+- If you have downloaded a shell (such as iTerm2, MobaXterm, FileZilla), this location can change depending on where you installed the software.
+- To find out where we are currently located, we can use the `pwd` command:
+**Input**
+```
+**Input**
+pwd
+```
+
+**Output**
+`/Users/alexgibbs/Desktop`
 
 
 
 
+
+
+
+#### Exercise: 
 
 
 
