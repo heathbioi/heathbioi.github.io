@@ -284,7 +284,11 @@ Syntax = Structure of statements in a computing language.
 - `.` = argument for the list command
 
 **All commands are case sensitive!**
+
 <br>
+
+---
+
 **Command**
 - The `ls` command will list/print the files and directories in your current directory.
 <br>
@@ -313,7 +317,9 @@ Not all commands have options, and most commands have optional options - you don
 - When we first open a Unix shell, we are taken to the default directory.
 - If you have downloaded a shell (such as iTerm2, MobaXterm, FileZilla), this location can change depending on where you installed the software.
 - To find out where we are currently located, we can use the `pwd` command:
+
 <br>
+
 **Input**
 ```
 pwd
