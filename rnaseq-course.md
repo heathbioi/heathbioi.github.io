@@ -230,7 +230,7 @@ For **Windows:**
 
 ![Basic HAWK Structure](/assets/img/figure-3.png)
 
-- We have two main directories: <span style="color: red;">*home* and <span style="color: green;">*scratch*.
+- We have two main directories: <span style="color: red;">*home*</span> and style="color: green;">*scratch*.
 
 - <span style="color: green;">**home directory**
   - This is where we are located when we log into HAWK.
