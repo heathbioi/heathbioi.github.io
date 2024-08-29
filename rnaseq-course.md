@@ -232,11 +232,11 @@ For **Windows:**
 
 - We have two main directories: *home* and *scratch*.
 
-- **[home directory]{green}**
+- **home directory (green)**
   - This is where we are located when we log into HAWK.
   - Has limited long-term storage.
   - *DO NOT WORK HERE!*
-- **scratch directory**
+- **scratch directory (red)**
   - This is where we perform our compute-heavy analyses.
   - Not for long-term storage! Files are deleted after 60-days.
   - Do your work, then move your files back to home directory or to another storage location such as the Research Data Store (RDS).
@@ -250,7 +250,39 @@ For **Windows:**
 - Here is a list of commonly used Unix commands that we will be using:
   
 
-**Insert figure of common commands**
+Command|Description|Common Flags|Flag Description
+|:----:|:----------|:-----------|:--------------|
+ls|print directory contents|ls -lah|list that is long, shows hidden files, and is human-readable
+mv|rename/move a file|mv -r/*|moves recursively (moves a directory and everything inside)/moves everything
+cp|copy a file|cp -r/*|copies recursively (copies a directory and everything inside)/copies everything
+cd|change directory||
+pwd|where am I?||
+history|what have I typed?||
+rm|delete a file|rm -r/*|removes recursively (removes a directory and everything inside)/removes everything
+mkdir|make a directory||
+touch|make an empty file||
+nano|open and edit a file||
+more/less|reads a file||
+head|read the top of a file||
+tail|read the bottom of a file||
+wc|count the number of lines in a file||
+grep|word search in a file||
+chmod|change permission of a file|chmod +x|makes file executable
+
+---
+#### Basic Unix Continued: Command line Syntax
+
+Syntax = Structure of statements in a computing language.
+
+"I like computers" - pronoun, verb, noun
+
+`ls -lah .` - command, options, arguments
+
+> [!NOTE]
+> All commands are case sensitive!
+
+---
+
 
 
 
