@@ -236,6 +236,7 @@ For **Windows:**
   - This is where we are located when we log into HAWK.
   - Has limited long-term storage.
   - **DO NOT WORK HERE!**
+    
 - **scratch directory (red)**
   - This is where we perform our compute-heavy analyses.
   - Not for long-term storage! Files are deleted after 60-days.
@@ -313,6 +314,7 @@ Syntax = Structure of statements in a computing language.
   - `pwd` = Where am I?
   - `ls` = List
   - `cd` = Change directory
+    
 ---
 
 ##### pwd Command
