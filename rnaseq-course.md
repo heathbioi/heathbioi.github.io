@@ -232,10 +232,13 @@ For **Windows:**
 
 - We have two main directories: *home* and *scratch*.
 
-- **home directory**
+- **`#0969DA home directory`**
   - This is where we are located when we log into HAWK.
   - Has limited long-term storage.
   - *DO NOT WORK HERE!*
+  - `#0969DA`home directory
+  - home directory`#0969DA`
+  - `#0969DA home directory`
   - 
 - **scratch directory**
   - This is where we perform our compute-heavy analyses.
