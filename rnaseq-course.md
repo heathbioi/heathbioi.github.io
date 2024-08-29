@@ -237,7 +237,7 @@ For **Windows:**
   - Has limited long-term storage.
   - **DO NOT WORK HERE!**  
   <br>
-- <span style="color: red;">**scratch directory (red)</span>**
+- <span style="color: red;">**scratch directory**
   - This is where we perform our compute-heavy analyses.
   - Not for long-term storage! Files are deleted after 60-days.
   - Do your work, then move your files back to home directory or to another storage location such as the Research Data Store (RDS).
