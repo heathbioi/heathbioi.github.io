@@ -236,7 +236,7 @@ For **Windows:**
   - This is where we are located when we log into HAWK.
   - Has limited long-term storage.
   - **DO NOT WORK HERE!**  
-  
+  <br>
 - **scratch directory (red)**
   - This is where we perform our compute-heavy analyses.
   - Not for long-term storage! Files are deleted after 60-days.
