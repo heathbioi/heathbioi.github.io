@@ -232,7 +232,7 @@ For **Windows:**
 
 - We have two main directories: *home* and *scratch*.
 
-- **home directory (green)**
+- <span style="color: green;">**home directory**
   - This is where we are located when we log into HAWK.
   - Has limited long-term storage.
   - **DO NOT WORK HERE!**  
