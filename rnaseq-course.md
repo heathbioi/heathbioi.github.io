@@ -303,7 +303,9 @@ Syntax = Structure of statements in a computing language.
 - The `.` argument means 'here' or where I currently am. We will cover this shortly.
 
 ---
+
 - Not all commands have options, and most commands have optional options - you don't have to use them!
+
 ---
 
 #### Basic Unix Continued: Exploring Using Unix
@@ -312,20 +314,26 @@ Syntax = Structure of statements in a computing language.
   - `ls` = List
   - `cd` = Change directory
 ---
+
 ##### pwd Command
 - When we first open a Unix shell, we are taken to the default directory.
 - If you have downloaded a shell (such as iTerm2, MobaXterm, FileZilla), this location can change depending on where you installed the software.
 - To find out where we are currently located, we can use the `pwd` command:
+
 ---
+
 **Input**
 ```
 pwd
 ```
+
 ---
+
 **Output**
 ```
 /Users/alexgibbs/Desktop`
 ```
+
 ---
 
 
