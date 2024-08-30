@@ -244,8 +244,9 @@ For **Windows:**
 
 ---
 
-<span style="color: yellow;"> <h1>Basic Unix Continued: Common Commands</h1>
-
+<span style="color: yellow;"> 
+<h1> Basic Unix Continued: Common Commands </h1>
+</span>
   
 - Now that we have covered basic Unix and introduced HAWK, we can now learn how to use the command line.
 
