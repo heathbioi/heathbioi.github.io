@@ -332,7 +332,7 @@ pwd
 /Users/alexgibbs/Desktop
 ```
 
-<iframe src="https://giphy.com/embed/XpZL62ru3mrmfx1brb" width="480" height="379" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XpZL62ru3mrmfx1brb">via GIPHY</a></p>
+<img src="/assets/img/pwd.gif" alt="pwd" width="1200"/>
 
 ---
 
