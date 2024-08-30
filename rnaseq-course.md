@@ -119,9 +119,7 @@ You should have one of three questions:
 - The GUI is what allows us to point and click on things, which in turn opens the respective programs etc.
 - These operations can also be performed using the command line through the use of a shell.
 
-<img src="/assets/img/figure-1.png" alt="Shell" width="200"/>
-
-\\![Shell](/assets/img/figure-1.png) This is a shell. We can use this to type commands etc.
+<img src="/assets/img/figure-1.png" alt="Shell" width="1200"/> This is a shell. We can use this to type commands etc.
 
 ---
 
