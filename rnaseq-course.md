@@ -189,7 +189,7 @@ For **Windows:**
 - **To transfer files, simply drag and drop from one side to the other.**
 - You can also double-click on the respective folders to navigate to wherever you want to be.
 
-![FileZilla Log-in](/assets/img/figure-2.png)
+<img src="/assets/img/figure-2.png" alt="FileZilla Log-in" width="1200"/>
 
 ---
 
@@ -229,7 +229,7 @@ For **Windows:**
 - From here, we will now refer to folders as **directories**.
 - The basic structure of HAWK:
 
-![Basic HAWK Structure](/assets/img/figure-3.png)
+<img src="/assets/img/figure-3.png" alt="Basic HAWK Structure" width="1200"/>
 
 - We have two main directories: <span style="color: green;">*home*</span> and <span style="color: red;">*scratch*.
 
