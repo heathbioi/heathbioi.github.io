@@ -244,8 +244,9 @@ For **Windows:**
 
 ---
 
-<span style="color: yellow;">#### Basic Unix Continued: Common Commands
-
+<span style="color: black;">
+#### Basic Unix Continued: Common Commands
+</span>
 - Now that we have covered basic Unix and introduced HAWK, we can now learn how to use the command line.
 
 - Here is a list of commonly used Unix commands that we will be using:
