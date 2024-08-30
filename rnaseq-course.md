@@ -334,6 +334,10 @@ pwd
 
 <img src="https://media.giphy.com/media/Ui9pPxi8rc5djtWOFz/giphy.gif" alt="pwd" width="1200"/>
 
+![pwd](/assets/img/pwd.gif)
+
+<img src="/assets/img/pwd.gif" alt="pwd" width="1200"/>
+
 ---
 
 
