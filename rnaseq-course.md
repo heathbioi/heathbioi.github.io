@@ -329,10 +329,10 @@ pwd
 
 **Output**
 ```
-/Users/alexgibbs/Desktop
+/Users/c1427056/
 ```
 
-![pwd](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWZpazZvMXZsamJnbndqOWhka2lyazJkN3Z0YmV0N2I3NjVrY2d5cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XpZL62ru3mrmfx1brb/giphy.gif)
+<img src="[/assets/img/figure-3.png](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWZpazZvMXZsamJnbndqOWhka2lyazJkN3Z0YmV0N2I3NjVrY2d5cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XpZL62ru3mrmfx1brb/giphy.gif)" alt="pwd" width="1200"/>
 
 ---
 
