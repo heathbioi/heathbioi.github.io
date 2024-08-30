@@ -51,7 +51,7 @@ full-width: true
 ---
 ---
 
-# Day 1
+# <span style="color:black;">Day 1
 
 ---
 ---
@@ -66,7 +66,7 @@ We will cover:
 
 ---
 
-#### Course Introduction
+#### <span style="color:black;">Course Introduction
 
 ---
 
@@ -78,7 +78,7 @@ You should have one of three questions:
 
 ---
 
-#### What you will learn on this course:
+#### <span style="color:black;">What you will learn on this course:
 
 - How to find and download sequencing data from online data repositories.
 - How to process the sequencing data.
@@ -87,14 +87,14 @@ You should have one of three questions:
 
 ---
 
-#### What you won't learn on this course:
+#### <span style="color:black;">What you won't learn on this course:
 
 - How RNAseq technology/process works. Please see this [video](https://www.youtube.com/watch?v=tlf6wYJrwKY) for an overview.
 - How to hack the mainframe and take over the world.
 
 ---
 
-#### Basic Unix: Learning Objectives
+#### <span style="color:black;">Basic Unix: Learning Objectives
 
 - Learn the concept of using the command line.
 - Learn how to navigate and manipulate files and data.
@@ -102,7 +102,7 @@ You should have one of three questions:
 
 ---
 
-#### Basic Unix: Brief History
+#### <span style="color:black;">Basic Unix: Brief History
 
 - UNIX is a suite of programs that make up an operating system (like Windows and Mac).
 - First developed in 1960's and has been in constant development ever since.
@@ -113,7 +113,7 @@ You should have one of three questions:
 
 ---
 
-#### Basic Unix: Graphical User Interface (GUI) & Command Line/Shell
+#### <span style="color:black;">Basic Unix: Graphical User Interface (GUI) & Command Line/Shell
 
 - All Windows/Mac/Linux PC's use a GUI to allow users to easily navigate and use the PC.
 - The GUI is what allows us to point and click on things, which in turn opens the respective programs etc.
@@ -123,7 +123,7 @@ You should have one of three questions:
 
 ---
 
-#### Basic Unix: Setup & Installation
+#### <span style="color:black;">Basic Unix: Setup & Installation
 
 - Before we cover installation of Unix on your PC's, we first need to install the universities VPN.
 - We will need to have the Global Protect VPN installed on our PC's in order to connect to HAWK off campus.
@@ -166,7 +166,7 @@ For **Windows:**
 
 ---
 
-#### Basic Unix: Setup & Installation: Mac
+#### <span style="color:black;">Basic Unix: Setup & Installation: Mac
 
 - Mac users have a built-in Unix shell called bash. To open this, open the *Terminal* application/program.
 - To transfer files to- and from the HAWK servers that we will be using, we can either use code in Terminal (advanced use), or use a file transfer program (FTP) called FileZilla.
@@ -193,7 +193,7 @@ For **Windows:**
 
 ---
 
-#### Basic Unix: Setup & Installation: Windows
+#### <span style="color:black;">Basic Unix: Setup & Installation: Windows
 
 - Windows users don't have an integrated Unix shell, so you will need to download and install one. We will use **MobaXterm**.
 - MobaXterm is an integrated shell, which combines command line with FTP all in one window/application.
@@ -212,7 +212,7 @@ For **Windows:**
 
 ---
 
-#### Introduction to HAWK
+#### <span style="color:black;">Introduction to HAWK
 
 - HAWK is Cardiff and Bangor universities High Performance Compute (HPC) system.
 - Swansea and Aberystwyth universities use SunBird - both systems are the run by Supercomputing Wales (SCW).
@@ -223,7 +223,7 @@ For **Windows:**
 
 ---
 
-#### Introduction to HAWK: HAWK Filesystem
+#### <span style="color:black;">Introduction to HAWK: HAWK Filesystem
 
 - Like our own PC's, HAWK has its own files and folder structure.
 - From here, we will now refer to folders as **directories**.
@@ -273,7 +273,7 @@ Command|Description|Common Options|Option Description
 `chmod`|change permission of a file|`chmod +x`|makes file executable
 
 ---
-#### Basic Unix Continued: Command line Syntax
+#### <span style="color:black;">Basic Unix Continued: Command line Syntax
 
 Syntax = Structure of statements in a computing language.
 
@@ -309,7 +309,7 @@ Not all commands have options, and most commands have optional options - you don
 
 ---
 
-#### Basic Unix Continued: Exploring Using Unix
+#### <span style="color:black;">Basic Unix Continued: Exploring Using Unix
 - Lets cover the three most basic (and used) commands:
   - `pwd` = Where am I?
   - `ls` = List
@@ -317,7 +317,7 @@ Not all commands have options, and most commands have optional options - you don
     
 ---
 
-##### pwd Command
+##### <span style="color:black;">pwd Command
 - When we first open a Unix shell, we are taken to the default directory.
 - If you have downloaded a shell (such as iTerm2, MobaXterm, FileZilla), this location can change depending on where you installed the software.
 - To find out where we are currently located, we can use the `pwd` command:
@@ -329,8 +329,10 @@ pwd
 
 **Output**
 ```
-/Users/alexgibbs/Desktop`
+/Users/alexgibbs/Desktop
 ```
+
+<iframe src="https://giphy.com/embed/XpZL62ru3mrmfx1brb" width="480" height="379" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/XpZL62ru3mrmfx1brb">via GIPHY</a></p>
 
 ---
 
@@ -339,7 +341,7 @@ pwd
 
 
 
-#### Exercise: 
+#### <span style="color:black;">Header Title 
 
 
 
