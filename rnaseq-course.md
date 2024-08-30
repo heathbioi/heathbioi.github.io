@@ -1,6 +1,7 @@
 ---
 title: "RNAseq Data Processing & Analysing Course"
 author: "Alex Gibbs"
+full-width: true
 ---
 
 
@@ -244,7 +245,7 @@ For **Windows:**
 
 ---
 
-<span style="color: yellow;">  <h1> Basic Unix Continued: Common Commands </h1>
+#### <span style="color:red;">Basic Unix Continued: Common Commands
 
   
 - Now that we have covered basic Unix and introduced HAWK, we can now learn how to use the command line.
