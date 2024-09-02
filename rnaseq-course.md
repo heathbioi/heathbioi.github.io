@@ -317,7 +317,7 @@ Not all commands have options, and most commands have optional options - you don
     
 ---
 
-##### <span style="color:black;">pwd Command
+##### <span style="color:black;">Basic Unix Continued: pwd Command
 - When we first open a Unix shell, we are taken to the default directory.
 - If you have downloaded a shell (such as iTerm2, MobaXterm, FileZilla), this location can change depending on where you installed the software.
 - To find out where we are currently located, we can use the `pwd` command.
@@ -337,7 +337,7 @@ pwd
 
 ---
 
-##### <span style="color:black;">ls Command
+##### <span style="color:black;">Basic Unix Continued: ls Command
 - To explore the directory, we can use the `ls` command to list the contents of the Desktop directory:
 
 **Input**
@@ -366,13 +366,97 @@ ls -lah
 
 <img src="/assets/img/figure-4.png" alt="ls" width="1000"/>
 
+- We will cover permission shortly
+
 <br>
 
 <img src="/assets/img/ls-lah.gif" alt="ls" width="1000"/>
 
+- Any file or directory with a dot (.) in front makes it hidden.
+- Hidden files are usually filesystem files and directories required by the system to correctly operate and function.
+- These hidden files are not normally needed by the user. \
+- In this course, we will potentially need to access a hidden file if things go wrong.
+
 ---
 
+##### <span style="color:black;">Basic Unix Continued: cd Command
+- To move between different directories, we use the `cd` command.
+- In the example below,  we move into the plan to take over the world directory.
+- **Note:** we can use the `tab-key` to autofill. Start typing the name of the directory and then hit tab.
+- Note: when we use the `cd` command, we don't get any feedback from the shell. Usually, we move into the directory, then use the `ls` command to show us the contents.
 
+**Input**
+```
+cd plan-to-take-over-the-world
+ls
+```
+
+**Output**
+```
+gantt-chart.pdf  top-secret-map.pdf
+hit-list.docx  villain-cape-designs.ppt
+how-to-attach-lasers-to-sharks.docx  world-takeover-ticklist.pdf
+script-to-steal-all-the-money-in-the-UK.sh
+```
+
+<img src="/assets/img/cd-ls.gif" alt="ls" width="1000"/>
+
+---
+
+##### <span style="color:black;">Basic Unix Continued: Other Notations
+**Tab-key**
+- As mentioned above, we can use the `tab-key` to autofill.
+- This will save you time and lots of errors! The `tab-key` is your friend!
+
+**Making Use Of The Dot(.)**
+- As mentioned above, the dot(.) is used to tell the system where you currently are.
+- This is best used for commands such as `ls` and `cd`.
+- When we combine two dots(..), this tells the system to use the directory above where we currently are.
+
+Input|Description
+-----|-----------
+.|Here/where I am now
+..|Previous directory/up one directory
+
+-For example, if I am currently in the Desktop directory and want to list contents of where I currently am, I can either use `ls` or `ls .`:
+
+**Input**
+```
+ls
+ls .
+```
+
+**Output**
+<img src="/assets/img/ls-ld.dot.gif" alt="ls" width="1000"/>
+
+
+
+
+
+
+
+
+
+ To move between different directories, we use the `cd` command.
+- In the example below,  we move into the plan to take over the world directory.
+- **Note:** we can use the tab-key to autofill. Start typing the name of the directory and then hit tab.
+- Note: when we use the `cd` command, we don't get any feedback from the shell. Usually, we move into the directory, then use the `ls` command to show us the contents.
+
+**Input**
+```
+cd plan-to-take-over-the-world
+ls
+```
+
+**Output**
+```
+gantt-chart.pdf  top-secret-map.pdf
+hit-list.docx  villain-cape-designs.ppt
+how-to-attach-lasers-to-sharks.docx  world-takeover-ticklist.pdf
+script-to-steal-all-the-money-in-the-UK.sh
+```
+
+<img src="/assets/img/cd-ls.gif" alt="ls" width="1000"/>
 
 
 
