@@ -347,7 +347,7 @@ ls
 
 **Output**
 ```
-<span style="color:blue;">IGV_2.8.10.app</span>  plan-to-take-over-the-world  <span style="color:blue;">Why is multiple t-testing a problem?.pdf</span>
+IGV_2.8.10.app  plan-to-take-over-the-world  Why is multiple t-testing a problem?.pdf
 ```
 
 <img src="/assets/img/ls.gif" alt="ls" width="1000"/>
@@ -363,16 +363,10 @@ ls -lah
 ```
 
 **Output**
-```
-<span style="color:blue;">.
-<span style="color:blue;">..
-.DS_Store
-.Rhistory
-.localized
-<span style="color:blue;">IGV_2.8.10.app
-plan-to-take-over-the-world
-<span style="color:blue;">Why is multiple t-testing a problem?.pdf
-```
+
+<img src="/assets/img/figure-4.png" alt="ls" width="1000"/>
+
+<br>
 
 <img src="/assets/img/ls-lah.gif" alt="ls" width="1000"/>
 
