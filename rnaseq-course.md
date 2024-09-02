@@ -320,7 +320,8 @@ Not all commands have options, and most commands have optional options - you don
 ##### <span style="color:black;">pwd Command
 - When we first open a Unix shell, we are taken to the default directory.
 - If you have downloaded a shell (such as iTerm2, MobaXterm, FileZilla), this location can change depending on where you installed the software.
-- To find out where we are currently located, we can use the `pwd` command:
+- To find out where we are currently located, we can use the `pwd` command.
+- In the example below, the pwd output tells me that I am in my Desktop directory.
 
 **Input**
 ```
@@ -329,12 +330,76 @@ pwd
 
 **Output**
 ```
-/Users/c1427056/
+/Users/alexgibbs/Desktop
 ```
 
 <img src="/assets/img/pwd.gif" alt="pwd" width="1000"/>
 
 ---
+
+##### <span style="color:black;">ls Command
+- To explore the directory, we can use the `ls` command to list the contents of the Desktop directory:
+
+**Input**
+```
+ls
+```
+
+**Output**
+```
+<span style="color:blue;">IGV_2.8.10.app</span>  plan-to-take-over-the-world  <span style="color:blue;">Why is multiple t-testing a problem?.pdf</span>
+```
+
+<img src="/assets/img/ls.gif" alt="ls" width="1000"/>
+
+- To see this list in a long format, we can use the `-l` option.
+- To see hidden contents, we can use the `-a` option.
+- To see the contents in a human-readable format, we can use the `-h` option.
+- In the example below, we combine both options to return a long, hidden, and human-readable list of contents:
+
+**Input**
+```
+ls -lah
+```
+
+**Output**
+```
+<span style="color:blue;">.
+<span style="color:blue;">..
+.DS_Store
+.Rhistory
+.localized
+<span style="color:blue;">IGV_2.8.10.app
+plan-to-take-over-the-world
+<span style="color:blue;">Why is multiple t-testing a problem?.pdf
+```
+
+<img src="/assets/img/ls-lah.gif" alt="ls" width="1000"/>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
