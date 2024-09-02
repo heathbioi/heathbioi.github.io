@@ -427,7 +427,7 @@ ls .
 ```
 
 **Output**
-<img src="/assets/img/ls-ld.dot.gif" alt="ls" width="1000"/>
+<img src="/assets/img/ls-ls.dot.gif" alt="ls" width="1000"/>
 
 
 
