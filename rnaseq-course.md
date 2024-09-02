@@ -427,71 +427,99 @@ ls .
 ```
 
 **Output**
+
 <img src="/assets/img/ls-ls.dot.gif" alt="ls" width="1000"/>
 
-
-
-
-
-
-
-
-
- To move between different directories, we use the `cd` command.
-- In the example below,  we move into the plan to take over the world directory.
-- **Note:** we can use the tab-key to autofill. Start typing the name of the directory and then hit tab.
-- Note: when we use the `cd` command, we don't get any feedback from the shell. Usually, we move into the directory, then use the `ls` command to show us the contents.
+- If I wanted to see what contents were above/outside of my Desktop, I would use `ls ..`
 
 **Input**
 ```
-cd plan-to-take-over-the-world
-ls
+ls ..
+```
+
+**Output**
+
+<img src="/assets/img/ls.dot.dot.gif" alt="ls" width="1000"/>
+
+---
+
+##### <span style="color:black;">Basic Unix Continued: Working Example
+
+- To give a visual explanation of what we have covered so far, let's use the HAWK directory structure that I made up:
+
+- I have just logged into my HAWK account and am not sure where I am located. To find out, I used the `pwd` command. This tells me that I am in the home directory:
+
+**Input**
+```
+pwd
 ```
 
 **Output**
 ```
-gantt-chart.pdf  top-secret-map.pdf
-hit-list.docx  villain-cape-designs.ppt
-how-to-attach-lasers-to-sharks.docx  world-takeover-ticklist.pdf
-script-to-steal-all-the-money-in-the-UK.sh
+/home/steve
 ```
 
-<img src="/assets/img/cd-ls.gif" alt="ls" width="1000"/>
+<img src="/assets/img/figure-5.png" alt="ls" width="1000"/>
 
+- One of the SCW administrators told me that a few users had used my account for training purposes and stored some files etc. Lets first see if the users made a directory in the home directory:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### <span style="color:black;">Header Title 
-
-
-
-
+**Input**
 ```
-this should be a chunk of code
+ls ..
 ```
-![Text](/assets/img/figure-.png) This is a shell. We can use this to type commands etc.
+
+- This command lists the contents in the directory above mine, i.e. lists the contents of the home directory
+
+**Output**
+```
+karen  steve  terry
+```
+
+<img src="/assets/img/figure-6.png" alt="ls" width="1000"/>
+
+- I decided to look at what Karen had been up to in the home directory.
+- Theres two ways to do this, <span style="color:red;">either move into her directory and list the contents</span>, <span style="color:green;">or use the list command</span>.
+
+**Input**
+```
+ls ../karen
+
+OR
+
+cd ../karen
+ls
+```
+- **Note**: As I am still in my directory, I need to use the two dots (..) to move up/out and then into Karens directory.
+
+**Output**
+
+<img src="/assets/img/figure-7.png" alt="ls" width="1000"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
