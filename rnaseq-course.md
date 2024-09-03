@@ -483,9 +483,11 @@ karen  steve  terry
 **Input**
 ```
 ls ../karen
+```
 
-OR
+**OR**
 
+```
 cd ../karen
 ls
 ```
@@ -496,10 +498,39 @@ ls
 <img src="/assets/img/figure-7.png" alt="ls" width="1000"/>
 
 
+# This Needs To Be Completed!
 
+---
 
+##### <span style="color:black;">Basic Unix Continued: File Permissions & File Privacy
 
+- Unix splits file permission into three sections
 
+Section|Description
+-------|-----------
+user|The file/directory owner
+group|A group of individuals permitted to read the file
+other|Everyone
+
+<img src="/assets/img/figure-8.png" alt="ls" width="1000"/>
+
+- **figure 8 here. this shows -rw-r--r--  drwxr-xr-x and labels the sections etc.**
+
+Symbol|Meaning
+------|-------
+u/g/o|user/group/other
++/-|enable/disable
+r/w/x|read/write/execute
+
+- The group section enables group access to files and directories.
+- When we run scripts, we need to make sure they are executable (x), otherwise the system will not recognise it as an executable file.
+- To check if a file is executable, we can use the `ls -l` command and check the permissions.
+
+# give example of a file without permissions, then show how to modify and give example of the permissions
+
+---
+
+##### <span style="color:black;">Basic Unix Continued: Moving & Copying Files
 
 
 
