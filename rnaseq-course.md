@@ -512,7 +512,7 @@ user|The file/directory owner
 group|A group of individuals permitted to read the file
 other|Everyone
 
-<img src="/assets/img/figure-8.png" alt="ls" width="1000"/>
+<img src="/assets/img/figure-8.png" alt="name-of-figure" width="1000"/>
 
 - **figure 8 here. this shows -rw-r--r--  drwxr-xr-x and labels the sections etc.**
 
@@ -532,6 +532,100 @@ r/w/x|read/write/execute
 
 ##### <span style="color:black;">Basic Unix Continued: Moving & Copying Files
 
+- We sometimes will want to copy or move files from one directory to another.
+- An example of this would be copying a reference genome from our home directory (long term storage) to our scratch directory for an analysis.
+
+##### <span style="color:black;">Basic Unix Continued: Copying a file using `cp` command
+- The copy command does what it says on the tin... Copies a file/directory from one place to another.
+
+**Input**
+```
+cp name-of-file.txt path/to/directory/
+```
+
+# insert gif of copying a file to another directory then using ls command to show it has been copied.
+
+- The command works by first inputting the name of the file/directory that you want to copy, followed by the location of where you want to copy it to.
+- To copy a directory, we need to use the `-r` option:
+
+**Input**
+```
+cp -r name-of-directory path/to/directory/
+```
+
+**Example**
+
+# insert gif of copying directory to another location, then ls command to show that it has been moved.
+
+- To state the obvious, this command makes a copy of the file at the destination that you have chosen.
+
+---
+
+##### <span style="color:black;">Basic Unix Continued: Moving a file using `mv` command
+- The move command does what it says on the tin... Moves a file/directory from one place to another.
+
+**Input**
+```
+mv name-of-file.txt path/to/directory/
+mv name-of-directory path/to/directory/
+```
+
+# insert gif of moving a file to another directory then using ls command to show it has been moved.
+
+- The command works by first inputting the name of the file/directory that you want to move, followed by the location of where you want to move it to.
+- **Note**: This command physically moves the file/directory to the location you have chosen. Be aware of typos when using this command, as it is very easy to overwrite other files/directories!
+- **I would reccomend sticking to using the cp command when you want to move files just in case you make typos**
+- The `mv` command can also be used to rename a file/directory:
+
+**Input**
+```
+mv name-of-file.txt new-name-of-file.txt
+mv name-of-directory new-name-of-directory
+```
+
+# insert gif of moving a file to another directory then using ls command to show it has been moved.
+
+---
+
+##### <span style="color:black;">Basic Unix Continued: Making a file
+- To make a file, we can use the `touch` command.
+- We don't need to use this command for the course, but for completeness (and for the task ahead) we will cover it.
+
+**Input**
+```
+touch name-of-file.extension.name
+```
+# insert gif
+
+- The command works by calling the `touch` command followed by the name and extension of the file you want to create.
+- To make a file named `myFile.txt`, we would use `touch myFile.txt`.
+
+---
+
+##### <span style="color:black;">Basic Unix Continued: Making a directory
+- To make a directory, we can use the `mkdir` command.
+
+**Input**
+```
+mkdir name-of-directory
+```
+- The command works by calling the `mkdir` command  followed by the name of the directory you want to make.
+- We can use this command to make multiple directories within the current directory, too:
+
+**Input**
+```
+mkdir directory1 directory2 directory3
+```
+- Each new directory is named after the other and is separated by a space whilst using the command.
+- We can also create a new directory within an existing directory without moving into it:
+
+**Input**
+```
+mkdir directory1/directory1.1
+```
+- The `touch` command can also be used in this manner.
+
+# insert gifs
 
 
 
@@ -540,6 +634,45 @@ r/w/x|read/write/execute
 
 
 
+
+
+
+
+
+
+
+
+
+
+# * means wildcard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##### <span style="color:black;">Basic Unix: Exercise 
+
+# Email out a directory with files etc in there and tell them do cd into it and then ls and make files etc etc
+- Now that we have covered the basics
+
+
+- The move command does what it says on the tin... Moves a file/directory from one place to another.
+
+**Input**
+```
+mv name-of-file.txt path/to/directory/
+mv name-of-directory path/to/directory/
 
 
 
