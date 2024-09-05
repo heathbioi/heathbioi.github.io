@@ -503,8 +503,12 @@ ls
 ---
 
 ##### <span style="color:black;">Basic Unix Continued: File Permissions & File Privacy
-
-- Unix splits file permission into three sections
+- File permissions determine who can and who can't access certain files and directories.
+- On HAWK, each user has their own account which comes with their own home and scratch directory.
+- These directories can only be accessed by the user (and the admins). Other users can see that you have a directory, but cannot access as they do not have permission to do so.
+- To see the file and directory permissions, we must first understand how the permissions are ordered.
+- Unix splits file permission into three sections:
+- 
 
 Section|Description
 -------|-----------
@@ -512,9 +516,7 @@ user|The file/directory owner
 group|A group of individuals permitted to read the file
 other|Everyone
 
-<img src="/assets/img/figure-8.png" alt="name-of-figure" width="1000"/>
-
-- **figure 8 here. this shows -rw-r--r--  drwxr-xr-x and labels the sections etc.**
+<img src="/assets/img/figure-8.png" alt="File Permissions" width="1000"/>
 
 Symbol|Meaning
 ------|-------
