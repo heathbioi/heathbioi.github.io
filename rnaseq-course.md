@@ -528,7 +528,26 @@ r/w/x|read/write/execute
 - When we run scripts, we need to make sure they are executable (x), otherwise the system will not recognise it as an executable file.
 - To check if a file is executable, we can use the `ls -l` command and check the permissions.
 
-# give example of a file without permissions, then show how to modify and give example of the permissions
+**Changing File Permissions**
+
+- A good example for changing file permissions is to make a script executable.
+- In the example below, I have made a shell script named file-permission.sh
+- These types of files (.sh) are what we use to run a script on Unix. These scripts can range from a simple one liner task, to a list of tasks that will run sequentially.
+- When we create a file using the `touch` or `nano` command, by default it is not executable, as denoted by `-rw-r--r--`.
+- Subsequently, the system does not recognise it as an executable file and you wont be able to run it.
+- To change the file permissions and make the file executable, we use the `chmod` command.
+- If we wanted to change the permission for just the user (u), we would use `chmod u+x`.
+- Using `chmod +x` on the file makes the file executable (x) for everyone (u/g/o).
+
+**Input**
+```
+touch file-permission.sh
+ls -l
+chmod +x file-permission.sh
+ls -l
+```
+
+<img src="/assets/img/permissions.gif" alt="File Permissions" width="1000"/>
 
 ---
 
