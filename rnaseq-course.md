@@ -533,7 +533,7 @@ r/w/x|read/write/execute
 - A good example for changing file permissions is to make a script executable.
 - In the example below, I have made a shell script named file-permission.sh
 - These types of files (.sh) are what we use to run a script on Unix. These scripts can range from a simple one liner task, to a list of tasks that will run sequentially.
-- When we create a file using the `touch` or `nano` command, by default it is not executable, as denoted by `-rw-r--r--`.
+- When we create a file using the `touch` or `nano` command, by default it is not executable, as denoted by `-rw-r--r--`. We will cover `nano` shortly.
 - Subsequently, the system does not recognise it as an executable file and you wont be able to run it.
 - To change the file permissions and make the file executable, we use the `chmod` command.
 - If we wanted to change the permission for just the user (u), we would use `chmod u+x`.
@@ -564,7 +564,7 @@ ls -l
 cp name-of-file.txt path/to/directory/
 ```
 
-# insert gif of copying a file to another directory then using ls command to show it has been copied.
+<img src="/assets/img/cp.gif" alt="Copying a File" width="1000"/>
 
 - The command works by first inputting the name of the file/directory that you want to copy, followed by the location of where you want to copy it to.
 - To copy a directory, we need to use the `-r` option:
@@ -574,9 +574,7 @@ cp name-of-file.txt path/to/directory/
 cp -r name-of-directory path/to/directory/
 ```
 
-**Example**
-
-# insert gif of copying directory to another location, then ls command to show that it has been moved.
+<img src="/assets/img/cp-r.gif" alt="Copying a Directory" width="1000"/>
 
 - To state the obvious, this command makes a copy of the file at the destination that you have chosen.
 
@@ -591,7 +589,9 @@ mv name-of-file.txt path/to/directory/
 mv name-of-directory path/to/directory/
 ```
 
-# insert gif of moving a file to another directory then using ls command to show it has been moved.
+<img src="/assets/img/mv-file.gif" alt="Moving a File" width="1000"/>
+
+<img src="/assets/img/mv-directory.gif" alt="Moving a Directory" width="1000"/>
 
 - The command works by first inputting the name of the file/directory that you want to move, followed by the location of where you want to move it to.
 - **Note**: This command physically moves the file/directory to the location you have chosen. Be aware of typos when using this command, as it is very easy to overwrite other files/directories!
@@ -604,7 +604,7 @@ mv name-of-file.txt new-name-of-file.txt
 mv name-of-directory new-name-of-directory
 ```
 
-# insert gif of moving a file to another directory then using ls command to show it has been moved.
+<img src="/assets/img/renaming.gif" alt="Renaming a File/Directory" width="1000"/>
 
 ---
 
@@ -663,7 +663,7 @@ mkdir directory1/directory1.1
 
 
 
-
+# nano section
 
 # * means wildcard
 
