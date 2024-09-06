@@ -616,14 +616,42 @@ mv name-of-directory new-name-of-directory
 ```
 touch name-of-file.extension.name
 ```
-# insert gif
+<img src="/assets/img/touch.gif" alt="Making an empty file" width="1000"/>
 
 - The command works by calling the `touch` command followed by the name and extension of the file you want to create.
 - To make a file named `myFile.txt`, we would use `touch myFile.txt`.
 
 ---
 
+##### <span style="color:black;">Basic Unix Continued: Editing a file
+- To edit a file in Unix, we can use an editor called nano.
+- The nano editor opens a new window within the Unix shell whilst in use, and then returns you to where you was once you have exited the editor.
+- To use the editor, we simply use the `nano` command.
+- The editor can be used to create new files and also edit existing files.
+- If we wanted to create a new file, we would use `nano name-of-new-file.extension.name`.
+- Likewise, if we wanted to edit an existing file, we would use `nano name-of-existing-file-extension.name`.
+- **To exit the nano editor, use `ctrl + x`, then `y` to save, then `enter` to exit.**
+
+**Input**
+```
+nano myFile.txt
+this is some simple text that I want to put into the file.
+this another simple line of text to include.
+ctrl +x
+y
+enter
+```
+
+<img src="/assets/img/nano.gif" alt="Making and editing a file with nano" width="1000"/>
+
+- Along the bottom of the editor, you can see the various options that you are able to use.
+- Once we use `ctrl + x` you can see the bottom of the editor changes to `save modified buffer?`. Typing `Y` saves the file, `N` deletes it.
+- Once you have hit `Y`, you get another prompt to check the file name. Here, you get the opportunity to rename the file if needed. Then hitting `enter` saves and exits the editor. 
+
+---
+
 ##### <span style="color:black;">Basic Unix Continued: Making a directory
+
 - To make a directory, we can use the `mkdir` command.
 
 **Input**
@@ -646,24 +674,9 @@ mkdir directory1/directory1.1
 ```
 - The `touch` command can also be used in this manner.
 
-# insert gifs
+<img src="/assets/img/mkdir.gif" alt="Making a directory" width="1000"/>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# nano section
+---
 
 # * means wildcard
 
