@@ -75,6 +75,8 @@ We will cover:
 
 ---
 
+<br>
+
 ## <span style="color:black;">Course Introduction
 
 ---
@@ -87,6 +89,8 @@ You should have one of three questions:
 
 ---
 
+<br>
+
 ## <span style="color:black;">What you will learn on this course:
 
 - How to find and download sequencing data from online data repositories.
@@ -96,12 +100,16 @@ You should have one of three questions:
 
 ---
 
+<br>
+
 ## <span style="color:black;">What you won't learn on this course:
 
 - How RNAseq technology/process works. Please see this [video](https://www.youtube.com/watch?v=tlf6wYJrwKY) for an overview.
 - How to hack the mainframe and take over the world.
 
 ---
+
+<br>
 
 ## <span style="color:black;">Basic Unix: Learning Objectives
 
@@ -110,6 +118,8 @@ You should have one of three questions:
 - Learn how to run and manage programs.
 
 ---
+
+<br>
 
 ## <span style="color:black;">Basic Unix: Brief History
 
@@ -122,6 +132,8 @@ You should have one of three questions:
 
 ---
 
+<br>
+
 ## <span style="color:black;">Basic Unix: Graphical User Interface (GUI) & Command Line/Shell
 
 - All Windows/Mac/Linux PC's use a GUI to allow users to easily navigate and use the PC.
@@ -131,6 +143,8 @@ You should have one of three questions:
 <img src="/assets/img/figure-1.png" alt="Shell" width="1200"/> This is a shell. We can use this to type commands etc.
 
 ---
+
+<br>
 
 ## <span style="color:black;">Basic Unix: Setup & Installation
 
@@ -175,6 +189,8 @@ For **Windows:**
 
 ---
 
+<br>
+
 ## <span style="color:black;">Basic Unix: Setup & Installation: Mac
 
 - Mac users have a built-in Unix shell called bash. To open this, open the *Terminal* application/program.
@@ -202,6 +218,8 @@ For **Windows:**
 
 ---
 
+<br>
+
 ## <span style="color:black;">Basic Unix: Setup & Installation: Windows
 
 - Windows users don't have an integrated Unix shell, so you will need to download and install one. We will use **MobaXterm**.
@@ -221,6 +239,8 @@ For **Windows:**
 
 ---
 
+<br>
+
 ## <span style="color:black;">Introduction to HAWK
 
 - HAWK is Cardiff and Bangor universities High Performance Compute (HPC) system.
@@ -231,6 +251,8 @@ For **Windows:**
 - Think of HAWK as a computer that's located in the cloud. We can connect to it via out Unix shells - Terminal, MobaXterm, and FileZilla.
 
 ---
+
+<br>
 
 ## <span style="color:black;">Introduction to HAWK: HAWK Filesystem
 
@@ -253,6 +275,8 @@ For **Windows:**
   - Do your work, then move your files back to home directory or to another storage location such as the Research Data Store (RDS).
 
 ---
+
+<br>
 
 ## <span style="color:black;">Basic Unix Continued: Common Commands
 
@@ -282,6 +306,9 @@ Command|Description|Common Options|Option Description
 `chmod`|change permission of a file|`chmod +x`|makes file executable
 
 ---
+
+<br>
+
 ## <span style="color:black;">Basic Unix Continued: Command line Syntax
 
 Syntax = Structure of statements in a computing language.
@@ -318,6 +345,8 @@ Not all commands have options, and most commands have optional options - you don
 
 ---
 
+<br>
+
 ## <span style="color:black;">Basic Unix Continued: Exploring Using Unix
 - Lets cover the three most basic (and used) commands:
   - `pwd` = Where am I?
@@ -325,6 +354,8 @@ Not all commands have options, and most commands have optional options - you don
   - `cd` = Change directory
     
 ---
+
+<br>
 
 ## <span style="color:black;">Basic Unix Continued: pwd Command
 - When we first open a Unix shell, we are taken to the default directory.
@@ -345,6 +376,8 @@ pwd
 <img src="/assets/img/pwd.gif" alt="pwd" width="1000"/>
 
 ---
+
+<br>
 
 ## <span style="color:black;">Basic Unix Continued: ls Command
 - To explore the directory, we can use the `ls` command to list the contents of the Desktop directory:
@@ -388,6 +421,8 @@ ls -lah
 
 ---
 
+<br>
+
 ## <span style="color:black;">Basic Unix Continued: cd Command
 - To move between different directories, we use the `cd` command.
 - In the example below,  we move into the plan to take over the world directory.
@@ -411,6 +446,8 @@ script-to-steal-all-the-money-in-the-UK.sh
 <img src="/assets/img/cd-ls.gif" alt="ls" width="1000"/>
 
 ---
+
+<br>
 
 ## <span style="color:black;">Basic Unix Continued: Other Notations
 **Tab-key**
@@ -451,6 +488,8 @@ ls ..
 <img src="/assets/img/ls.dot.dot.gif" alt="ls" width="1000"/>
 
 ---
+
+<br>
 
 ## <span style="color:black;">Basic Unix Continued: Working Example
 
@@ -511,13 +550,15 @@ ls
 
 ---
 
+<br>
+
 ## <span style="color:black;">Basic Unix Continued: File Permissions & File Privacy
 - File permissions determine who can and who can't access certain files and directories.
 - On HAWK, each user has their own account which comes with their own home and scratch directory.
 - These directories can only be accessed by the user (and the admins). Other users can see that you have a directory, but cannot access as they do not have permission to do so.
 - To see the file and directory permissions, we must first understand how the permissions are ordered.
 - Unix splits file permission into three sections:
-- 
+  
 
 Section|Description
 -------|-----------
@@ -560,6 +601,8 @@ ls -l
 
 ---
 
+<br>
+
 ## <span style="color:black;">Basic Unix Continued: Moving & Copying Files
 
 - We sometimes will want to copy or move files from one directory to another.
@@ -589,6 +632,8 @@ cp -r name-of-directory path/to/directory/
 
 ---
 
+<br>
+
 ## <span style="color:black;">Basic Unix Continued: Moving a file using `mv` command
 - The move command does what it says on the tin... Moves a file/directory from one place to another.
 
@@ -617,6 +662,8 @@ mv name-of-directory new-name-of-directory
 
 ---
 
+<br>
+
 ## <span style="color:black;">Basic Unix Continued: Making a file
 - To make a file, we can use the `touch` command.
 - We don't need to use this command for the course, but for completeness (and for the task ahead) we will cover it.
@@ -631,6 +678,8 @@ touch name-of-file.extension.name
 - To make a file named `myFile.txt`, we would use `touch myFile.txt`.
 
 ---
+
+<br>
 
 ## <span style="color:black;">Basic Unix Continued: Editing a file
 - To edit a file in Unix, we can use an editor called nano.
@@ -659,6 +708,8 @@ enter
 
 ---
 
+<br>
+
 ## <span style="color:black;">Basic Unix Continued: Making a directory
 
 - To make a directory, we can use the `mkdir` command.
@@ -686,6 +737,9 @@ mkdir directory1/directory1.1
 <img src="/assets/img/mkdir.gif" alt="Making a directory" width="1000"/>
 
 ---
+
+<br>
+
 
 # * means wildcard
 
