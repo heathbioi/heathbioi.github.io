@@ -77,9 +77,8 @@ We will cover:
 
 <br>
 
-## <span style="color:black;">Course Introduction
-
 ---
+## <span style="color:black;">Course Introduction
 
 You should have one of three questions:
 
@@ -127,9 +126,9 @@ You should have one of three questions:
 
 <br>
 
-## <span style="color:black;">Basic Unix: Brief History
+---
 
-<br>
+## <span style="color:black;">Basic Unix: Brief History
 
 - UNIX is a suite of programs that make up an operating system (like Windows and Mac).
 - First developed in 1960's and has been in constant development ever since.
@@ -142,28 +141,29 @@ You should have one of three questions:
 
 <br>
 
-## <span style="color:black;">Basic Unix: Graphical User Interface (GUI) & Command Line/Shell
+---
 
-<br>
+## <span style="color:black;">Basic Unix: Graphical User Interface (GUI) & Command Line/Shell
 
 - All Windows/Mac/Linux PC's use a GUI to allow users to easily navigate and use the PC.
 - The GUI is what allows us to point and click on things, which in turn opens the respective programs etc.
 - These operations can also be performed using the command line through the use of a shell.
 
-<img src="/assets/img/figure-1.png" alt="Shell" width="1200"/> This is a shell. We can use this to type commands etc.
+<img src="/assets/img/figure-1.png" alt="Shell" width="1200"/> 
+This is a shell. We can use this to type commands etc.
 
 ---
 
 <br>
 
-## <span style="color:black;">Basic Unix: Setup & Installation
+---
 
-<br>
+## <span style="color:black;">Basic Unix: Setup & Installation
 
 - Before we cover installation of Unix on your PC's, we first need to install the universities VPN.
 - We will need to have the Global Protect VPN installed on our PC's in order to connect to HAWK off campus.
 
----  
+--- 
 For **MAC:**
 
   - Use this [link](https://software.cardiff.ac.uk) and log in to the Software Downloads website with your university log in.
@@ -203,9 +203,9 @@ For **Windows:**
 
 <br>
 
-## <span style="color:black;">Basic Unix: Setup & Installation: Mac
+---
 
-<br>
+## <span style="color:black;">Basic Unix: Setup & Installation: Mac
 
 - Mac users have a built-in Unix shell called bash. To open this, open the *Terminal* application/program.
 - To transfer files to- and from the HAWK servers that we will be using, we can either use code in Terminal (advanced use), or use a file transfer program (FTP) called FileZilla.
@@ -234,9 +234,9 @@ For **Windows:**
 
 <br>
 
-## <span style="color:black;">Basic Unix: Setup & Installation: Windows
+---
 
-<br>
+## <span style="color:black;">Basic Unix: Setup & Installation: Windows
 
 - Windows users don't have an integrated Unix shell, so you will need to download and install one. We will use **MobaXterm**.
 - MobaXterm is an integrated shell, which combines command line with FTP all in one window/application.
@@ -257,9 +257,9 @@ For **Windows:**
 
 <br>
 
-## <span style="color:black;">Introduction to HAWK
+---
 
-<br>
+## <span style="color:black;">Introduction to HAWK
 
 - HAWK is Cardiff and Bangor universities High Performance Compute (HPC) system.
 - Swansea and Aberystwyth universities use SunBird - both systems are the run by Supercomputing Wales (SCW).
@@ -272,9 +272,9 @@ For **Windows:**
 
 <br>
 
-## <span style="color:black;">Introduction to HAWK: HAWK Filesystem
+---
 
-<br>
+## <span style="color:black;">Introduction to HAWK: HAWK Filesystem
 
 - Like our own PC's, HAWK has its own files and folder structure.
 - From here, we will now refer to folders as **directories**.
@@ -298,9 +298,9 @@ For **Windows:**
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: Common Commands
+---
 
- <br> 
+## <span style="color:black;">Basic Unix Continued: Common Commands
  
 - Now that we have covered basic Unix and introduced HAWK, we can now learn how to use the command line.
 
@@ -330,9 +330,9 @@ Command|Description|Common Options|Option Description
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: Command line Syntax
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: Command line Syntax
 
 Syntax = Structure of statements in a computing language.
 
@@ -383,9 +383,9 @@ Not all commands have options, and most commands have optional options - you don
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: pwd Command
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: pwd Command
 
 - When we first open a Unix shell, we are taken to the default directory.
 - If you have downloaded a shell (such as iTerm2, MobaXterm, FileZilla), this location can change depending on where you installed the software.
@@ -408,9 +408,9 @@ pwd
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: ls Command
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: ls Command
 
 - To explore the directory, we can use the `ls` command to list the contents of the Desktop directory:
 
@@ -455,9 +455,9 @@ ls -lah
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: cd Command
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: cd Command
 
 - To move between different directories, we use the `cd` command.
 - In the example below,  we move into the plan to take over the world directory.
@@ -484,9 +484,9 @@ script-to-steal-all-the-money-in-the-UK.sh
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: Other Notations
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: Other Notations
 
 **Tab-key**
 - As mentioned above, we can use the `tab-key` to autofill.
@@ -529,9 +529,9 @@ ls ..
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: Working Example
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: Working Example
 
 - To give a visual explanation of what we have covered so far, let's use the HAWK directory structure that I made up:
 
@@ -592,9 +592,9 @@ ls
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: File Permissions & File Privacy
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: File Permissions & File Privacy
 
 - File permissions determine who can and who can't access certain files and directories.
 - On HAWK, each user has their own account which comes with their own home and scratch directory.
@@ -646,18 +646,20 @@ ls -l
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: Moving & Copying Files
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: Moving & Copying Files
 
 - We sometimes will want to copy or move files from one directory to another.
 - An example of this would be copying a reference genome from our home directory (long term storage) to our scratch directory for an analysis.
 
+---
+
 <br>
+
+---
 
 ## <span style="color:black;">Basic Unix Continued: Copying a file using `cp` command
-
-<br>
 
 - The copy command does what it says on the tin... Copies a file/directory from one place to another.
 
@@ -684,9 +686,9 @@ cp -r name-of-directory path/to/directory/
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: Moving a file using `mv` command
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: Moving a file using `mv` command
 
 - The move command does what it says on the tin... Moves a file/directory from one place to another.
 
@@ -717,9 +719,9 @@ mv name-of-directory new-name-of-directory
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: Making a file
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: Making a file
 
 - To make a file, we can use the `touch` command.
 - We don't need to use this command for the course, but for completeness (and for the task ahead) we will cover it.
@@ -737,9 +739,9 @@ touch name-of-file.extension.name
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: Editing a file
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: Editing a file
 
 - To edit a file in Unix, we can use an editor called nano.
 - The nano editor opens a new window within the Unix shell whilst in use, and then returns you to where you was once you have exited the editor.
@@ -769,9 +771,9 @@ enter
 
 <br>
 
-## <span style="color:black;">Basic Unix Continued: Making a directory
+---
 
-<br>
+## <span style="color:black;">Basic Unix Continued: Making a directory
 
 - To make a directory, we can use the `mkdir` command.
 
@@ -801,6 +803,8 @@ mkdir directory1/directory1.1
 
 <br>
 
+---
+
 
 # * means wildcard
 
@@ -819,9 +823,9 @@ mkdir directory1/directory1.1
 
 <br>
 
-##### <span style="color:black;">Example Title 
+---
 
-<br>
+##### <span style="color:black;">Example Title 
 
 # Email out a directory with files etc in there and tell them do cd into it and then ls and make files etc etc
 - Now that we have covered the basics
@@ -834,7 +838,9 @@ mkdir directory1/directory1.1
 mv name-of-file.txt path/to/directory/
 mv name-of-directory path/to/directory/
 
+---
 
+<br>
 
 
 
