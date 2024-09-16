@@ -372,8 +372,6 @@ Not all commands have options, and most commands have optional options - you don
 
 ## <span style="color:black;">Basic Unix Continued: Exploring Using Unix
 
-<br>
-
 - Lets cover the three most basic (and used) commands:
   - `pwd` = Where am I?
   - `ls` = List
@@ -502,7 +500,7 @@ Input|Description
 .|Here/where I am now
 ..|Previous directory/up one directory
 
--For example, if I am currently in the Desktop directory and want to list contents of where I currently am, I can either use `ls` or `ls .`:
+-For example, if I am currently in the Desktop directory and want to list contents of where I currently am, I can either use `ls` or `ls .`
 
 **Input**
 ```
@@ -524,6 +522,27 @@ ls ..
 **Output**
 
 <img src="/assets/img/ls.dot.dot.gif" alt="ls" width="1000"/>
+
+**Wildcard (*)**
+- The wildcard (*) can be used to select multiple things at once.
+- It is used to match any character and is commonly used to select directories/files with common names.
+- Example, if there are multiple directories (file-1 through file-10) and I wanted to move them all into one directory (dir-1), I could use the common name to all the files followed by the wildcard.
+- `mv file* dir-1/`
+- The wildcard can also be used to select the same file extensions. Example: If we wanted to move all the .fastq files to a new directory, we would use the wildcard followed by the extension.
+- `mv *.fastq dir-1/`
+
+**Input**
+```
+ls
+mv file* dir-1/
+ls dir-1/
+mv *.fastq dir-1/
+ls dir-1/
+```
+
+**Output**
+
+<img src="/assets/img/wildcard.gif" alt="Wildcard" width="1000"/>
 
 ---
 
@@ -613,6 +632,7 @@ other|Everyone
 
 Symbol|Meaning
 ------|-------
+-/d|file/directory
 u/g/o|user/group/other
 +/-|enable/disable
 r/w/x|read/write/execute
@@ -756,7 +776,7 @@ touch name-of-file.extension.name
 nano myFile.txt
 this is some simple text that I want to put into the file.
 this another simple line of text to include.
-ctrl +x
+ctrl + x
 y
 enter
 ```
