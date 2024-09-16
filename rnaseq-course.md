@@ -832,19 +832,28 @@ mkdir directory1/directory1.1
 
 <details>
 <summary>Answer</summary>
+  
 <br>
+
 Find out where you are: `pwd`
+
 <br>
+
 List contents: `ls`
+
 <br>
+
 Change directory: `cd unix-practical`
+
 <br>
+
 ```
 pwd
 ls
 cd unix-practical
 ls
 ```
+
 </details>
 
 
