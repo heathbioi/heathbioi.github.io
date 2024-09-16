@@ -93,8 +93,6 @@ You should have one of three questions:
 
 ## <span style="color:black;">What you will learn on this course:
 
-<br>
-
 - How to find and download sequencing data from online data repositories.
 - How to process the sequencing data.
 - How to analyse the sequencing data.
