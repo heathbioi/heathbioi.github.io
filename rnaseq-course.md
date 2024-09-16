@@ -87,6 +87,8 @@ You should have one of three questions:
 - Have you recently generated bulk-RNAseq data and need to process and analyse it?
 - You are planning a bulk-RNAseq experiment and would like to know how to process the data when the time comes?
 
+---
+
 <br>
 
 ---
@@ -97,6 +99,8 @@ You should have one of three questions:
 - How to process the sequencing data.
 - How to analyse the sequencing data.
 - How to interpret the analysed data.
+
+---
 
 <br>
 
@@ -111,9 +115,9 @@ You should have one of three questions:
 
 <br>
 
-## <span style="color:black;">Basic Unix: Learning Objectives
+---
 
-<br>
+## <span style="color:black;">Basic Unix: Learning Objectives
 
 - Learn the concept of using the command line.
 - Learn how to navigate and manipulate files and data.
