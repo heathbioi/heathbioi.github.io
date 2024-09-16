@@ -835,19 +835,19 @@ mkdir directory1/directory1.1
 
 <br>
 
-Find out where you are: `pwd`
+Find out where you are: <pre>pwd</pre>
 
 <br>
 
-List contents: `ls`
+List contents: <pre>ls</pre>
 
 <br>
 
-Change directory: `cd unix-practical`
+Change directory: <pre>cd unix-practical</pre>
 
 <br>
 
-<pre>$
+<pre>
 pwd
 ls
 cd unix-practical
