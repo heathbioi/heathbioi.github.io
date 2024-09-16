@@ -847,12 +847,12 @@ Change directory: `cd unix-practical`
 
 <br>
 
-```unix
+<pre>$
 pwd
 ls
 cd unix-practical
 ls
-```
+</pre>
 
 <br>
 
