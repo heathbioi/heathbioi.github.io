@@ -87,9 +87,9 @@ You should have one of three questions:
 - Have you recently generated bulk-RNAseq data and need to process and analyse it?
 - You are planning a bulk-RNAseq experiment and would like to know how to process the data when the time comes?
 
----
-
 <br>
+
+---
 
 ## <span style="color:black;">What you will learn on this course:
 
@@ -98,13 +98,11 @@ You should have one of three questions:
 - How to analyse the sequencing data.
 - How to interpret the analysed data.
 
+<br>
+
 ---
 
-<br>
-
 ## <span style="color:black;">What you won't learn on this course:
-
-<br>
 
 - How RNAseq technology/process works. Please see this [video](https://www.youtube.com/watch?v=tlf6wYJrwKY) for an overview.
 - How to hack the mainframe and take over the world.
