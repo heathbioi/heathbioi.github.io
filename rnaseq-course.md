@@ -825,8 +825,28 @@ mkdir directory1/directory1.1
 
 ---
 
+## <span style="color:black;">Exercise 1
+- Open a shell on your PC
 
-# * means wildcard
+
+
+<details>
+<summary>Answer</summary>
+<br>
+Find out where you are: `pwd`
+<br>
+List contents: `ls`
+<br>
+Change directory: `cd unix-practical`
+<br>
+```
+pwd
+ls
+cd unix-practical
+ls
+```
+</details>
+
 
 
 
@@ -857,6 +877,7 @@ mkdir directory1/directory1.1
 ```
 mv name-of-file.txt path/to/directory/
 mv name-of-directory path/to/directory/
+```
 
 ---
 
