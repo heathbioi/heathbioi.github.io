@@ -11,14 +11,14 @@ full-width: true
 
 
 ---
-# Course Structure  
+# <span style="color:black;">Course Structure  
 ---
 
 <br>
 
-## Day 1  
+## <span style="color:black;">Day 1  
 ---
-##### AM Session - 2-3 hours followed by a troubleshooting session
+##### <span style="color:black;">AM Session - 2-3 hours followed by a troubleshooting session
 
 - Basic Unix
 - Introduction to HAWK
@@ -29,9 +29,9 @@ full-width: true
 
 <br>
 
-## Day 2
+## <span style="color:black;">Day 2
 ---
-##### AM Session - 1-2 hours followed by a troubleshooting session
+##### <span style="color:black;">AM Session - 1-2 hours followed by a troubleshooting session
 
 - Process RNAseq data with nf-core/rnaseq pipeline
 
@@ -39,9 +39,9 @@ full-width: true
 
 <br>
 
-## Day 3
+## <span style="color:black;">Day 3
 ---
-##### AM Session - 1-2 hours followed by a troubleshooting session
+##### <span style="color:black;">AM Session - 1-2 hours followed by a troubleshooting session
 
 - Analyse processed RNAseq data with nf-core/differentialabundance pipeline
 
@@ -49,9 +49,9 @@ full-width: true
 
 <br>
 
-## Day 4
+## <span style="color:black;">Day 4
 ---
-##### AM Session - 2-3 hours followed by a troubleshooting session
+##### <span style="color:black;">AM Session - 2-3 hours followed by a troubleshooting session
 
 - Explore outputs and perform further analyses
   
