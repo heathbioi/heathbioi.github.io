@@ -14,6 +14,8 @@ full-width: true
 # Course Structure  
 ---
 
+<br>
+
 ## Day 1  
 ---
 ##### AM Session - 2-3 hours followed by a troubleshooting session
@@ -23,11 +25,19 @@ full-width: true
 - Basic Unix continued
 - Fetching data with nf-core/fetchngs pipeline
 
+---
+
+<br>
+
 ## Day 2
 ---
 ##### AM Session - 1-2 hours followed by a troubleshooting session
 
 - Process RNAseq data with nf-core/rnaseq pipeline
+
+---
+
+<br>
 
 ## Day 3
 ---
@@ -35,21 +45,20 @@ full-width: true
 
 - Analyse processed RNAseq data with nf-core/differentialabundance pipeline
 
+---
+
+<br>
+
 ## Day 4
 ---
 ##### AM Session - 2-3 hours followed by a troubleshooting session
 
 - Explore outputs and perform further analyses
-
   
 ---
 
-
-
-
-
----
----
+<br>
+<br>
 
 # <span style="color:black;">Day 1
 
