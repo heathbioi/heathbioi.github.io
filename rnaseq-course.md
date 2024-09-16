@@ -837,16 +837,24 @@ mkdir directory1/directory1.1
 
 Find out where you are: `pwd`
 
+<br>
+
 List contents: `ls`
+
+<br>
 
 Change directory: `cd unix-practical`
 
-```bash
+<br>
+
+```unix
 pwd
 ls
 cd unix-practical
 ls
 ```
+
+<br>
 
 </details>
 
