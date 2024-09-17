@@ -837,15 +837,15 @@ mkdir directory1/directory1.1
 
 <br>
 
-Find out where you are: <pre><span style="color:maroon;">pwd</span></pre>
+Find out where you are: <pre><span style="color:crimson;">pwd</span></pre>
 
 <br>
 
-List contents: <pre><span style="color:maroon;">ls</span></pre>
+List contents: <pre><span style="color:crimson;">ls</span></pre>
 
 <br>
 
-Change directory: <pre><span style="color:maroon;">cd unix-practical</span></pre>
+Change directory: <pre><span style="color:crimson;">cd unix-practical</span></pre>
 
 <br>
 
@@ -877,34 +877,73 @@ ls
 
 <br>
 
-List the contents: <pre><span style="color:maroon;">ls -lah</span></pre>
+List the contents: <pre><span style="color:crimson;">ls -lah</span></pre>
 
 <br>
 
-List contents: <pre><span style="color:maroon;">ls</span></pre>
+List contents of the ascii directory: <pre><span style="color:crimson;">ls -lah ascii</span></pre>
 
 <br>
 
-Change directory: <pre><span style="color:maroon;">cd unix-practical</span></pre>
-
-<br>
-
-The unix-practical directory should be located within your Downloads directory (unless you have moved it)
-
-<pre><span style="color:red;">
-pwd
-ls /Users/c1234567/Downloads
-cd unix-practical
-ls
+<pre><span style="color:crimson;">
+update this code
+  update this code
+  update this code
+  update this code
 </span></pre>
 
 <br>
 
 </details>
 
+---
 
+<br>
 
+---
 
+## <span style="color:black;"> nf-core/fetchngs Pipeline
+
+- nf-core is a community effort to collect a curated set of analysis pipelines that are built using Nextflow.
+- The nf-core website contains >100 curated pipelines and is used by thousands of researchers and bioinformaticians across the globe.
+
+# Add a more punchy explanation and importance of why we should be using nf-core.
+
+- Nextflow is a tool that allows us to run several different tasks on HAWK.
+- Each task may depend on an output from a previous task, may need to be run sequentially, or perhaps need to be run individually all at once.
+- Nextflow allows us to do this, and helps organise the way these tasks are run.
+
+**Fetchngs Pipeline**
+
+- This pipeline allows us to fetch metadata and raw FastQ files from public and private databases
+- The pipeline currently supports SRA/ENA/DDBJ/GEO/Synapse IDs.
+- The only thing we need for this pipeline to run is a list of sample IDs.
+
+---
+
+<br>
+
+---
+
+## <span style="color:black;"> Finding a dataset
+
+- We first need to find a dataset. Some of you may already have found one via a paper that you have read etc.
+- There are multiple repositories that we can find samples on. The two most common are **Gene Expression Omnibus ([GEO](https://www.ncbi.nlm.nih.gov/geo/))** and **[Array Express](https://www.ebi.ac.uk/biostudies/arrayexpress)**.
+- For this course, we will use **GEO** to find our dataset.
+
+**GEO**
+
+- When accessing the GEO website, we are faced with multiple links and tools.
+- If we have a dataset in mind that we would like to find, we can use the search bar at the top right of the page.
+
+# insert screengrab of GEO homepage highlighting the search bar
+<img src="/assets/img/figure-9.png" alt="GEO Homepage" width="1000"/>
+
+- I would like to find a bulk rna seq dataset on renal cell carcinoma. To do this, I enter '**renal cell carcinoma rna seq**' into the search bar and click 'search'.
+- A pop-up window appears telling me that there is 316 results. Clicking on the '316' will load the results.
+
+# insert screengrab of search bar 
+<img src="/assets/img/figure-10.png" alt="using GEO search bar" width="1000"/>
 
 
 
@@ -926,10 +965,11 @@ ls
 mv name-of-file.txt path/to/directory/
 mv name-of-directory path/to/directory/
 ```
-
 ---
 
 <br>
+
+---
 
 
 
