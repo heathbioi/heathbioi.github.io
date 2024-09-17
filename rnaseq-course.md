@@ -60,8 +60,7 @@ full-width: true
 <br>
 <br>
 
-<details>  
-<summary> # <span style="color:black;">Day 1</span></summary>
+# <span style="color:black;">Day 1
 
 ---
 ---
@@ -848,7 +847,7 @@ Change directory: <pre><span style="color:maroon;">cd unix-practical</span></pre
 
 <br>
 
-<pre><span style="color:maroon;">
+<pre><span style="color:red;">
 pwd
 ls
 cd unix-practical
