@@ -60,7 +60,8 @@ full-width: true
 <br>
 <br>
 
-# <span style="color:black;">Day 1
+<details>  
+<summary> # <span style="color:black;">Day 1</summary>
 
 ---
 ---
@@ -280,7 +281,7 @@ For **Windows:**
 - From here, we will now refer to folders as **directories**.
 - The basic structure of HAWK:
 
-<img src="/assets/img/figure-3.png" alt="Basic HAWK Structure" width="1200"/>
+<img src="/assets/img/figure-3.png" alt="Basic HAWK Structure" width="1000"/>
 
 - We have two main directories: <span style="color: green;">*home*</span> and <span style="color: red;">*scratch*.
 
@@ -866,7 +867,7 @@ ls
 
 
 
-
+</details>
 
 
 
