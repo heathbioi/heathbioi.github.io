@@ -61,7 +61,7 @@ full-width: true
 <br>
 
 <details>  
-<summary> # <span style="color:black;">Day 1</summary>
+<summary> # <span style="color:black;">Day 1</span></summary>
 
 ---
 ---
