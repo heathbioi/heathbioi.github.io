@@ -826,8 +826,10 @@ mkdir directory1/directory1.1
 ---
 
 ## <span style="color:black;">Exercise 1
-- Open a shell on your PC
-
+- Open a shell on your PC.
+- Find out where you are.
+- Find where the unix-practical directory is.
+- Move into the unix-practical directory and list the contents.
 
 
 <details>
@@ -847,9 +849,11 @@ Change directory: <pre><span style="color:maroon;">cd unix-practical</span></pre
 
 <br>
 
-<pre><span style="color:red;">
+The unix-practical directory should be located within your Downloads directory (unless you have moved it)
+
+<pre><span style="color:crimson;">
 pwd
-ls
+ls /Users/c1234567/Downloads
 cd unix-practical
 ls
 </span></pre>
@@ -858,7 +862,45 @@ ls
 
 </details>
 
+---
 
+<br>
+
+---
+
+## <span style="color:black;">Exercise 2
+- Map out the unix-practical directory.
+- Are there any hidden files?
+
+<details>
+<summary>Answer</summary>
+
+<br>
+
+List the contents: <pre><span style="color:maroon;">ls -lah</span></pre>
+
+<br>
+
+List contents: <pre><span style="color:maroon;">ls</span></pre>
+
+<br>
+
+Change directory: <pre><span style="color:maroon;">cd unix-practical</span></pre>
+
+<br>
+
+The unix-practical directory should be located within your Downloads directory (unless you have moved it)
+
+<pre><span style="color:red;">
+pwd
+ls /Users/c1234567/Downloads
+cd unix-practical
+ls
+</span></pre>
+
+<br>
+
+</details>
 
 
 
