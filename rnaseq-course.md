@@ -962,7 +962,7 @@ update this code
 <span style="color:green;">**Contributors and Citation**</span>
 - The authors and any related publication can be found in the contributors and citations sections.
 
-<span style="color:magenta;">**Analyze with GEO2R and Download RNA-seq counts**</span>
+<span style="color:deeppink;">**Analyze with GEO2R and Download RNA-seq counts**</span>
 - The **Analyze with GEO2R** option has been on GEO for quite some time, and is a handy tool to use if you are performing the most basic of analyses.
 - The tool allows you to define your own groups and can perform Differential Gene Expression (DGE) analyses rather quickly.
 - It's a great tool, but doesn't always work on the dataset you want to analyse (depends on what data the authors have uploaded)
