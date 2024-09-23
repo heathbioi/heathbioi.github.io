@@ -977,6 +977,8 @@ update this code
 
 </details>
 
+<br>
+
 - The **Download RNA-seq counts** option takes you to a page which provides you with download links to all of the uploaded and NCBI-generated data.
 - This is really handy as it highlights what each piece of data is.
 - Again, this may not contain the raw sequencing data, but worth checking before proceeding.
@@ -1010,17 +1012,94 @@ update this code
 - The BioProject ID link takes you to an overview page, just like the GEO page we are currently on.
 - The SRA Run Selector link takes us directly to the page where we can download the data.
 
+---
 
+<br>
 
+---
 
+## <span style="color:black;"> Downloading the relevant data
 
+- We will be downloading **6 normoxia** samples, 3 from each cell line.
+- To do this, we need to click on the **SRA Run Selector** link.
+1) Once the new page has loaded, we can go ahead and use the filter tool on the top left to select **8: Treatment**, then **normoxia**.
+2) This filters the table at the bottom of the screen. We can then click the tick box at the top left of the table to **select all 6 samples**.
+3) Once all samples are selected, we can now click on the **sliding Selected tab** so move it to the right. This filters the data to include only the samples we have selected.
+4) Now we can click on the **Accession list** option. This downloads a text file called **SRR_Acc_List.txt**.
 
+<img src="/assets/img/figure-16.png" alt="SRA Run Selector" width="1000"/>
 
+<details>
+<summary>SRR_Acc_List.txt</summary>
 
+<pre><span style="color:crimson;">
+SRR23454118
+SRR23454119
+SRR23454122
+SRR23454124
+SRR23454125
+SRR23454126
+</span></pre>
 
+</details>
 
+---
 
+<br>
 
+---
+
+## <span style="color:black;"> nf-core/fetchngs pipeline
+
+- Now that we have the sample IDs, we can go ahead and run the fetchngs pipeline.
+
+#### <span style="color:black;"> Set-up
+
+- Before we do anything, we first need to set-up our HAWK environment. Let's login to HAWK.
+- Once we are logged into HAWK, **navigate to the scratch directory and make a working directory named rnaseq**
+
+```
+cd /scratch/c.c1234567
+mkdir rnaseq
+```
+
+- We need to change permissions of the rnaseq directory so that any daughter files and directories will inherit the same permissions:
+
+```
+chmod 777 rnaseq #777 gives read, write, and execute permissions for everyone
+
+setfacl -d -m u::rwx,g::rwx,o::rwx rnaseq
+```
+
+- Now we can move into the rnaseq directory and make some daughter directories:
+
+```
+cd rnaseq
+mkdir input output bin resources
+ls
+```
+
+#### <span style="color:black;"> Required files
+
+- Now that we have set-up the environment, we can go ahead and create the required files for the pipeline to run.
+
+**resources/ids.csv**
+- This file is a comma-separated variable (.csv) file that contains the list of the sample IDs that we just downloaded.
+- We have two choices to make this file: transfer the SRR_Acc_List.txt file over and rename it, or make the ids.csv file using nano and copy and paste the ids over.
+- As we only have 6 sample IDs, I would reccommend the latter option. However, if we want to transfer the SRR_Acc_List.txt file over, we will need to use FileZilla or MobaXterm. 
+
+<details>
+<summary>Transfer files using FileZilla</summary>
+
+- After logging onto HAWK, navigate to the rnaseq directory on the connection window on the right hand side by pasting the filepath into the search bar and hitting enter:
+
+<pre><span style="color:crimson;">
+/scratch/c.c1234567/rnaseq/resources
+<pre><span style="color:crimson;">
+
+  - Now find the SRR_Acc_List.txt file that you downloaded (probably Downloads directory) and simply drag and drop it from the left to right windows.
+
+<img src="/assets/img/filezilla-transfer.gif" alt="FileZilla Transfer" width="1000"/>
 
 <br>
 
