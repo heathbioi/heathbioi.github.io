@@ -962,7 +962,7 @@ update this code
 <span style="color:green;">**Contributors and Citation**</span>
 - The authors and any related publication can be found in the contributors and citations sections.
 
-<span style="color:strawberry;">**Analyze with GEO2R and Download RNA-seq counts**</span>
+<span style="color:pink;">**Analyze with GEO2R and Download RNA-seq counts**</span>
 - The **Analyze with GEO2R** option has been on GEO for quite some time, and is a handy tool to use if you are performing the most basic of analyses.
 - The tool allows you to define your own groups and can perform Differential Gene Expression (DGE) analyses rather quickly.
 - It's a great tool, but doesn't always work on the dataset you want to analyse (depends on what data the authors have uploaded)
@@ -971,11 +971,10 @@ update this code
 <img src="/assets/img/figure-14.png" alt="Analyze with GEO2R tool" width="1000"/>
 
 - The **Download RNA-seq counts** option takes you to a page which provides you with download links to all of the uploaded and NCBI-generated data.
-- This is really handy as it highlights what each piece of data is
+- This is really handy as it highlights what each piece of data is.
+- Again, this may not contain the raw sequencing data, but worth checking before proceeding.
 
-
-
-
+<img src="/assets/img/figure-15.png" alt="Download RNA-seq counts" width="1000"/>
 
 <span style="color:purple;">**Platforms and Samples**</span>
 - This section shows us information about the samples and what platform they were sequenced on.
