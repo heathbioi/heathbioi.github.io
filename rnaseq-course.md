@@ -1095,9 +1095,9 @@ ls
 
 <pre><span style="color:crimson;">
 /scratch/c.c1234567/rnaseq/resources
-<pre><span style="color:crimson;">
+<span style="color:crimson;"></pre>
 
-  - Now find the SRR_Acc_List.txt file that you downloaded (probably Downloads directory) and simply drag and drop it from the left to right windows.
+- Now find the SRR_Acc_List.txt file that you downloaded (probably Downloads directory) and simply drag and drop it from the left to right windows.
 
 <img src="/assets/img/filezilla-transfer.gif" alt="FileZilla Transfer" width="1000"/>
 
