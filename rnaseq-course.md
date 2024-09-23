@@ -936,14 +936,49 @@ update this code
 - When accessing the GEO website, we are faced with multiple links and tools.
 - If we have a dataset in mind that we would like to find, we can use the search bar at the top right of the page.
 
-# insert screengrab of GEO homepage highlighting the search bar
 <img src="/assets/img/figure-9.png" alt="GEO Homepage" width="1000"/>
 
 - I would like to find a bulk rna seq dataset on renal cell carcinoma. To do this, I enter '**renal cell carcinoma rna seq**' into the search bar and click 'search'.
-- A pop-up window appears telling me that there is 316 results. Clicking on the '316' will load the results.
+- A pop-up window appears telling me that there are 351 results. Clicking on the '351' will load the results.
 
-# insert screengrab of search bar 
 <img src="/assets/img/figure-10.png" alt="using GEO search bar" width="1000"/>
+
+- On the results page, we are greeted with the results accompanied by further optional filters on the left and right hand side of the page.
+
+<img src="/assets/img/figure-11.png" alt="Results page" width="1000"/>
+
+- Here, we will choose to filter for **Homo sapiens** using the option on the right hand side and then browse for an interesting dataset.
+- For this course, I found a nice dataset looking at the effects of hypoxia on gene expression across two different cell lines.
+
+<img src="/assets/img/figure-12.png" alt="Dataset that we will be using" width="1000"/>
+
+- Clicking on the dataset title will load the series record for that dataset.
+
+<img src="/assets/img/figure-13.png" alt="Dataset that we will be using" width="1000"/>
+
+- The dataset series record page displays the all the relevant information about that dataset.
+- Towards the top of the page, you will find information about the study in which the dataset was used.
+
+<span style="color:green;">**Contributors and Citation**</span>
+- The authors and any related publication can be found in the contributors and citations sections.
+
+<span style="color:purple;">**Platforms and Samples**</span>
+
+<span style="color:orange;">**BioProject**</span>
+
+<span style="color:blue;">**Supplementary files**</span>
+
+<span style="color:red;">**SRA Run Selector**</span>
+
+
+
+
+
+
+
+
+
+
 
 
 
