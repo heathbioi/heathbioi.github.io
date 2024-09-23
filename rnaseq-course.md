@@ -962,14 +962,40 @@ update this code
 <span style="color:green;">**Contributors and Citation**</span>
 - The authors and any related publication can be found in the contributors and citations sections.
 
+<span style="color:strawberry;">**Analyze with GEO2R and Download RNA-seq counts**</span>
+- The **Analyze with GEO2R** option has been on GEO for quite some time, and is a handy tool to use if you are performing the most basic of analyses.
+- The tool allows you to define your own groups and can perform Differential Gene Expression (DGE) analyses rather quickly.
+- It's a great tool, but doesn't always work on the dataset you want to analyse (depends on what data the authors have uploaded)
+- **It's worth checking this tool out before continuing**. We won't be covering this tool during this course. If you would like a run through on it, please get in touch.
+
+<img src="/assets/img/figure-14.png" alt="Analyze with GEO2R tool" width="1000"/>
+
+- The **Download RNA-seq counts** option takes you to a page which provides you with download links to all of the uploaded and NCBI-generated data.
+- This is really handy as it highlights what each piece of data is
+
+
+
+
+
 <span style="color:purple;">**Platforms and Samples**</span>
+- This section shows us information about the samples and what platform they were sequenced on.
 
 <span style="color:orange;">**BioProject**</span>
+- The raw sequencing data for a dataset is stored in the **Sequencing Read Archive (SRA)**. Once samples have been uploaded, they are given a BioProject ID.
+- This BioProject ID link takes us straight to where the raw sequencing data is stored.
 
 <span style="color:blue;">**Supplementary files**</span>
+- All the associated data is stored in this section.
+- What you have here is completely down to how nice the authors are.
+- For a GEO upload, the authors must upload normalised data tables in which their observations were made.
+- Sometimes authors also upload Differentially Expressed Gene (DEG) tables and raw sequencing read counts.
+- These authors have been so very kind to upload their DEGs, so there really is no need for us to continue on. But most authors do not upload these, so we will need to make them ourselves.
 
 <span style="color:red;">**SRA Run Selector**</span>
-
+- The SRA Run Selector link takes us directly to the SRA where we can download the sequencing data.
+- Some may be asking, isn't this the same as the BioProject ID link? Yes and no.
+- The BioProject ID link takes you to an overview page, just like the GEO page we are currently on.
+- The SRA Run Selector link takes us directly to the page where we can download the data.
 
 
 
