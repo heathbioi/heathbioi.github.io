@@ -954,7 +954,7 @@ update this code
 
 - Clicking on the dataset title will load the series record for that dataset.
 
-<img src="/assets/img/figure-13.png" alt="Dataset that we will be using" width="1000"/>
+<img src="/assets/img/figure-13.png" alt="GEO series record" width="500"/>
 
 - The dataset series record page displays the all the relevant information about that dataset.
 - Towards the top of the page, you will find information about the study in which the dataset was used.
@@ -962,19 +962,33 @@ update this code
 <span style="color:green;">**Contributors and Citation**</span>
 - The authors and any related publication can be found in the contributors and citations sections.
 
-<span style="color:pink;">**Analyze with GEO2R and Download RNA-seq counts**</span>
+<span style="color:magenta;">**Analyze with GEO2R and Download RNA-seq counts**</span>
 - The **Analyze with GEO2R** option has been on GEO for quite some time, and is a handy tool to use if you are performing the most basic of analyses.
 - The tool allows you to define your own groups and can perform Differential Gene Expression (DGE) analyses rather quickly.
 - It's a great tool, but doesn't always work on the dataset you want to analyse (depends on what data the authors have uploaded)
 - **It's worth checking this tool out before continuing**. We won't be covering this tool during this course. If you would like a run through on it, please get in touch.
 
+<details>
+<summary>Analyze with GEO2R tool</summary>
+
+<br>
+
 <img src="/assets/img/figure-14.png" alt="Analyze with GEO2R tool" width="1000"/>
+
+</details>
 
 - The **Download RNA-seq counts** option takes you to a page which provides you with download links to all of the uploaded and NCBI-generated data.
 - This is really handy as it highlights what each piece of data is.
 - Again, this may not contain the raw sequencing data, but worth checking before proceeding.
 
+<details>
+<summary>Download RNA-seq counts</summary>
+
+<br>
+
 <img src="/assets/img/figure-15.png" alt="Download RNA-seq counts" width="1000"/>
+
+</details>
 
 <span style="color:purple;">**Platforms and Samples**</span>
 - This section shows us information about the samples and what platform they were sequenced on.
