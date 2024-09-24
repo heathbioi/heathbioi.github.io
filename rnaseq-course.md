@@ -1084,7 +1084,31 @@ ls
 - Now that we have set-up the environment, we can go ahead and create the required files for the pipeline to run.
 
 **resources/ids.csv**
-- This file is a comma-separated variable (.csv) file that contains the list of the sample IDs that we just downloaded.
+- This file is a comma-separated value (.csv) file that contains the list of the sample IDs that we just downloaded.
+
+<details>
+<summary>What is a comma-separated values (.csv) file?</summary>
+
+- A .csv file is simple text file that stores tabular data such as text and numbers in a specific structured format.
+- Each line of the file corresponds to one row in the table.
+- Within each line, fields(columns) are separated by commas.
+- For example, the .csv for the table below looks like:
+
+Column-1|Column-2|Column-3
+--------|--------|--------
+input1,input2,input3
+input4,input5,input6
+input7,input8,input9
+
+<pre><span style="color:crimson;">
+Column-1,Column-2,Column-3
+input1,input2,input3
+input4,input5,input6
+input7,input8,input9
+<span style="color:crimson;"></pre>
+
+</details>
+
 - We have two choices to make this file: transfer the SRR_Acc_List.txt file over and rename it, or make the ids.csv file using nano and copy and paste the ids over.
 - As we only have 6 sample IDs, I would reccommend the latter option. However, if we want to transfer the SRR_Acc_List.txt file over, we will need to use FileZilla or MobaXterm. 
 
@@ -1100,6 +1124,47 @@ ls
 - Now find the SRR_Acc_List.txt file that you downloaded (probably Downloads directory) and simply drag and drop it from the left to right windows.
 
 <img src="/assets/img/filezilla-transfer.gif" alt="FileZilla Transfer" width="1000"/>
+
+- Now we can change the name of the file. I would reccomend not using the mv command just incase there is a typo or you end up unwantingly removing the file.
+- We will use the cp command instead. Here we copy the file to the same directory, but rename it to ids.csv.
+
+<pre><span style="color:crimson;">
+cp SRR_Acc_List.txt ./ids.csv
+<span style="color:crimson;"></pre>
+
+
+</details>
+
+# add mobaxterm section below
+<details>
+<summary>Transfer files using MobaXterm</summary>
+
+- After logging onto HAWK, navigate to the rnaseq directory on the connection window on the right hand side by pasting the filepath into the search bar and hitting enter:
+
+<pre><span style="color:crimson;">
+/scratch/c.c1234567/rnaseq/resources
+<span style="color:crimson;"></pre>
+
+- Now find the SRR_Acc_List.txt file that you downloaded (probably Downloads directory) and simply drag and drop it from the left to right windows.
+
+<img src="/assets/img/mobaxterm-transfer.gif" alt="MobaXterm Transfer" width="1000"/>
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br>
 
