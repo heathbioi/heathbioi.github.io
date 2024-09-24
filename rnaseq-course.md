@@ -1096,28 +1096,26 @@ ls
 
 <br>
 
-|Column-1|Column-2|Column-3|
-|--------|--------|--------|
-|input1|input2|input3|
-|input4|input5|input6|
-|input7|input8|input9|
-
-
  <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Column-1</th>
+    <th>Column-2</th>
+    <th>Column-3</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>input1</td>
+    <td>input2</td>
+    <td>input3</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>input4</td>
+    <td>input5</td>
+    <td>input6</td>
+  </tr>
+   <tr>
+    <td>input7</td>
+    <td>input8</td>
+    <td>input9</td>
   </tr>
 </table> 
 
@@ -1133,6 +1131,8 @@ input7,input8,input9
 <br> 
 
 </details>
+
+<br>
 
 - We have two choices to make this file: transfer the SRR_Acc_List.txt file over and rename it, or make the ids.csv file using nano and copy and paste the ids over.
 - As we only have 6 sample IDs, I would reccommend the latter option. However, if we want to transfer the SRR_Acc_List.txt file over, we will need to use FileZilla or MobaXterm. 
