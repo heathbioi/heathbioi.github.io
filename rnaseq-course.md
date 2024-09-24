@@ -1087,7 +1087,9 @@ ls
 - This file is a comma-separated value (.csv) file that contains the list of the sample IDs that we just downloaded.
 
 <details>
-<summary>What is a comma-separated values (.csv) file?</summary>
+<summary><b>What is a comma-separated values (.csv) file?</b></summary>
+
+<br>
 
 - A .csv file is simple text file that stores tabular data such as text and numbers in a specific structured format.
 - Each line of the file corresponds to one row in the table.
