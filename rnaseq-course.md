@@ -1105,7 +1105,7 @@ Column-1,Column-2,Column-3
 input1,input2,input3
 input4,input5,input6
 input7,input8,input9
-<span style="color:crimson;"></pre>
+</span></pre>
 
 </details>
 
@@ -1119,7 +1119,7 @@ input7,input8,input9
 
 <pre><span style="color:crimson;">
 /scratch/c.c1234567/rnaseq/resources
-<span style="color:crimson;"></pre>
+</span></pre>
 
 - Now find the SRR_Acc_List.txt file that you downloaded (probably Downloads directory) and simply drag and drop it from the left to right windows.
 
@@ -1130,7 +1130,7 @@ input7,input8,input9
 
 <pre><span style="color:crimson;">
 cp SRR_Acc_List.txt ./ids.csv
-<span style="color:crimson;"></pre>
+</span></pre>
 
 
 </details>
@@ -1143,7 +1143,7 @@ cp SRR_Acc_List.txt ./ids.csv
 
 <pre><span style="color:crimson;">
 /scratch/c.c1234567/rnaseq/resources
-<span style="color:crimson;"></pre>
+</span>span"></pre>
 
 - Now find the SRR_Acc_List.txt file that you downloaded (probably Downloads directory) and simply drag and drop it from the left to right windows.
 
