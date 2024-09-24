@@ -1170,7 +1170,7 @@ cp SRR_Acc_List.txt ./ids.csv
 
 <pre><span style="color:crimson;">
 /scratch/c.c1234567/rnaseq/resources
-</span>span"></pre>
+</span></pre>
 
 - Now find the SRR_Acc_List.txt file that you downloaded (probably Downloads directory) and simply drag and drop it from the left to right windows.
 
@@ -1178,22 +1178,188 @@ cp SRR_Acc_List.txt ./ids.csv
 
 </details>
 
+<details>
+<summary>Creating the file using nano</summary>
 
+- To do this, we simply open the nano editor, copy and paste the sample IDs in, and save.
 
+<pre><span style="color:crimson;">
+nano ids.csv
 
+SRR23454118
+SRR23454119
+SRR23454122
+SRR23454124
+SRR23454125
+SRR23454126
 
+ctrl + x
+y
+enter
+</span></pre>
 
-
-
-
-
-
-
-
-
-
+</details>
 
 <br>
+
+</details>
+
+<details>
+<summary>ids.csv</summary>
+
+<pre><span style="color:crimson;">
+SRR23454118
+SRR23454119
+SRR23454122
+SRR23454124
+SRR23454125
+SRR23454126
+</span></pre>
+
+</details>
+
+<br>
+
+**resources/fetchngs-params.yaml**
+
+- This file contains all of the parameters needed for the pipeline to run.
+- Instead of adding all of the options into the code when executing the pipeline, we can add them into this file. This keeps things tidier and easier to troubleshoot.
+
+</details>
+
+<details>
+<summary>Creating fetchngs-params.yaml file</summary>
+
+- To do this, we simply open the nano editor, copy and paste the following, and save.
+
+<pre><span style="color:crimson;">
+nano fetchngs-params.yaml
+
+input: resources/ids.csv
+outdir: input
+nf_core_pipeline: rnaseq
+email: <b>your.email@cardiff.ac.uk</b>
+
+ctrl + x
+y
+enter
+</span></pre>
+
+</details>
+
+input - Where the input ids.csv file is located.
+outdir: Where to save the outputs to.
+nf_core_pipeline: Formats the output data so that it conforms with the required inputs for the rnaseq pipeline that we will be using further down the line.
+
+<br>
+
+<details>
+<summary>fetchngs-params.yaml file</summary>
+
+<pre><span style="color:crimson;">
+input: resources/ids.csv
+outdir: input
+nf_core_pipeline: rnaseq
+email: <b>your.email@cardiff.ac.uk</b>
+</span></pre>
+
+</details>
+
+**resources/my.config**
+
+- This file contains all of the configuration code required for the pipeline to run correctly on HAWK.
+- We only need to change the email and scw account sections.
+
+<details>
+<summary>Creating my.config file</summary>
+
+- To do this, we simply open the nano editor, copy and paste the following, and save.
+
+<pre><span style="color:crimson;">
+nano my.config
+
+params {
+  config_profile_description = 'Super Computing Wales'
+  config_profile_contact = <b>'my.email@cardif.ac.uk'</b>
+  config_profile_url = 'https://supercomputing.wales/'
+}
+singularity {
+  enabled = true
+  autoMounts = true
+}
+executor {
+  name = 'slurm'
+  queueSize = 10
+  queue = 'htc'
+}
+params {
+  max_memory = 180.GB
+  max_cpus = 20
+  max_time = 72.h
+}
+
+process {
+ beforeScript = 'module load singularity-ce/3.11.4'
+ clusterOptions = <b>'--account=scw1234'</b>
+}
+
+ctrl + x
+y
+enter
+</span></pre>
+
+</details>
+
+<br>
+
+<details>
+<summary>my.config file</summary>
+
+<pre><span style="color:crimson;">
+params {
+  config_profile_description = 'Super Computing Wales'
+  config_profile_contact = <b>'my.email@cardif.ac.uk'</b>
+  config_profile_url = 'https://supercomputing.wales/'
+}
+singularity {
+  enabled = true
+  autoMounts = true
+}
+executor {
+  name = 'slurm'
+  queueSize = 10
+  queue = 'htc'
+}
+params {
+  max_memory = 180.GB
+  max_cpus = 20
+  max_time = 72.h
+}
+
+process {
+ beforeScript = 'module load singularity-ce/3.11.4'
+ clusterOptions = <b>'--account=scw1234'</b>
+}
+</span></pre>
+
+</details>
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
