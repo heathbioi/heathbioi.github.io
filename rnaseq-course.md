@@ -1094,11 +1094,15 @@ ls
 - Within each line, fields(columns) are separated by commas.
 - For example, the .csv for the table below looks like:
 
+<br>
+
 Column-1|Column-2|Column-3
 --------|--------|--------
 input1,input2,input3
 input4,input5,input6
 input7,input8,input9
+
+<br>
 
 <pre><span style="color:crimson;">
 Column-1,Column-2,Column-3
@@ -1106,6 +1110,8 @@ input1,input2,input3
 input4,input5,input6
 input7,input8,input9
 </span></pre>
+
+<br> 
 
 </details>
 
