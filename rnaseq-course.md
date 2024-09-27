@@ -1184,7 +1184,7 @@ cp SRR_Acc_List.txt ./ids.csv
 - To do this, we simply open the nano editor, copy and paste the sample IDs in, and save.
 
 <pre><span style="color:crimson;">
-nano ids.csv
+nano resources/ids.csv
 
 SRR23454118
 SRR23454119
@@ -1225,15 +1225,13 @@ SRR23454126
 - This file contains all of the parameters needed for the pipeline to run.
 - Instead of adding all of the options into the code when executing the pipeline, we can add them into this file. This keeps things tidier and easier to troubleshoot.
 
-</details>
-
 <details>
 <summary>Creating fetchngs-params.yaml file</summary>
 
 - To do this, we simply open the nano editor, copy and paste the following, and save.
 
 <pre><span style="color:crimson;">
-nano fetchngs-params.yaml
+nano resources/fetchngs-params.yaml
 
 input: resources/ids.csv
 outdir: input
@@ -1276,7 +1274,7 @@ email: <b>your.email@cardiff.ac.uk</b>
 - To do this, we simply open the nano editor, copy and paste the following, and save.
 
 <pre><span style="color:crimson;">
-nano my.config
+nano resources/my.config
 
 params {
   config_profile_description = 'Super Computing Wales'
@@ -1346,14 +1344,110 @@ process {
 
 ---
 
+**bin/script.sh**
+
+- Here we will make a script file to keep track of what we have run etc.
+- We will section off the file for each pipeline that we run.
+
+<details>
+<summary>Creating script.sh file</summary>
+
+- To do this, we simply open the nano editor, copy and paste the code, and save.
+
+<pre><span style="color:crimson;">
+nano bin/script.sh
+
+#01
+#load and make a new tmux session called fetchngs
+#note the node you are working on [c.1234@cl1(hawk) bin]$
+module load tmux
+tmux new -s fetchngs/rnaseq/differentialabundance
 
 
+#02
+#load nextflow and singularity modules
+module load nextflow/23.10.0
+module load singularity/singularity-ce/3.11.4
 
 
+#03
+#execute fetchngs pipeline
+nextflow run nf-core/fetchngs -r dev -profile singularity -c resources/my.config -params-file resources/fetchngs-params.yaml
+#if pipeline fails for whatever reason, rerun using -resume command
+nextflow run nf-core/fetchngs -r dev -profile singularity -c resources/my.config -params-file resources/fetchngs-params.yaml -resume
 
 
+#04
+#execute rnaseq pipeline
+nextflow run nf-core/rnaseq -profile singularity -c resources/my.config -params-file resources/rnaseq-params.yaml
+#if pipeline fails for whatever reason, rerun using -resume command
+nextflow run nf-core/rnaseq -profile singularity -c resources/my.config -params-file resources/rnaseq-params.yaml -resume
+
+ctrl + x
+y
+enter
+</span></pre>
+
+</details>
 
 
+## Executing the nf-core/prefetch pipeline
+
+- Now we have everything ready to execute the pipeline.
+- We should have the following directory and file structure:
+
+```
+.
+└── rnaseq/
+    ├── bin/
+    │   └── script.sh
+    ├── resources/
+    │   ├── ids.csv
+    │   ├── fetchngs-params.yaml
+    │   └── my.config
+    ├── input
+    └── output
+```
+
+- To run the pipeline, we need to be in the **rnaseq** directory.
+- Then we can open a tmux session, load any required modules for the pipeline to run correctly, and close the session.
+
+<details>
+<summary>tmux</summary>
+- tmux is a tool that we use to run multiple terminal sessions at once.
+- If we were to run the pipeline without tmux, we would have to stay logged into HAWK until the pipeline has finished running.
+- This can be problematic because 1) most pipelines can take a VERY long time to run, and 2) connection problems. If you are disconnected for any reason, the pipeline will cancel.
+  
+- Using tmux allows us to open a new terminal window, run the pipeline, and close the session so that it runs in the background.
+- We can then log out of our HAWK session and log back in once we have been notified of the pipelines completion.
+
+</details>
+
+**Launch a tmux session**
+```
+module load tmux
+tmux new -s fetchngs
+```
+
+**Load Modules**
+
+```
+module load nextflow/23.10.0
+module load singularity/singularity-ce/3.11.4
+```
+
+**Execute pipeline**
+```
+nextflow run nf-core/fetchngs -r dev -profile singularity -c resources/my.config -params-file resources/fetchngs-params.yaml
+```
+
+- Leave the pipeline run for a few minutes to ensure it is working, then we can close the session by doing the following:
+
+```
+Ctrl + b
+
+then press d
+```
 
 
 
