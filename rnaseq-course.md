@@ -219,7 +219,7 @@ For **Windows:**
 
 **To connect to HAWK:**
 
-- Host: **hawklogin.cf.ac.uk**
+- Host: **hawklogin01.cf.ac.uk** 
 - Username: **c.c123456**  (Your HAWK account username)
 - Password: **XXXXXXX**  (Your HAWK account password)
 - Once connected, you will see that you have two connections.
@@ -252,7 +252,7 @@ For **Windows:**
 - Once installed, open the software.
 
 # THIS BIT NEEDS COMPLETING
-
+# MAKE SURE TO INCLUDE HAWKLOGIN01 TO TAKE USERS TO CL1 NODE!
 ---
 
 <br>
@@ -1376,13 +1376,6 @@ nextflow run nf-core/fetchngs -r dev -profile singularity -c resources/my.config
 #if pipeline fails for whatever reason, rerun using -resume command
 nextflow run nf-core/fetchngs -r dev -profile singularity -c resources/my.config -params-file resources/fetchngs-params.yaml -resume
 
-
-#04
-#execute rnaseq pipeline
-nextflow run nf-core/rnaseq -profile singularity -c resources/my.config -params-file resources/rnaseq-params.yaml
-#if pipeline fails for whatever reason, rerun using -resume command
-nextflow run nf-core/rnaseq -profile singularity -c resources/my.config -params-file resources/rnaseq-params.yaml -resume
-
 ctrl + x
 y
 enter
@@ -1449,9 +1442,87 @@ Ctrl + b
 then press d
 ```
 
+- We will cover the outputs from this pipeline during the Day 2 session.
+
+---
+
+<br>
+
+---
+
+## Day 2 - Processing RNAseq reads with nf-core/rnaseq pipeline
+
+---
+
+### Recap from Day 1
+
+- Yesterday we covered:
+  - How to use Unix.
+  - How to get onto HAWK and navigate it.
+  - How to execute the fetchngs pipeline.
+
+
+**Outputs from the differentialabundance pipeline**
+
+- We should all have had an email from *SCW HAWK - HPC SERVICES* notifying you of a successful pipeline run.
+- Sometimes the email function doesn't work. We can just log in and check ourselves.
+- To check, we need to log back onto HAWK, load the tmux module, and then open the session that we created.
+- NOTE: When using tmux, we need to make sure we are logged into the correct node. When we covered the log ins yesterday, we logged onto the cl1 node. The tmux session we made will only be present on the cl1 node. If we were to log in to the cl2 node, we wouldnt be able to find the tmux session.
+
+```
+#log onto HAWK
+c.c1234567@hawklogin01.cf.ac.uk
+PASSWORD
+
+#move to the working directory (scratch)
+cd /scratch/c.c134567/rnaseq
+
+#load tmux
+module load tmux
+
+#open our tmux session
+tmux attach -t fetchngs
+```
+
+- Upon opening the session, we should have a window that looks like this:
+
+<img src="/assets/img/figure-17.png" alt="tmux completed run" width="1000"/>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 
 
@@ -1476,6 +1547,11 @@ mv name-of-directory path/to/directory/
 
 ---
 
+#04
+#execute rnaseq pipeline
+nextflow run nf-core/rnaseq -profile singularity -c resources/my.config -params-file resources/rnaseq-params.yaml
+#if pipeline fails for whatever reason, rerun using -resume command
+nextflow run nf-core/rnaseq -profile singularity -c resources/my.config -params-file resources/rnaseq-params.yaml -resume
 
 
 
