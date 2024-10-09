@@ -1524,35 +1524,6 @@ tmux attach -t fetchngs
 <br>
 <br>
 
-## This is a test
-# This is another test
----
-
-##### <span style="color:black;">Example Title 
-
-# Email out a directory with files etc in there and tell them do cd into it and then ls and make files etc etc
-- Now that we have covered the basics
-
-
-- The move command does what it says on the tin... Moves a file/directory from one place to another.
-
-**Input**
-```
-mv name-of-file.txt path/to/directory/
-mv name-of-directory path/to/directory/
-```
----
-
-<br>
-
----
-
-#04
-#execute rnaseq pipeline
-nextflow run nf-core/rnaseq -profile singularity -c resources/my.config -params-file resources/rnaseq-params.yaml
-#if pipeline fails for whatever reason, rerun using -resume command
-nextflow run nf-core/rnaseq -profile singularity -c resources/my.config -params-file resources/rnaseq-params.yaml -resume
-
 
 
 
