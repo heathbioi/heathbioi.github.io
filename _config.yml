@@ -21,28 +21,12 @@ title: Bioinformatics Club @ Heath Park Campus
 
 navbar-links:
   About Us: "aboutus"
-  #Patricia Rodrigues: 
-#  - Tutorials: "tutorials"
-  #- Patricia's Second Page: "patricias-markdown-file2"
- # - Patricia's Third Page: "patricias-markdown-file3"
   Alex Gibbs:
     - Alex Gibbs: "alex-gibbs"
     - Cancer research resources: "cancer-research-resources"
     - What to do with a gene list: "what-to-do-with-a-gene-list"
     - General bioinformatics resources: "general-bioinformatics-resources"
     - Learning materials/courses: "learning-materials-courses"
-    #- RNA-seq Data Processing & Analysis Course: "rnaseq-course"
- RNA-seq Course:
-   - Home: "rnaseq-course"
-   - Day 1: "rnaseq-course-day1"
-   - Day 2: "rnaseq-course-day2"
-   - Day 3: "rnaseq-course-day3"
-   - Day 4: "rnaseq-course-day4"
-   
- # Robert Andrews: 
- # - Rob's First Page: "robs-markdown-file"
- # - Rob's Second Page: "robs-markdown-file2"
- # - Rob's Third Page: "robs-markdown-file3"
 
 ################
 # --- Logo --- #
