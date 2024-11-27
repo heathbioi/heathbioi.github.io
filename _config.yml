@@ -10,21 +10,39 @@
 ############################
 
 # Name of website
-title: My website
+title: Bioinformatics Club @ Heath Park Campus
 
 # Your name to show in the footer
-author: Alex Gibbs
+#author: Alex Gibbs
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  About Us: "aboutus"
+  #Patricia Rodrigues: 
+#  - Tutorials: "tutorials"
+  #- Patricia's Second Page: "patricias-markdown-file2"
+ # - Patricia's Third Page: "patricias-markdown-file3"
+  Alex Gibbs:
+    - Alex Gibbs: "alex-gibbs"
+    - Cancer research resources: "cancer-research-resources"
+    - What to do with a gene list: "what-to-do-with-a-gene-list"
+    - General bioinformatics resources: "general-bioinformatics-resources"
+    - Learning materials/courses: "learning-materials-courses"
+    #- RNA-seq Data Processing & Analysis Course: "rnaseq-course"
+ RNA-seq Course:
+   - Home: "rnaseq-course"
+   - Day 1: "rnaseq-course-day1"
+   - Day 2: "rnaseq-course-day2"
+   - Day 3: "rnaseq-course-day3"
+   - Day 4: "rnaseq-course-day4"
+   
+ # Robert Andrews: 
+ # - Rob's First Page: "robs-markdown-file"
+ # - Rob's Second Page: "robs-markdown-file2"
+ # - Rob's Third Page: "robs-markdown-file3"
 
 ################
 # --- Logo --- #
@@ -32,10 +50,10 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+#avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+#round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -49,15 +67,15 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
-social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+#social-network-links:
+#  email: "someone@example.com"
+#  facebook: deanattali
+#  rss: true  # remove this line if you don't want to show an RSS link at the bottom
+#  github: daattali
+#  twitter: daattali
+#  patreon: DeanAttali
+#  youtube: "@daattali"
+#  whatsapp: 15551212
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -85,22 +103,22 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+#rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
 ###########################
 
 # Select which social network share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
-  vk: false
+#share-links-active:
+#  twitter: true
+#  linkedin: true
+#  facebook: true
+#  vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+#url-pretty: "MyWebsite.com"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
@@ -169,7 +187,7 @@ footer-hover-col: "#0085A1"
 #################################
 
 # Fill in your Google Analytics tag ID (or "Measurement ID") to track your website usage
-#gtag: "G-XXXXXXXXXX"
+gtag: "G-XX22ZCK67C" #this is alex's google analytics tag. 
 
 # Fill in your Cloudflare Analytics beacon token to track your website using Cloudflare Analytics
 #cloudflare_analytics: ""
@@ -258,7 +276,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "UK/London"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
