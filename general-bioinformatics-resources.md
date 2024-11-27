@@ -247,3 +247,65 @@ muTarget is a cancer biomarker / target discovery tool with two major functions
 Realy nice tool! Performs a whole range of pan-cancer analyses and provides multiple different outputs such as dot plots, bar charts, correlation plots, box plots and more!
 
 ***
+
+### [*Tabula Sapiens: Human transcriptome reference at single cell resolution*](https://tabula-sapiens.sf.czbiohub.org/)
+
+![tabula-sapiens!](/assets/img/tabula-sapiens.png)
+
+Tabula Sapiens is a benchmark, first-draft human cell atlas of nearly 500,000 cells from 24 organs of 15 normal human subjects. This work is the product of the Tabula Sapiens Consortium. Taking the organs from the same individual controls for genetic background, age, environment, and epigenetic effects, and allows detailed analysis and comparison of cell types that are shared between tissues. Our work creates a detailed portrait of cell types as well as their distribution and variation in gene expression across tissues and within the endothelial, epithelial, stromal and immune compartments.
+
+***
+
+### [*tfLink*](https://tflink.net/)
+
+![tflink!](/assets/img/tflink.png)
+
+TFLink gateway uniquely provides comprehensive and highly accurate information on transcription factor - target gene interactions, nucleotide sequences and genomic locations of transcription factor binding sites for human and six model organisms: mouse (Mus musculus), rat (Rattus norvegicus), zebrafish (Danio rerio), fruit fly (Drosophila melanogaster), nematode (Caenorhabditis elegans), and yeast (Saccharomyces cerevisiae). TFLink contains clearly identified data, and provides information about the sources: databases, experimental methods and publications. To create TFLink, we examined the large transcription factor databases, and selected ten resources for integration: DoRothEA, GTRD, HTRIdb, JASPAR, ORegAnno, REDfly, ReMap, TRED, TRRUST, and Yeastract. By exploiting these database sources, we integrated accurate, small-scale experimental data and the results of large-scale experiments. 
+
+***
+
+### [*Harmonizome 3.0*](https://maayanlab.cloud/Harmonizome/)
+
+![harmonizome!](/assets/img/harmonizome.png)
+
+Thanks to technological advances in genomics, transcriptomics, proteomics, metabolomics, and related fields, projects that generate a large number of measurements of the properties of cells, tissues, model organisms, and patients are becoming commonplace in biomedical research. In addition, curation projects are making great progress mining biomedical literature to extract and aggregate decades worth of research findings into online databases. Such projects are generating a wealth of information that potentially can guide research toward novel biomedical discoveries and advances in healthcare. To facilitate access to and learning from biomedical Big Data, we created the Harmonizome: a collection of information about genes and proteins from 140 datasets provided by 80 online resources.
+
+To create the Harmonizome, we distilled information from original datasets into attribute tables that define significant associations between genes and attributes, where attributes could be genes, proteins, cell lines, tissues, experimental perturbations, diseases, phenotypes, or drugs, depending on the dataset. Gene and protein identifiers were mapped to NCBI Entrez Gene Symbols and attributes were mapped to appropriate ontologies. We also computed gene-gene and attribute-attribute similarity networks from the attribute tables. These attribute tables and similarity networks can be integrated to perform many types of computational analyses for knowledge discovery and hypothesis generation.
+
+***
+
+### [*hTFtarget: Database of Human Transcription Factor Targets*](http://bioinfo.life.hust.edu.cn/hTFtarget#!/)
+
+![htftarget!](/assets/img/htftarget.png)
+
+Transcription factors (TFs) as key regulators could modulate the expression of target genes by binding to specific DNA sequences of their promoter(s) or enhancer(s). The spatiotemporal TF-target regulations play vital roles throughout the life course of organisms, especially for human beings. Thus, the identification of TF-target regulation in human is a basis for understanding the molecular regulatory mechanisms underlying biological processes including the development and pathogenesis. hTFtarget has curated comprehensive TF-target regulations from large-scale of ChIP-Seq data of human TFs (7,190 experiment samples of 659 TFs) in 569 conditions (399 types of cell line, 129 classes of tissues or cells, and 141 kinds of treatments). hTFtarget customized an analysis workflow to detect reliable TF-target regulations, which integrated the peak information of ChIP-Seq data with epigenomic modification status (Details in Document page).
+
+***
+
+### [*pathlinkR*](https://github.com/hancockinformatics/pathlinkR)
+
+![pathlinkr!](/assets/img/pathlinkr.png)
+
+pathlinkR is an R package designed to facilitate analysis of RNA-Seq results. Specifically, our aim with pathlinkR was to provide a number of tools which take a list of DE genes and perform different analyses on them, aiding with the interpretation of results. Functions are included to perform pathway enrichment, with muliplte databases supported, and tools for visualizing these results. Genes can also be used to create and plot protein-protein interaction networks, all from inside of R. 
+
+***
+
+### [*SRPlot*](https://www.bioinformatics.com.cn/srplot)
+
+![srplot!](/assets/img/srplot.png)
+
+SRplot a freely accessible easy-to-use web server that integrated all of the commonly used data visualization and graphing functions together. It can be run easily with all Web browsers, with a user-friendly graphical interface, users can paste your data directly into the input box according to the defined file format. Modification operations can be easily performed, and graphs can be generated in real time. The resulting graphs can be downloaded in bitmap (PNG or TIFF) or vector (PDF or SVG) format in publication quality.
+
+***
+
+### [*ssREAD: A Single-cell and Spatial RNA-Seq Database for Alzheimer's Disease*](https://bmblx.bmi.osumc.edu/ssread/)
+
+![ssread!](/assets/img/ssread.png)
+
+***
+
+### [*iSeq: An Integrated Tool to Fetch Public Sequencing Data*](https://github.com/BioOmics/iSeq)
+
+![iseq!](/assets/img/iseq.png)
+
+***
